@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: [
+  plugins: [ 'gatsby-theme-blog-darkmode',
     {
       resolve: `gatsby-theme-blog`,
       options: {
