@@ -2,13 +2,17 @@ module.exports = {
   plugins: [
     {
       resolve: `gatsby-theme-blog`,
-      options: {},
+      options: {
+        // basePath defaults to `/`
+        basePath: `/blog`,
+        prismPreset: `prism-okaidia`,
+      },
     },
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `My Blog Title`,
-    author: `My Name`,
+    title: `Sovryn Website`,
+    author: `My name`,
     description: `My site description...`,
     social: [
       {
