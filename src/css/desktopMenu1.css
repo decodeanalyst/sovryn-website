@@ -14,6 +14,7 @@
         -webkit-font-smoothing: antialiased;
         overflow: -moz-scrollbars-none;
         -ms-overflow-style: none;
+        background-color: rgba(29, 29, 29, 1);
       }
 
       

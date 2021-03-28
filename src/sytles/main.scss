@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-style: normal;
+    font-family: Bangers, Arial;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-family: Bangers, Arial;
+  }
+
+  img {
+    z-index: 1;
+  }

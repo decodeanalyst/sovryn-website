@@ -1,7 +1,7 @@
 ---
 title: Hello World (example)
 date: 2019-04-15
-image: ./sunset-beach.jpg
+image: "./sunset-beach.jpg"
 imageAlt: A beach at sunset with crashing waves.
 ---
 
