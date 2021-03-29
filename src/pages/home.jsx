@@ -1,6 +1,6 @@
 import React from "react"
 import "/src/css/desktopArticle6.css";
-import Header from "../components/header";
+import Header from "../components/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/header.css";
 

@@ -44,6 +44,7 @@ module.exports = {
   siteMetadata: {
     title: `Sovryn Website`,
     author: `My name`,
+    siteUrl: `https://www.sovryn.app`,
     description: `My site description...`,
     social: [
       {
