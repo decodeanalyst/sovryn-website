@@ -2,14 +2,14 @@
 import React from "react";
 
 import "../css/header.css";
-import "../sytles/header.scss"
+import "../styles/header.scss"
 import Logo from "./Logo";
 
 export default function Header() {
         return (
              
                         <div className="menu">
-                                <nav className="menu-nav navbar navbar-expand-lg">
+                                <nav className="menu-nav navbar navbar-expand-lg fixed-top">
                                         <a className="navbar-brand" href="/">
                                                 <Logo />
                                         </a>
