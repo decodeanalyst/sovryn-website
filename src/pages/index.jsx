@@ -9,12 +9,12 @@ export default () => {
         <>
             <DefaultLayout>
                 <div className="row py-5">
-                    <div className="col-md-12">
+                    <div className="col">
                         <HeroSection />
                     </div>
                 </div>
                 <div className="row py-5">
-                    <div className="col-md-12">
+                    <div className="col">
                         <WebsiteInfo />
                     </div>
                 </div>
