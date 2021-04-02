@@ -20,5 +20,6 @@ export default function StyledButton({text, pageName}) {
         }}
         >{text}</button>
         </>
+        
     );
 }

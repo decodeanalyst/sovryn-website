@@ -52,9 +52,9 @@
   border-bottom-left-radius: 0.00px;
   border-bottom-right-radius: 0.00px;
   box-shadow: none;
-  width: 650.00px;
+  width: 750.00px;
   height: 120.00px;
-
+  left: 50px;
 }
 
 .group3846 .infolabel {
@@ -187,10 +187,10 @@
   -ms-transform-origin: center;
   -webkit-transform-origin: center;
   transform-origin: center;
-  background-image: url("/src/static/rectangle2744.png");
+  background-image: url("../static/rectangle2744.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   opacity: 1;
   cursor: default;
   margin-top: 0.00px;
@@ -219,8 +219,9 @@
   border-bottom-left-radius: 0.00px;
   border-bottom-right-radius: 0.00px;
   box-shadow: none;
-  width: 285.00px;
+  width: 360.00px;
   height: 480.00px;
+  right: 80px;
 
 }
 
@@ -375,8 +376,8 @@
   overflow-x: unset;
   overflow-y: unset;
   background-color: transparent;
-  top: 260px;
-  right: 300px;
+  top: 240px;
+  right: 280px;
 }
 
 .group5812 .theCryptoExchangeThatSatoshiWouldUse {
@@ -471,6 +472,7 @@
   overflow-y: unset;
   background-color: transparent;
   right: 200px;  
+  bottom: 20px;
 }
 
 .group5813 .yourKeysYourControl {
@@ -661,8 +663,8 @@
   overflow-x: unset;
   overflow-y: unset;
   background-color: transparent;
-  left: 900px;  
-  bottom: 236.3px;
+  right: 115px;  
+  top: 224px;
 }
 
 .group5814 .escapeCentralisation {
