@@ -1,0 +1,37 @@
+body{
+    font-family: Bangers-Regular, Bangers;
+    font-weight: 400;
+}
+.lbl-default{
+    position: relative;
+    background-color: rgba(181, 143, 127, 1);
+    text-align: center;
+    text-transform: uppercase;
+    padding-inline: 15px;
+    width: fit-content;
+    display: inline-block;
+}
+.lbl-slanted{
+    -ms-transform: skewX(-0.02turn);
+    -webkit-transform: skewX(-0.02turn);
+    transform: skewX(-0.02turn);
+    border: 7px solid white;
+}
+.lbl-figtext{
+    
+    position: relative;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    display: block;
+    letter-spacing: 00.01em;
+}
+.lbl-exptext{
+    
+    position: relative;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    letter-spacing: 00.01em;
+}

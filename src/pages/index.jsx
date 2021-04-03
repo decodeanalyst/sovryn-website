@@ -1,13 +1,14 @@
 import React from 'react';
 import DefaultLayout from '../components/DefaultLayout';
-import HeroSection from '../components/HeroSection'
-import WebsiteInfo from '../components/WebsiteInfo'
-import Trading from '../components/Trading'
-import SovDetails from '../components/SovDetails'
-import JoinSov from '../components/JoinSov'
+import HeroSection from '../components/HeroSection';
+import WebsiteInfo from '../components/WebsiteInfo';
+import Trading from '../components/Trading';
+import SovDetails from '../components/SovDetails';
+import Trending from '../components/Trending';
 import SignupSection from '../components/SignupSection';
+
  
-export default () => {
+const Index = () => {
  
     return (
         <>
@@ -34,7 +35,7 @@ export default () => {
                 </div>
                 <div className="row py-5">
                     <div className="col">
-                        <JoinSov />
+                        <Trending />
                     </div>
                 </div>
                 <div className="row">
@@ -76,3 +77,5 @@ export default () => {
         </>
     );
 }
+
+export default Index;

@@ -27,9 +27,7 @@ export default function SocialFooterLinks() {
                     </li>
                     <li className="list-inline-item">
                       <a
-                        href="https://www.fiverr.com/share/qb8D02"
-                        target="_blank"
-                      >
+                        href="https://www.fiverr.com/share/qb8D02">
                         <i className="fa fa-envelope"></i>
                       </a>
                     </li>

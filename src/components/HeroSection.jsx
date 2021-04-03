@@ -1,6 +1,10 @@
 import React from "react";
 import "../styles/hero.scss";
 
+import StyledButton from "../components/StyledButton";
+import StyledButton1 from "../components/StyledButton1";
+import InfoLabel from "../components/InfoLabel";
+
 export default function HeroSection() {
   return (
     <div className="container p-5">
@@ -10,8 +14,7 @@ export default function HeroSection() {
             <g id="Group_4754" data-name="Group 4754" transform="translate(-143.436 -272.216)">
               <path id="Path_4572" data-name="Path 4572" d="M33.2,5.694H657.167l-21.036,122H12.167Z" transform="translate(131.269 276.521)" fill="#f7f6e8" />
             </g>
-            <text id="THE_DECENTRALIZED_BITCOIN_TRADING_AND_LENDING_PLATFORM" data-name="THE DECENTRALIZED BITCOIN
-TRADING AND LENDING PLATFORM" transform="translate(45 61)" font-size="50" font-family="Bangers-Regular, Bangers" letter-spacing="0.01em"><tspan x="0" y="0">THE DECENTRALIZED BITCOIN</tspan><tspan x="0" y="55">TRADING AND LENDING PLATFORM</tspan></text>
+            <text id="THE_DECENTRALIZED_BITCOIN_TRADING_AND_LENDING_PLATFORM" data-name="THE DECENTRALIZED BITCOIN TRADING AND LENDING PLATFORM" transform="translate(45 61)" font-size="50" font-family="Bangers-Regular, Bangers" letter-spacing="0.01em"><tspan x="0" y="0">THE DECENTRALIZED BITCOIN</tspan><tspan x="0" y="55">TRADING AND LENDING PLATFORM</tspan></text>
           </svg>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1580 645">
             <defs>
@@ -25,7 +28,7 @@ TRADING AND LENDING PLATFORM" transform="translate(45 61)" font-size="50" font-f
               <path d="M 10 10 L 10 635 L 1570 635 L 1570 10 L 10 10 M 0 0 L 1580 0 L 1580 645 L 0 645 L 0 0 Z" stroke="none" fill="#f7f6e7" />
             </g>
           </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" className="framebutton1 btn btn-link" width="191" height="50" viewBox="0 0 191 50">
+          {/* <svg xmlns="http://www.w3.org/2000/svg" className="framebutton1 btn btn-link" width="191" height="50" viewBox="0 0 191 50">
             <g id="Group_5501" data-name="Group 5501" transform="translate(-259.932 -5437.553)">
               <path id="Path_6521" data-name="Path 6521" class="cls-1" d="M6.147.743,14.762-6.1,181.8.743,184,37.475,175.654,43.9H0Z" transform="translate(259.932 5443.652)" />
               <g id="Group_4001" data-name="Group 4001" transform="translate(280.82 5435.472)">
@@ -33,8 +36,9 @@ TRADING AND LENDING PLATFORM" transform="translate(45 61)" font-size="50" font-f
                 <text id="GO_TO_Swap" data-name="GO TO Swap" class="cls-3" transform="translate(78.111 33.081)"><tspan x="-50" y="0">TRADE NOW</tspan></text>
               </g>
             </g>
-          </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" className="framebutton2 btn btn-link" width="202" height="43" viewBox="0 0 202 43">
+          </svg> */}
+          <StyledButton text="trade now" pageName="" />
+          {/* <svg xmlns="http://www.w3.org/2000/svg" className="framebutton2 btn btn-link" width="202" height="43" viewBox="0 0 202 43">
             <g id="Group_5544" data-name="Group 5544" transform="translate(-543 -627.002)">
               <g id="Group_5519" data-name="Group 5519" transform="translate(543 627.002)">
                 <g id="Path_6523" data-name="Path 6523" transform="translate(202 43) rotate(180)" fill="none">
@@ -44,38 +48,43 @@ TRADING AND LENDING PLATFORM" transform="translate(45 61)" font-size="50" font-f
                 <text id="Faq" transform="translate(100.499 31.119)" fill="#e8bb33" font-size="26" font-family="Bangers-Regular, Bangers" letter-spacing="0.01em"><tspan x="-24.032" y="0">FAQ</tspan></text>
               </g>
             </g>
-          </svg>
+          </svg> */}
+          <StyledButton1 text="faq" pageName="" />
         </div>
       </div>
       <div className="row">
         <div className="col-lg-4 py-5">
-          <svg id="Group_4476" data-name="Group 4476" xmlns="http://www.w3.org/2000/svg" width="300" height="140" viewBox="0 0 384 140">
+          <InfoLabel figtxt="100 BTC" exptxt="24hr trading volume" />
+          {/* <svg id="Group_4476" data-name="Group 4476" xmlns="http://www.w3.org/2000/svg" width="300" height="140" viewBox="0 0 384 140">
             <g id="Path_4572" data-name="Path 4572" transform="translate(0 0.005)" fill="#b58f7f">
               <path d="M 365.3895263671875 134.9951171875 L 5.52843189239502 134.9951171875 L 18.61053657531738 4.995124816894531 L 378.4715576171875 4.995124816894531 L 365.3895263671875 134.9951171875 Z" stroke="none" />
               <path d="M 23.13262939453125 9.995132446289063 L 11.05682373046875 129.9951171875 L 360.8673706054688 129.9951171875 L 372.9431762695313 9.995132446289063 L 23.13262939453125 9.995132446289063 M 14.08840942382813 -0.0048675537109375 L 384 -0.0048675537109375 L 369.9115905761719 139.9951171875 L 0 139.9951171875 L 14.08840942382813 -0.0048675537109375 Z" stroke="none" fill="#f7f6e7" />
             </g><text id="_100_BTC" className="font-weight-bold" data-name="100 BTC" transform="translate(108 74)" fill="#1d1d1d" font-size="50" font-family="Bangers-Regular, Bangers" letter-spacing="0.01em"><tspan x="0" y="0">100 BTC</tspan></text>
             <text id="_24hr_trading_volume" data-name="24hr trading volume" transform="translate(74 115)" fill="#151515" font-size="25" font-family="Bangers-Regular, Bangers" letter-spacing="0.01em"><tspan x="0" y="0">24hr trading volume</tspan></text>
-          </svg>
+          </svg> */}
           <div className="p-3"></div>
         </div>
         <div className="col-lg-4 py-5">
-          <svg id="Group_4476" data-name="Group 4476" xmlns="http://www.w3.org/2000/svg" width="300" height="140" viewBox="0 0 384 140">
+        <InfoLabel figtxt="100,000" exptxt="total transactions" />
+          {/* <svg id="Group_4476" data-name="Group 4476" xmlns="http://www.w3.org/2000/svg" width="300" height="140" viewBox="0 0 384 140">
             <g id="Path_4572" data-name="Path 4572" transform="translate(0 0.005)" fill="#b58f7f">
               <path d="M 365.3895263671875 134.9951171875 L 5.52843189239502 134.9951171875 L 18.61053657531738 4.995124816894531 L 378.4715576171875 4.995124816894531 L 365.3895263671875 134.9951171875 Z" stroke="none" />
               <path d="M 23.13262939453125 9.995132446289063 L 11.05682373046875 129.9951171875 L 360.8673706054688 129.9951171875 L 372.9431762695313 9.995132446289063 L 23.13262939453125 9.995132446289063 M 14.08840942382813 -0.0048675537109375 L 384 -0.0048675537109375 L 369.9115905761719 139.9951171875 L 0 139.9951171875 L 14.08840942382813 -0.0048675537109375 Z" stroke="none" fill="#f7f6e7" />
             </g><text id="_100_BTC" className="font-weight-bold" data-name="100 BTC" transform="translate(108 74)" fill="#1d1d1d" font-size="50" font-family="Bangers-Regular, Bangers" letter-spacing="0.01em"><tspan x="0" y="0">100,000</tspan></text>
             <text id="_24hr_trading_volume" data-name="24hr trading volume" transform="translate(74 115)" fill="#151515" font-size="25" font-family="Bangers-Regular, Bangers" letter-spacing="0.01em"><tspan x="0" y="0">Total transactions</tspan></text>
-          </svg>
+          </svg> */}
         </div>
         <div className="col-lg-4 py-5">
-          <svg id="Group_4476" data-name="Group 4476" xmlns="http://www.w3.org/2000/svg" width="300" height="140" viewBox="0 0 384 140">
+        <InfoLabel figtxt="1,000,000 BTC" exptxt="total transacted" />
+          {/* <svg id="Group_4476" data-name="Group 4476" xmlns="http://www.w3.org/2000/svg" width="300" height="140" viewBox="0 0 384 140">
             <g id="Path_4572" data-name="Path 4572" transform="translate(0 0.005)" fill="#b58f7f">
               <path d="M 365.3895263671875 134.9951171875 L 5.52843189239502 134.9951171875 L 18.61053657531738 4.995124816894531 L 378.4715576171875 4.995124816894531 L 365.3895263671875 134.9951171875 Z" stroke="none" />
               <path d="M 23.13262939453125 9.995132446289063 L 11.05682373046875 129.9951171875 L 360.8673706054688 129.9951171875 L 372.9431762695313 9.995132446289063 L 23.13262939453125 9.995132446289063 M 14.08840942382813 -0.0048675537109375 L 384 -0.0048675537109375 L 369.9115905761719 139.9951171875 L 0 139.9951171875 L 14.08840942382813 -0.0048675537109375 Z" stroke="none" fill="#f7f6e7" />
             </g><text id="_100_BTC" className="font-weight-bold" data-name="1,000,000 BTC" transform="translate(108 74)" fill="#1d1d1d" font-size="50" align font-family="Bangers-Regular, Bangers" letter-spacing="0.01em"><tspan x="-50" y="0">1,000,000BTC </tspan></text>
             <text id="_24hr_trading_volume" data-name="24hr trading volume" transform="translate(74 115)" fill="#151515" font-size="25" font-family="Bangers-Regular, Bangers" letter-spacing="0.01em"><tspan x="0" y="0">Total Transacted</tspan></text>
-          </svg>
+          </svg> */}
         </div>
+
       </div>
       {/* 
             <div

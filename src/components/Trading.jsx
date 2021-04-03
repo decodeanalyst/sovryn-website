@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/trading.scss";
 
+import StyledButton from "../components/StyledButton";
+
 export default function Trading() {
     return (
         <div className="container-fluid">
@@ -28,15 +30,7 @@ export default function Trading() {
                         </div>
                     </div>
                     <div className="p-2"></div>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="btn btn-link" width="191" height="50" viewBox="0 0 191 50">
-                    <g id="Group_5501" data-name="Group 5501" transform="translate(-259.932 -5437.553)">
-                    <path id="Path_6521" data-name="Path 6521" class="cls-1" d="M6.147.743,14.762-6.1,181.8.743,184,37.475,175.654,43.9H0Z" transform="translate(259.932 5443.652)" />
-                    <g id="Group_4001" data-name="Group 4001" transform="translate(280.82 5435.472)">
-                    <path id="Path_6488" data-name="Path 6488" class="cls-2" d="M6.154.719H182l-6.154,43H0Z" transform="translate(-11.889 1.363)" />
-                    <text id="GO_TO_Swap" data-name="GO TO Swap" class="cls-3" transform="translate(78.111 33.081)"><tspan x="-50" y="0">Go To SWAP</tspan></text>
-                    </g>
-                    </g>
-                    </svg>
+                    <StyledButton text="go to swap" pageName="" />
                 </div>
                 <div className="col-lg-4">
                     <div className="rectangle2">
@@ -49,15 +43,7 @@ export default function Trading() {
                         </div>
                     </div>
                     <div className="p-2"></div>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="btn btn-link" width="191" height="50" viewBox="0 0 191 50">
-                    <g id="Group_5501" data-name="Group 5501" transform="translate(-259.932 -5437.553)">
-                    <path id="Path_6521" data-name="Path 6521" class="cls-1" d="M6.147.743,14.762-6.1,181.8.743,184,37.475,175.654,43.9H0Z" transform="translate(259.932 5443.652)" />
-                    <g id="Group_4001" data-name="Group 4001" transform="translate(280.82 5435.472)">
-                    <path id="Path_6488" data-name="Path 6488" class="cls-2" d="M6.154.719H182l-6.154,43H0Z" transform="translate(-11.889 1.363)" />
-                    <text id="GO_TO_Swap" data-name="GO TO Swap" class="cls-3" transform="translate(78.111 33.081)"><tspan x="-50" y="0">TRADE MARGIN</tspan></text>
-                    </g>
-                    </g>
-                    </svg>
+                    <StyledButton text="go to margin trade" pageName="" />
                 </div>
                 <div className="col-lg-4">
                     <div className="rectangle3">
@@ -70,15 +56,7 @@ export default function Trading() {
                         </div>
                     </div>
                     <div className="p-2"></div>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="btn btn-link" width="191" height="50" viewBox="0 0 191 50">
-                    <g id="Group_5501" data-name="Group 5501" transform="translate(-259.932 -5437.553)">
-                    <path id="Path_6521" data-name="Path 6521" class="cls-1" d="M6.147.743,14.762-6.1,181.8.743,184,37.475,175.654,43.9H0Z" transform="translate(259.932 5443.652)" />
-                    <g id="Group_4001" data-name="Group 4001" transform="translate(280.82 5435.472)">
-                    <path id="Path_6488" data-name="Path 6488" class="cls-2" d="M6.154.719H182l-6.154,43H0Z" transform="translate(-11.889 1.363)" />
-                    <text id="GO_TO_Swap" data-name="GO TO Swap" class="cls-3" transform="translate(78.111 33.081)"><tspan x="-50" y="0">GO TO STAKE</tspan></text>
-                    </g>
-                    </g>
-                    </svg>
+                    <StyledButton text="go to stake" pageName="" />
                 </div>
             </div>
             <div className="p-3"></div> 
@@ -96,15 +74,7 @@ export default function Trading() {
                         </div>
                     </div>
                     <div className="p-2"></div>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="btn btn-link" width="191" height="50" viewBox="0 0 191 50">
-                    <g id="Group_5501" data-name="Group 5501" transform="translate(-259.932 -5437.553)">
-                    <path id="Path_6521" data-name="Path 6521" class="cls-1" d="M6.147.743,14.762-6.1,181.8.743,184,37.475,175.654,43.9H0Z" transform="translate(259.932 5443.652)" />
-                    <g id="Group_4001" data-name="Group 4001" transform="translate(280.82 5435.472)">
-                    <path id="Path_6488" data-name="Path 6488" class="cls-2" d="M6.154.719H182l-6.154,43H0Z" transform="translate(-11.889 1.363)" />
-                    <text id="GO_TO_Swap" data-name="GO TO Swap" class="cls-3" transform="translate(78.111 33.081)"><tspan x="-50" y="0">BORROW</tspan></text>
-                    </g>
-                    </g>
-                    </svg>
+                    <StyledButton text="go to borrow" pageName="" />
                 </div>
                 <div className="col-lg-4">
                     <div className="rectangle5">
@@ -117,15 +87,7 @@ export default function Trading() {
                         </div>
                     </div>
                     <div className="p-2"></div>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="btn btn-link" width="191" height="50" viewBox="0 0 191 50">
-                    <g id="Group_5501" data-name="Group 5501" transform="translate(-259.932 -5437.553)">
-                    <path id="Path_6521" data-name="Path 6521" class="cls-1" d="M6.147.743,14.762-6.1,181.8.743,184,37.475,175.654,43.9H0Z" transform="translate(259.932 5443.652)" />
-                    <g id="Group_4001" data-name="Group 4001" transform="translate(280.82 5435.472)">
-                    <path id="Path_6488" data-name="Path 6488" class="cls-2" d="M6.154.719H182l-6.154,43H0Z" transform="translate(-11.889 1.363)" />
-                    <text id="GO_TO_Swap" data-name="GO TO Swap" class="cls-3" transform="translate(78.111 33.081)"><tspan x="-50" y="0">GO TO LEND</tspan></text>
-                    </g>
-                    </g>
-                    </svg>
+                    <StyledButton text="go to lend" pageName="" />
                 </div>
                 <div className="col-lg-4">
                     <div className="rectangle6">
@@ -138,15 +100,7 @@ export default function Trading() {
                         </div>
                     </div>
                     <div className="p-2"></div>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="btn btn-link" width="191" height="50" viewBox="0 0 191 50">
-                    <g id="Group_5501" data-name="Group 5501" transform="translate(-259.932 -5437.553)">
-                    <path id="Path_6521" data-name="Path 6521" class="cls-1" d="M6.147.743,14.762-6.1,181.8.743,184,37.475,175.654,43.9H0Z" transform="translate(259.932 5443.652)" />
-                    <g id="Group_4001" data-name="Group 4001" transform="translate(280.82 5435.472)">
-                    <path id="Path_6488" data-name="Path 6488" class="cls-2" d="M6.154.719H182l-6.154,43H0Z" transform="translate(-11.889 1.363)" />
-                    <text id="GO_TO_Swap" data-name="GO TO Swap" class="cls-3" transform="translate(78.111 33.081)"><tspan x="-50" y="0">LIQUIDITY</tspan></text>
-                    </g>
-                    </g>
-                    </svg>
+                    <StyledButton text="go to liquidity" pageName="" />
                 </div>
             </div>
         </div>

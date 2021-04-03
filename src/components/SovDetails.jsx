@@ -1,6 +1,9 @@
 import React from "react";
 import "../styles/sov.scss";
 
+import StyledButton from "../components/StyledButton";
+import StyledButton1 from "../components/StyledButton1";
+
 export default function SovDetails() {
     return (
             <div className="container">
@@ -25,6 +28,7 @@ export default function SovDetails() {
                         </div>
                     </div>
                     <div className="col-md-2">
+                       {/* <InfoLabel figtxt="50,000,000" exptxt="sov remaining" /> */}
                         <div class="group5818"> 
                             <div  class="group5815">               
                                 <svg  preserveAspectRatio="none" viewBox="-7.5 -6.63671875 275 155" class="path4572">
@@ -59,8 +63,10 @@ export default function SovDetails() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="btn btn-link" width="450" height="50" viewBox="0 0 657 50">
+                    <div className="col-md-6 offset-1">
+                        <StyledButton text="buy sov" pageName="" />
+                        <StyledButton1 text="how is sov governed?" pageName="" />
+                            {/* <svg xmlns="http://www.w3.org/2000/svg" className="btn btn-link" width="450" height="50" viewBox="0 0 657 50">
                                 <g id="Group_5755" data-name="Group 5755" transform="translate(-214 -3876)">
                                     <g id="Path_6523" data-name="Path 6523" transform="translate(871 3919) rotate(180)" fill="none">
                                     <path d="M0,43H298.7L305,0H6.3Z" stroke="none"/>
@@ -71,7 +77,7 @@ export default function SovDetails() {
                                     <path id="Path_6551" data-name="Path 6551" d="M7.15.719H295l-7.15,43H0Z" transform="translate(224 3875.281)" fill="#e8bb33"/>
                                     <text id="BUY_SOV" data-name="BUY SOV" transform="translate(370 3907)" font-size="26" font-family="Bangers-Regular, Bangers" letter-spacing="0.01em"><tspan x="-36.162" y="0">BUY SOV</tspan></text>
                                 </g>
-                            </svg>
+                            </svg> */}
                     </div>
                 </div>
             </div>
