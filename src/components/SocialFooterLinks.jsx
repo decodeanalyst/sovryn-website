@@ -1,37 +1,45 @@
-import React from 'react';
- 
-export default function SocialFooterLinks() {
- 
-    return (
-        <>
-       <ul className="list-unstyled list-inline social text-center">
-                    <li className="list-inline-item">
-                      <a href="https://www.fiverr.com/share/qb8D02">
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="https://www.fiverr.com/share/qb8D02">
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="https://www.fiverr.com/share/qb8D02">
-                        <i className="fa fa-instagram"></i>
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="https://www.fiverr.com/share/qb8D02">
-                        <i className="fa fa-google-plus"></i>
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a
-                        href="https://www.fiverr.com/share/qb8D02">
-                        <i className="fa fa-envelope"></i>
-                      </a>
-                    </li>
-                  </ul>
-        </>
-    );
+import React from "react";
+import { IconContext } from "react-icons";
+import { FaTelegram  } from 'react-icons/fa';
+import { AiFillGithub, AiFillTwitterCircle } from 'react-icons/ai';
+import { RiDiscordLine } from 'react-icons/ri';
+import "../styles/social.scss";
+
+const SocialFooterLinks = () => {
+  return (
+    <>
+      <ul className="list-unstyled list-inline social text-center">
+        <li className="list-inline-item li">
+          <a className='icons' href="">
+            <IconContext.Provider value={{size:"3em"}}>
+              <RiDiscordLine />
+            </IconContext.Provider>
+          </a>
+        </li>
+        <li className="list-inline-item li">
+          <a className="icons" href="">
+            <IconContext.Provider value={{size:"3em"}}>
+              <FaTelegram />
+            </IconContext.Provider>
+          </a>
+        </li>
+        <li className="list-inline-item li">
+          <a className="icons" href="">
+            <IconContext.Provider value={{size:"3em"}}>
+              <AiFillTwitterCircle />
+            </IconContext.Provider>
+          </a>
+        </li>
+        <li className="list-inline-item li">
+          <a className="icons" href="">
+            <IconContext.Provider value={{size:"3em"}}>
+              <AiFillGithub />
+            </IconContext.Provider>
+          </a>
+        </li>
+      </ul>
+    </>
+  );
 }
+
+export default SocialFooterLinks; 
