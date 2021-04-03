@@ -3,7 +3,6 @@ import { IconContext } from "react-icons";
 import { FaTelegram  } from 'react-icons/fa';
 import { AiFillGithub, AiFillTwitterCircle } from 'react-icons/ai';
 import { RiDiscordLine } from 'react-icons/ri';
-import "../styles/social.scss";
 
 const SocialFooterLinks = () => {
   return (
