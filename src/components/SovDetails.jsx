@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/sov.scss";
 
+import InfoLabel from "../components/InfoLabel";
 import StyledButton from "../components/StyledButton";
 import StyledButton1 from "../components/StyledButton1";
 
@@ -27,9 +28,10 @@ export default function SovDetails() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-2">
-                       {/* <InfoLabel figtxt="50,000,000" exptxt="sov remaining" /> */}
-                        <div class="group5818"> 
+                    <div className="pl-5"></div>
+                    <div className="col-md-2 py-5 pl-5">
+                       <InfoLabel figtxt="50,000,000" exptxt="sov remaining" />
+                        {/* <div class="group5818"> 
                             <div  class="group5815">               
                                 <svg  preserveAspectRatio="none" viewBox="-7.5 -6.63671875 275 155" class="path4572">
                                     <path d="M 18.01328277587891 0.86328125 L 260 0.86328125 L 241.9867095947266 140.86328125 L 0 140.86328125 L 18.01328277587891 0.86328125 Z"> </path>
@@ -37,10 +39,14 @@ export default function SovDetails() {
                                 <div class="x2428211">50,000,000</div>
                                 <div class="votesDelegated">SOV REMAINING</div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
-                    <div className="col-md-2">
-                        <div class="group5818"> 
+                    <div className="pl-2"></div>
+                    <div className="pl-2"></div>
+
+                    <div className="col-md-2 py-5 pl-5">
+                    <InfoLabel figtxt="1540" exptxt="VOTING ADDRESSES" />
+                        {/* <div class="group5818"> 
                             <div  class="group5815">               
                                 <svg  preserveAspectRatio="none" viewBox="-7.5 -6.63671875 275 155" class="path4572">
                                     <path d="M 18.01328277587891 0.86328125 L 260 0.86328125 L 241.9867095947266 140.86328125 L 0 140.86328125 L 18.01328277587891 0.86328125 Z"> </path>
@@ -48,10 +54,14 @@ export default function SovDetails() {
                                 <div class="x2428211">1540</div>
                                 <div class="votesDelegated">VOTING ADDRESSES</div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
-                    <div className="col-md-2">
-                        <div class="group5818"> 
+                    <div className="pl-2"></div>
+                    <div className="pl-2"></div>
+
+                    <div className="col-md-2 py-5">
+                    <InfoLabel figtxt="2,428,211" exptxt="Votes delegated" />
+                        {/* <div class="group5818"> 
                             <div  class="group5815">               
                                 <svg  preserveAspectRatio="none" viewBox="-7.5 -6.63671875 275 155" class="path4572">
                                     <path d="M 18.01328277587891 0.86328125 L 260 0.86328125 L 241.9867095947266 140.86328125 L 0 140.86328125 L 18.01328277587891 0.86328125 Z"> </path>
@@ -59,13 +69,19 @@ export default function SovDetails() {
                                 <div class="x2428211">2,428,211</div>
                                 <div class="votesDelegated">Votes delegated</div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 offset-1">
+                    <div className="col-md-6 ">
+                        <div class="float-left">
                         <StyledButton text="buy sov" pageName="" />
+
+                        </div>
+                        <div class="float-right">
                         <StyledButton1 text="how is sov governed?" pageName="" />
+
+                        </div>
                             {/* <svg xmlns="http://www.w3.org/2000/svg" className="btn btn-link" width="450" height="50" viewBox="0 0 657 50">
                                 <g id="Group_5755" data-name="Group 5755" transform="translate(-214 -3876)">
                                     <g id="Path_6523" data-name="Path 6523" transform="translate(871 3919) rotate(180)" fill="none">

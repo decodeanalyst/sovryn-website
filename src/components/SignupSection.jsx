@@ -12,17 +12,20 @@ export default function SignupSection() {
                 </div>
                 <div  className="col-md-4">
                 <div  class="signUpForEcosystemNewsAndUpdatesPrivacyIsOurPolicyAndAllSovrynUsersAreAnonymous">Sign up for ecosystem news and updates. Privacy is our policy and all Sovryn users are anonymous. </div>
+                <div className="pt-4">
+                <SocialFooterLinks />
+                </div>
                 </div>
                 <div className="col-md-3">
                 </div>
             </div>
-            <div className="row">
+            {/* <div className="row">
                 <div className="col-md-5"></div>
                 <div className="col-md-4">
-                    {/* <SocialFooterLinks /> */}
+                    <SocialFooterLinks />
                 </div>
                 <div className ="col-md-3"></div>
-            </div>
+            </div> */}
         </div>
     )
 }
