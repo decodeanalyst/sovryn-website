@@ -11,15 +11,14 @@ import "../styles/styledbutton.scss"
 
 export default function StyledButton({text, pageName}) {
 
-    return (
+   return (
         <>
-        <button onClick={event => {
-            event.preventDefault()
-
-            navigate(pageName)
-        }}
-        >{text}</button>
+        <div class="button-default button-slanted btn">
+            <span class="button-slanted-content btn-link" onClick={event => {
+                event.preventDefault()
+                navigate(pageName)}}>
+                    {text}</span>
+        </div>
         </>
-        
-    );
+   );
 }
