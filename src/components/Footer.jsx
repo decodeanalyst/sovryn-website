@@ -5,7 +5,7 @@ import LearnFooterLinks from './LearnFooterLinks';
 import ProductFooterLinks from './ProductFooterLinks';
 import SocialFooterLinks from './SocialFooterLinks';
  
-import "../sytles/footer.scss"
+import "../styles/footer.scss"
 
 
 export default function Footer() {

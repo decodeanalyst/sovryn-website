@@ -2,7 +2,7 @@
 .menu {
 	.menu-nav {
 		position: -webkit-sticky;
-		position: sticky;
+		position: fixed;
 		box-sizing: content-box;
 		transform: rotate(0.00deg);
 		transform-origin: center;
@@ -80,8 +80,6 @@
 		overflow-x: unset;
 		overflow-y: unset;
 		background-color: transparent;
-		width: 172.00px;
-		height: 40.00px;
 
 		.box {
 
@@ -112,8 +110,6 @@
 			border-bottom-left-radius: 10.00px;
 			border-bottom-right-radius: 10.00px;
 			box-shadow: none;
-			width: 172.00px;
-			height: 40.00px;
 		}
 
 		.toTheDapp {

@@ -1,22 +1,81 @@
 import React from 'react';
 import DefaultLayout from '../components/DefaultLayout';
+import HeroSection from '../components/HeroSection';
+import WebsiteInfo from '../components/WebsiteInfo';
+import Trading from '../components/Trading';
+import SovDetails from '../components/SovDetails';
+import Trending from '../components/Trending';
+import SignupSection from '../components/SignupSection';
+
  
-export default () => {
+const Index = () => {
  
     return (
         <>
             <DefaultLayout>
                 <div className="row py-5">
-                    <div className="col-md-12">
-                        <img className="img-fluid" src="https://via.placeholder.com/1500x650" />
+                    <div className="col">
+                        <HeroSection />
                     </div>
                 </div>
                 <div className="row py-5">
-                    <div className="col-md-12">
-                        <p>The rest of the components and content will go here</p>
+                    <div className="col">
+                        <WebsiteInfo />
+                    </div>
+                </div>
+                <div className="row py-5">
+                    <div className="col">
+                        <Trading />
+                    </div>
+                </div>
+                <div className="row py-5">
+                    <div className="col">
+                        <SovDetails />
+                    </div>
+                </div>
+                <div className="row py-5">
+                    <div className="col">
+                        <Trending />
+                    </div>
+                </div>
+                <div className="row">
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                <div className="p-5"></div>
+                </div>
+                <div className="row py-5">
+                    <div className="col">
+                        <SignupSection />
                     </div>
                 </div>
             </DefaultLayout>
         </>
     );
 }
+
+export default Index;
