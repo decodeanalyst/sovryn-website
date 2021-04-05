@@ -10,7 +10,7 @@ export default function Blog() {
 
   const markdown = useStaticQuery(graphql`
   {
-      allMdx {
+    allMarkdownRemark {
           nodes {
             frontmatter {
               title
@@ -37,11 +37,11 @@ export default function Blog() {
 
               <div className="row">
                 <div className="col-md-8">
-                  <HeroBlogPost article={ markdown.allMdx.nodes[0] } />
-                  <BlogFeed articles={ markdown.allMdx.nodes } />
+                  <HeroBlogPost article={ markdown.allMarkdownRemark.nodes[0] } />
+                  <BlogFeed articles={ markdown.allMarkdownRemark.nodes } />
                 </div>
                 <div className="col-md-4">
-                  <BlogSidebar articles={ markdown.allMdx.nodes } />
+                  <BlogSidebar articles={ markdown.allMarkdownRemark.nodes } />
                 </div>
               </div>
           </DefaultLayout>
