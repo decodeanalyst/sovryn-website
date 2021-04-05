@@ -2,7 +2,8 @@
 title: Hello World (example)
 date: 2019-04-15
 image: "./sunset-beach.jpg"
-imageAlt: A beach at sunset with crashing waves.
+imageAlt: A beach at sunset with crashing waves.c
+categories: ["News", "Vision"]
 ---
 
 Hello, world! This is a demo post for `gatsby-theme-blog`.

@@ -38,3 +38,20 @@ body {
   img {
     z-index: 1;
   }
+
+  .breadcrumb {
+
+    background-color: transparent;
+
+    .breadcrumb-item {
+      font-family: Bangers-Regular, Bangers;  
+      color: rgb(182, 193, 187);
+      font-size: 22px;
+      
+      a {
+        font-family: Bangers-Regular, Bangers;  
+        color: rgb(182, 193, 187);
+
+      }
+    }
+  }

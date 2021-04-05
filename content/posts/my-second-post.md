@@ -2,6 +2,7 @@
 title: My Second Post (example)
 date: 2019-05-15
 imageAlt: Laptop on a desk with VS Code open.
+categories: ["News", "Roadmap"]
 ---
 
 Wow! I love blogging so much already.
