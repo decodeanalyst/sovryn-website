@@ -41,7 +41,7 @@ export default function Blog() {
                   <BlogFeed articles={ markdown.allMdx.nodes } />
                 </div>
                 <div className="col-md-4">
-                  <BlogSidebar />
+                  <BlogSidebar articles={ markdown.allMdx.nodes } />
                 </div>
               </div>
           </DefaultLayout>

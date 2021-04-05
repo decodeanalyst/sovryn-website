@@ -1,0 +1,29 @@
+.tag-cloud {
+	text-align: center;
+
+	.tag-item {
+		padding-bottom: 15px;
+	}
+
+	.post-label {
+		z-index: 1;
+        display: flex;
+		letter-spacing: 00.01em;
+		background-color: rgba(247, 246, 232, 1);
+        
+        h3 {
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        a {
+            color: black;
+        }
+	}
+
+	.post-label-slanted {
+		-ms-transform: skewX(-0.02turn);
+		-webkit-transform: skewX(-0.02turn);
+		transform: skewX(-0.02turn);
+	}
+}

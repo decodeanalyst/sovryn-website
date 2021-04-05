@@ -9,14 +9,12 @@ export default function HeroBlogPost({article}) {
 
     return (
       <>
-        <div className="row">
+        <div className="hero-post row">
           <div className="col-md-12">
             <div className="hero-label hero-label-slanted">
-              <h3>{ article.frontmatter.title }</h3>
+              <h3 className="">{ article.frontmatter.title }</h3>
              </div>
-              <div className="pictureArticleCover">
-                <img className="img-fluid" src={ imgURL } />
-              </div>
+                <img className="img-fluid article-cover" src={ imgURL } />
           </div>
         </div>
       </>

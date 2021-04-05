@@ -1,11 +1,10 @@
 import React from 'react';
-import "../styles/blogpostlabel.scss";
  
-export default function BlogPostLabel({text}) {
+export default function BlogPostLabel({text, link}) {
  
     return (
         <div className="post-label post-label-slanted">
-            <h3>{ text }</h3>
+            <a href={ link }><h3>{ text }</h3></a>
         </div>
     );
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import "../styles/blogpostmetalabel.scss";
 
 export default function BlogPostMetaLabel({text}) {
  
