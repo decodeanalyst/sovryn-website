@@ -1,9 +1,9 @@
 ---
-title: Sovryn
+title: Unanimous acceptance of sip15
 date: 2021-03-28
 description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform"
-image : "/src/static/blog/blog-post-3"
-images: ["/src/static/blog/blog-post-3"]
+image : "./blog-post-3.png"
+images: ["./blog-post-3.png"]
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
 ---
 Through Bitocracy, voters unequivocally voted in favour of SIP15 this Thursday, 25th of March, with 100% approval. This paves the path for the formation of a treasury committee, referred to hereafter as the Exchequer Committee in honour of the Bitcoin Genesis block quote.

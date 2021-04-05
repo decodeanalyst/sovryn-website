@@ -1,9 +1,9 @@
 ---
-title: Sovryn
+title: Sovryn community votes pomp in
 date: 2021-03-25
 description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform"
-image : "/src/static/blog/blog-post-4"
-images: ["/src/static/blog/blog-post-4"]
+image : "./blog-post-4.png"
+images: ["./blog-post-4.png"]
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
 ---
 </br>

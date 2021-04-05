@@ -1,9 +1,9 @@
 ---
-title: Sovryn
+title: Supersize your stash with sovryn
 date: 2021-03-23
 description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform"
-image : "/src/static/blog/blog-post-5"
-images: ["/src/static/blog/blog-post-5"]
+image : "./blog-post-5.png"
+images: ["./blog-post-5.png"]
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
 ---
 </br>

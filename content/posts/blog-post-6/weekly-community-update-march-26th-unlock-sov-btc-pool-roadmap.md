@@ -1,9 +1,9 @@
 ---
-title: Sovryn
+title: Weekly community update 
 date: 2021-03-18
 description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform"
-image : "/src/static/blog/blog-post-6"
-images: ["/src/static/blog/blog-post-6"]
+image : "./blog-post-6.png"
+images: ["./blog-post-6.png"]
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
 ---
 Hello Sovryns and Bitcoin Mutants,
@@ -80,4 +80,4 @@ Increased liquidity and lower slippage is the expected outcome of the Sovryn BTC
 Expected project roadmap for the next few weeks
 </br>
 </br>
-<img src="/src/static/blog/blog-post-6-img.png" className="img-fluid align-center">
+<img src="./blog-post-6-img.png" className="img-fluid align-center">
