@@ -38,6 +38,14 @@ module.exports = {
         name: `content`,
         path: `${__dirname}/content/posts/`,
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `bangers`
+        ]
+      }
     }
   ],
   // Customize your site metadata:

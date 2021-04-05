@@ -5,7 +5,8 @@ html {
 
 body {
     font-style: normal;
-    font-family: Bangers, Arial;
+    font-family: Montserrat;
+    font-size: 16px;
     background-color: rgb(29, 29, 29);
     color: white;
     margin: 0;
@@ -22,9 +23,16 @@ body {
   h3,
   h4,
   h5,
-  h6,
+  h6 {
+    font-family: Bangers-Regular, Bangers;  
+  }
+
   p {
-    font-family: Bangers, Arial;
+    font-family: Montserrat;
+  }
+
+  a {
+    font-family: Montserrat;
   }
 
   img {

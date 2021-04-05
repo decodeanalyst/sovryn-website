@@ -107,7 +107,7 @@ export default function Header() {
           </div>
           <div className="cta">
             {" "}
-            <a className="box nav-item btn-lg">
+            <a className="box nav-item">
               <span className="toTheDapp">To the Dapp</span>
             </a>
           </div>

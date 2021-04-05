@@ -1,5 +1,11 @@
 
 .menu {
+
+	a {
+		font-family: Bangers-Regular, Bangers;  
+		font-size: 22px;
+	}
+
 	.menu-nav {
 		position: -webkit-sticky;
 		position: fixed;
@@ -8,14 +14,6 @@
 		transform-origin: center;
 		opacity: 1;
 		cursor: default;
-		margin-top: 0.00px;
-		margin-right: 0.00px;
-		margin-bottom: 0.00px;
-		margin-left: 0.00px;
-		padding-top: 0.00px;
-		padding-right: 0.00px;
-		padding-bottom: 0.00px;
-		padding-left: 0.00px;
 		background-color: rgba(255, 255, 255, 1);
 		border-bottom-color: rgba(112, 112, 112, 1);
 		border-bottom-style: none;
@@ -29,12 +27,8 @@
 		border-top-color: rgba(112, 112, 112, 1);
 		border-top-style: none;
 		border-top-width: 1.00px;
-		border-top-left-radius: 0.00px;
-		border-top-right-radius: 0.00px;
-		border-bottom-left-radius: 0.00px;
-		border-bottom-right-radius: 0.00px;
 		box-shadow: none;
-		height: 70.00px;
+		height: 40.00px;
 	}
 
 	.titles {
@@ -42,20 +36,14 @@
 		transform-origin: center;
 		opacity: 1;
 		cursor: default;
-		margin-top: 0.00px;
-		margin-right: 0.00px;
-		margin-bottom: 0.00px;
-		margin-left: 0.00px;
-		padding-top: 0.00px;
-		padding-right: 0.00px;
-		padding-bottom: 0.00px;
-		padding-left: 0.00px;
 		background-color: rgba(255, 255, 255, 0);
 		text-align: left;
 		line-height: 36.00px;
 		letter-spacing: 0.30px;
 		color: rgba(0, 0, 0, 1);
 		-webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+		margin-left: 6px;
+		margin-right: 6px;
 		font-size: 30.00px;
 		font-weight: 400;
 		font-style: normal;
@@ -91,7 +79,10 @@
 			transform-origin: center;
 			opacity: 1;
 			cursor: default;
-
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 4px;
+			padding-bottom: 4px;
 			background-color: rgba(232, 187, 51, 1);
 			border-bottom-color: rgba(254, 192, 4, 1);
 			border-bottom-style: solid;
@@ -115,26 +106,23 @@
 		.toTheDapp {
 			opacity: 1;
 			cursor: default;
-			margin-top: 0.00px;
+			margin-top: 10.00px;
 			margin-right: 0.00px;
-			margin-bottom: 0.00px;
+			margin-bottom: 10.00px;
 			margin-left: 0.00px;
 			padding-top: 0.00px;
-			padding-right: 0.00px;
+			padding-right: 10.00px;
 			padding-bottom: 0.00px;
-			padding-left: 0.00px;
+			padding-left: 10.00px;
 			background-color: rgba(255, 255, 255, 0);
 			text-align: center;
-			line-height: 42.00px;
+			line-height: 32.00px;
 			letter-spacing: -0.14px;
 			color: rgba(29, 29, 29, 1);
 			-webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-			font-size: 24.00px;
+			font-size: 20.00px;
 			font-weight: 400;
 			font-style: normal;
-			font-family: Bangers, Arial;
-			text-decoration: none;
-			box-shadow: none;
 			overflow-x: unset;
 			overflow-y: unset;
 			white-space: pre;
