@@ -7,14 +7,14 @@ images: ["./blog-post-3.png"]
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
 ---
 Through Bitocracy, voters unequivocally voted in favour of SIP15 this Thursday, 25th of March, with 100% approval. This paves the path for the formation of a treasury committee, referred to hereafter as the Exchequer Committee in honour of the Bitcoin Genesis block quote.
-</br>
-</br>
+<br />
+<br />
 <h1>The Proposal:</h1>
-</br>
-</br>
+<br />
+<br />
 The Sovryn treasury is of critical importance for the operations of the Sovryn project to run smoothly. The funds of the treasury may be used for purposes such as:
-</br>
-</br>
+<br />
+<br />
 <ul>
 <li>Provisioning of liquidity in the system</li>
 <li>Provisioning of rewards for liquidity (liquidity mining)</li>
@@ -22,8 +22,8 @@ The Sovryn treasury is of critical importance for the operations of the Sovryn p
 <li>Grants, bounties, partnerships and ecosystem development</li>
 <li>Core team ongoing compensation</li>
 </ul>
-</br>
-</br>
+<br />
+<br />
 Swift action in disbursal of funds is often required due to the constantly changing needs of the protocol. For all the beauty of Bitocracy, it is too cumbersome to properly manage day-to-day budget decisions. To solve this, it was proposed to delegate such daily decisions to a trusted Exchequer Committee, accountable to the Bitocracy.
 </ul>
 <b>Consisting of 7 approved members (chancellors), The Exchequer Committee will work on the following:</b>
@@ -35,12 +35,12 @@ Swift action in disbursal of funds is often required due to the constantly chang
 <li>Publish monthly / quarterly financial statements</li>
 <li>Publish monthly / quarterly reports on how Exchequer is spent</li>
 </ul>
-</br>
+<br />
 <b>The initial membership of the Exchequer Committee will be comprised of:</b>
-</br>
+<br />
 <b>Project Founders:</b>
-</br>
-</br>
+<br />
+<br />
 <ul>
 <li>Ororo Munroe</li>
 <li>Armando Munoz</li>
@@ -50,32 +50,32 @@ Swift action in disbursal of funds is often required due to the constantly chang
 <li>Slider</li>
 <li>Stefan</li>
 </ul>
-</br>
+<br />
 <b>Early Funders and Advisors:</b>
-<br>
+<br />
 <ul>
 <li>Max Shapiro</li>
 <li>Jascha Samadi</li>
 </ul>
 <b>Pre-doxxed Participant:</b>
-<br>
+<br />
 <ul>
 <li>Edan Yago</li>
 <ul>
-</br>
+<br />
 This is the proposed structure, composed of active and reputed community members of Sovryn until a legal trust which is subservient to the Bitocracy is formed. This may take 2-3 months, after which the Treasury Committee needs to be reconstituted as per the procedures and protocols of the formed trust. This is a step towards including more transparency in the process.
-</br>
+<br />
 <h2>Bitocracy user comments:</h2>
-</br>
+<br />
 A balance between agility and consensus is needed. I imagine it is very difficult to find the middle ground. But one cannot consult on every decision before taking it. It is good to delegate to those who are able to deal with problems in the best and quickest way.
-</br>
+<br />
 <i>I have a lot of trust in people, and certainly every member of the Treasury Committee gives me a lot of confidence.</i>
-</br>
-</br>
+<br />
+<br />
 <h3>Passed resolutions:</h3>
-<br>
+<br />
 Bitocracy delegates to the Exchequer Committee the authority to direct the use of treasury funds held in all multisig wallets approved by Bitocracy under the following conditions:
-</br>
+<br />
     <ul>
         <li>Up to 10% of the treasury balance may be transferred to external systems as needed for liquidity provision and price balancing.</li>
         <li>All other transfers can only be made between Sovryn protocol smart contracts and multisig wallets approved by Bitocracy.</li>
@@ -85,13 +85,13 @@ Bitocracy delegates to the Exchequer Committee the authority to direct the use o
         <li>The Exchequer Committee will publish high level monthly and detailed quarterly reports detailing the use of funds.</li>
         <li>The Exchequer Committee will publish transcripts from its meetings at the end of each quarter. These transcripts may be redacted to protect sensitive information.</li>
     </ul>
-</br>
+<br />
 On matters of trust, it was highlighted that any decision taken by the Exchequer Committee could be changed or reversed by the Bitocracy if it deems it necessary. With funds being held in Bitocracy approved multisig wallets, alongside a high degree of transparency in the entire project.
-</br>
-</br>
+<br />
+<br />
 Thus, with the passing of SIP-0015, you can expect decision making at Sovryn to speed up, allowing you to experience the best of what Sovryn has to offer.
-</br>
-</br>
+<br />
+<br />
 Just visit Sovryn’s <a href="#" className="btn-link">Bitocracy Discord</a> channel to stay-up-to date on current and upcoming votes.
-</br>
-</br>
+<br />
+<br />

@@ -11,11 +11,11 @@ Helloooooo everyone!
 <br /><br />
 How was this last week for you? For us, it was very productive. Here is what we have accomplished and what we have been working on.
 <br /><br />
-<b>Governance</b>
+**Governance**
 <br /><br />
 The past week we conducted several votings:
 <br /><br />
-<b>SIP6-A1</b>
+**SIP6-A1**
 <br /><br />
 You voted favourably on our proposal to amend the SIP6. You agreed to offer SOV to Origin sale participants at a price of 9736 sats per SOV rather than the 10,000 sats per SOV approved in the initial proposal.
 <br /><br />
@@ -31,31 +31,32 @@ Thank you for that.
 <br /><br />
 During the first month of the bug bounty, a bonus payment program will incentivise an intensified search for bugs in the protocol.
 <br /><br />
-<b>You can submit any bug reports here - <a href="#" className="btn-link">https://immunefi.com/bounty/sovryn/</a>
-</b>
+
+**You can submit any bug reports here - <a href="#" className="btn-link">https://immunefi.com/bounty/sovryn/</a>**
+
 <br /><br />
-<b>SIP 10</b>
+**SIP 10**
 <br /><br />
 With SIP 10 it was approved to make all the SOV tokens from Origin available for claiming on the 5th of March.
 <br /><br />
-<b>Whitelist</b>
+**Whitelist**
 <br /><br />
 Upon claiming SOV, your RSK address will be whitelisted to use the Sovryn dapp. You will be able to trade, lend and top-up your rBTC.
 <br /><br />
 Ensure you have rBTC in your RSK wallet address and get ready to claim your SOV. You can check the instructions on our Wiki: <a href="https://wiki.sovryn.app/en/getting-started/wallet-setup#how-do-you-get-rbtc-on-your-rsk-mainnet-wallet" className="btn-link">https://wiki.sovryn.app/en/getting-started/wallet-setup#how-do-you-get-rbtc-on-your-rsk-mainnet-wallet<a>
 *Origin SOVs will be non-transferable until March 26th
 <br /><br />
-<b>Development</b>
+**Development**
 <br /><br />
-<b>Fast BTC</b>
+**Fast BTC**
 <br /><br />
 This week we will launch the Fast BTC integration. That will give you guys an even faster and hassle-free way of getting rBTC directly on the Sovryn app. We will soon post additional information on how that works. The main advantage for you guys is that you can get up to 3 rBTC in only one BTC confirmation.
 <br /><br />
-<b>TBTC</b>
+**TBTC**
 <br /><br />
 You will be happy to find out that the TBTC bridge development is also on our list of soon to be released deliverables. Actually, the dev team had a massive breakthrough during the testing phase this week. That makes us believe that pretty soon this new BTC pegg option will be available to you guys.
 <br /><br />
-<b>ETH bridge</b>
+**ETH bridge**
 <br /><br />
 The dev team also is working diligently on the ETH bridge integration. As you know from last week, this is on the test net and all kinds of scenarios are being conducted to ensure that no errors are left within the code prior to deployment. The launch of the ETH bridge on the main-net will be an amazing milestone. This will support the exponential growth of the Sovryn ecosystem once all the ETH supporters will have straight-forward access to our products. We plan to make it available for community testing this week - stay tuned.
 <br /><br />

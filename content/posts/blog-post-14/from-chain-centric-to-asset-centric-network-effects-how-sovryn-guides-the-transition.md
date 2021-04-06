@@ -93,13 +93,12 @@ In 2021, DeFi is expected to move freely across chains, centering on “Bitcoin 
 Bitcoin layer-2 technologies like RSK enable developers and teams to build out DeFi applications and protocols without being held back by the scalability limitations of Ethereum. Sovryn is building an underlying infrastructure for Bitcoin-native DeFi protocols that uses the RSK sidechain as a bridge builder between crypto platforms, blockchains, DEXes and dApps.
 <br />
 <br />
-
 Sovryn’s Bitcoin-native DeFi protocol features permissionless trading, staking, lending and margin trading, allowing users to participate in DeFi pseudonymously.
 Transactions on the Sovryn platform are verified by Bitcoin PoW miners, with fees paid in Bitcoin.
 Users can retain full ownership of their Bitcoin while putting it to use in trading, lending and earning.
 A system of qualified staking imbues a heightened level of ‘skin in the game’. This governance model incentivizes token holders to stake for the long term while they participate in the decentralized governance mechanism, steering the direction of the protocol.
 Sovryn is a DeFi financial infrastructure protocol that is set to drive the transition from chain-centric to asset-centric network effects. With a Bitcoin-native, full stack operating system, Sovryn is shaping the future of DeFi and money itself.
-
+<br /><br />
 Join the Sovryn Bitocracy
-
+<br /><br />
 Learn more in the Library of DYOR
