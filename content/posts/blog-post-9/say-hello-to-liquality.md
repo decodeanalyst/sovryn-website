@@ -68,10 +68,10 @@ Registering a new wallet can be a pain at times. Many centralized exchanges take
 Liquality, however, is hassle free as it supports easy importing and exporting of your pre-existing mnemonic seed phrase, combining it with a password which you need to set. In almost no time, you’re ready to link and use your newly created Liquality wallet with Sovryn, with absolutely no KYC required.
 <br />
 <br />
-Check out our how-to explainer on using the Liquality Wallet!</a>
+Check out our how-to explainer on using the Liquality Wallet!
 <br />
 <br />
 Now that you have your Liquality wallet configured, it’s time to put your RBTC to work.
 <br />
 <br />
-You can download the Liquality Wallet to use with Sovryn today. Check out the Google Chrome Extension here.</a>
+You can download the Liquality Wallet to use with Sovryn today. Check out the Google Chrome Extension here.
