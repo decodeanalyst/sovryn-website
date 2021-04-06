@@ -15,53 +15,54 @@ Through Bitocracy, voters unequivocally voted in favour of SIP15 this Thursday, 
 The Sovryn treasury is of critical importance for the operations of the Sovryn project to run smoothly. The funds of the treasury may be used for purposes such as:
 <br />
 <br />
-<ul>
-<li>Provisioning of liquidity in the system</li>
-<li>Provisioning of rewards for liquidity (liquidity mining)</li>
-<li>Adoption and promotion of the protocol, including referral rewards, advertising and other marketing initiatives</li>
-<li>Grants, bounties, partnerships and ecosystem development</li>
-<li>Core team ongoing compensation</li>
-</ul>
+
+* Provisioning of liquidity in the system</li>
+* Provisioning of rewards for liquidity (liquidity mining)</li>
+* Adoption and promotion of the protocol, including referral rewards, advertising and other marketing initiatives</li>
+* Grants, bounties, partnerships and ecosystem development</li>
+* Core team ongoing compensation</li>
 <br />
 <br />
 Swift action in disbursal of funds is often required due to the constantly changing needs of the protocol. For all the beauty of Bitocracy, it is too cumbersome to properly manage day-to-day budget decisions. To solve this, it was proposed to delegate such daily decisions to a trusted Exchequer Committee, accountable to the Bitocracy.
 </ul>
 <b>Consisting of 7 approved members (chancellors), The Exchequer Committee will work on the following:</b>
-<ul>
-<li>Propose Exchequer budget to discuss and vote on</li>
-<li>Define liquidity requirements based on budget</li>
-<li>Decide asset allocation policy and review this policy allocation every month</li>
-<li>Define policy for liquidity mining, token buybacks, salaries and vesting schedule of core contributors</li>
-<li>Publish monthly / quarterly financial statements</li>
-<li>Publish monthly / quarterly reports on how Exchequer is spent</li>
-</ul>
+
+* Propose Exchequer budget to discuss and vote on
+* Define liquidity requirements based on budget
+* Decide asset allocation policy and review this policy allocation every month
+* Define policy for liquidity mining, token buybacks, salaries and vesting schedule of core contributors
+* Publish monthly / quarterly financial statements
+* Publish monthly / quarterly reports on how Exchequer is spent
+
 <br />
-<b>The initial membership of the Exchequer Committee will be comprised of:</b>
+**The initial membership of the Exchequer Committee will be comprised of:**
 <br />
-<b>Project Founders:</b>
+
+**Project Founders:**
+
 <br />
 <br />
-<ul>
-<li>Ororo Munroe</li>
-<li>Armando Munoz</li>
-</ul>
-<b>Core Team Leadership:</b>
-<ul>
-<li>Slider</li>
-<li>Stefan</li>
-</ul>
+
+* Ororo Munroe
+* Armando Munoz
+
+**Core Team Leadership:**
+
+* Slider
+* Stefan
+
 <br />
 <b>Early Funders and Advisors:</b>
 <br />
-<ul>
-<li>Max Shapiro</li>
-<li>Jascha Samadi</li>
-</ul>
-<b>Pre-doxxed Participant:</b>
+
+* Max Shapiro
+* Jascha Samadi
+
+**Pre-doxxed Participant:**
 <br />
-<ul>
-<li>Edan Yago</li>
-<ul>
+
+* Edan Yago
+
 <br />
 This is the proposed structure, composed of active and reputed community members of Sovryn until a legal trust which is subservient to the Bitocracy is formed. This may take 2-3 months, after which the Treasury Committee needs to be reconstituted as per the procedures and protocols of the formed trust. This is a step towards including more transparency in the process.
 <br />
@@ -76,15 +77,14 @@ A balance between agility and consensus is needed. I imagine it is very difficul
 <br />
 Bitocracy delegates to the Exchequer Committee the authority to direct the use of treasury funds held in all multisig wallets approved by Bitocracy under the following conditions:
 <br />
-    <ul>
-        <li>Up to 10% of the treasury balance may be transferred to external systems as needed for liquidity provision and price balancing.</li>
-        <li>All other transfers can only be made between Sovryn protocol smart contracts and multisig wallets approved by Bitocracy.</li>
-        <li>Bitocracy reserves the right to revoke this authority at any time.</li>
-        <li>An operations budget of 5,639,130.56 SOV shall be available to the Exchequer Committee subject to the vesting outlined in Schedule A, for a period of three months from the date of the approval of the SIP.</li>
-        <li>The Exchequer Committee shall present a 12-month budget to Bitocracy within one month from the passing of this SIP. The Exchequer Committee may expend up to 10 BTC until the budget is approved by Bitocracy.</li>
-        <li>The Exchequer Committee will publish high level monthly and detailed quarterly reports detailing the use of funds.</li>
-        <li>The Exchequer Committee will publish transcripts from its meetings at the end of each quarter. These transcripts may be redacted to protect sensitive information.</li>
-    </ul>
+    
+* Up to 10% of the treasury balance may be transferred to external systems as needed for liquidity provision and price balancing.
+* All other transfers can only be made between Sovryn protocol smart contracts and multisig wallets approved by Bitocracy.
+* Bitocracy reserves the right to revoke this authority at any time.
+* An operations budget of 5,639,130.56 SOV shall be available to the Exchequer Committee subject to the vesting outlined in Schedule A, for a period of three months from the date of the approval of the SIP.
+* The Exchequer Committee shall present a 12-month budget to Bitocracy within one month from the passing of this SIP. The Exchequer Committee may expend up to 10 BTC until the budget is approved by Bitocracy.
+* The Exchequer Committee will publish high level monthly and detailed quarterly reports detailing the use of funds.
+* The Exchequer Committee will publish transcripts from its meetings at the end of each quarter. These transcripts may be redacted to protect sensitive information.
 <br />
 On matters of trust, it was highlighted that any decision taken by the Exchequer Committee could be changed or reversed by the Bitocracy if it deems it necessary. With funds being held in Bitocracy approved multisig wallets, alongside a high degree of transparency in the entire project.
 <br />
