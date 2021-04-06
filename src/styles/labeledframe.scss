@@ -5,12 +5,12 @@
 }
 .frametextdefault {
     transform: skew(-15deg);
+    display: inline-block;
     position: relative;
     background-color: white;
     color: black;
     font-size: 37px;
     text-align: left;
-    display: inline-block;
     letter-spacing: 00.01em;
     white-space: normal;
     padding-left: 15px;
@@ -27,4 +27,7 @@
     background-repeat: no-repeat;
     width: 100%;
 
+}
+.nne{
+    display: none !important;
 }

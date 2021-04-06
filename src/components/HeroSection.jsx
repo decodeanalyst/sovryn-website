@@ -30,7 +30,7 @@ export default function HeroSection() {
               <path d="M 10 10 L 10 635 L 1570 635 L 1570 10 L 10 10 M 0 0 L 1580 0 L 1580 645 L 0 645 L 0 0 Z" stroke="none" fill="#f7f6e7" />
             </g>
           </svg> */}
-          <LabeledFrame figtxt="The Decentralized Bitcoin" figtxt1=" Trading and Lending Platform" img={image} banner="yes" />
+          <LabeledFrame figtxt="The Decentralized Bitcoin" figtxt1=" Trading and Lending Platform" img={image} banner={true} />
           {/* <svg xmlns="http://www.w3.org/2000/svg" className="framebutton1 btn btn-link" width="191" height="50" viewBox="0 0 191 50">
             <g id="Group_5501" data-name="Group 5501" transform="translate(-259.932 -5437.553)">
               <path id="Path_6521" data-name="Path 6521" class="cls-1" d="M6.147.743,14.762-6.1,181.8.743,184,37.475,175.654,43.9H0Z" transform="translate(259.932 5443.652)" />

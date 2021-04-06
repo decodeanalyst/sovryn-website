@@ -9,7 +9,7 @@ export default function Trending() {
     <div className="container">
       <div className="row">
         <div className="col-md-6">
-          <LabeledFrame img="" figtxt="Latest News On the" figtxt1="sovryn planet" banner="no" />
+          <LabeledFrame img="" figtxt="Latest News On the" figtxt1="sovryn planet" banner={false} />
         </div>
         <div className="col-md-6 nextcol">
           <svg
