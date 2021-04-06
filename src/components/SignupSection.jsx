@@ -19,13 +19,6 @@ export default function SignupSection() {
                 <div className="col-md-3">
                 </div>
             </div>
-            {/* <div className="row">
-                <div className="col-md-5"></div>
-                <div className="col-md-4">
-                    <SocialFooterLinks />
-                </div>
-                <div className ="col-md-3"></div>
-            </div> */}
         </div>
     )
 }
