@@ -140,6 +140,7 @@ The main work included:
 * Total Traders & Total Active Traders stats.
 
 <br /><br />
+
 **UX/UI:**
 <br /><br />
 The main work included:

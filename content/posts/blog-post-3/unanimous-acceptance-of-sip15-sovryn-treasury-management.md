@@ -9,23 +9,26 @@ imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
 Through Bitocracy, voters unequivocally voted in favour of SIP15 this Thursday, 25th of March, with 100% approval. This paves the path for the formation of a treasury committee, referred to hereafter as the Exchequer Committee in honour of the Bitcoin Genesis block quote.
 <br />
 <br />
-<h1>The Proposal:</h1>
+# The Proposal:
+
 <br />
 <br />
 The Sovryn treasury is of critical importance for the operations of the Sovryn project to run smoothly. The funds of the treasury may be used for purposes such as:
 <br />
 <br />
 
-* Provisioning of liquidity in the system</li>
-* Provisioning of rewards for liquidity (liquidity mining)</li>
-* Adoption and promotion of the protocol, including referral rewards, advertising and other marketing initiatives</li>
-* Grants, bounties, partnerships and ecosystem development</li>
-* Core team ongoing compensation</li>
+* Provisioning of liquidity in the system
+* Provisioning of rewards for liquidity (liquidity mining)
+* Adoption and promotion of the protocol, including referral rewards, advertising and other marketing initiatives
+* Grants, bounties, partnerships and ecosystem development
+* Core team ongoing compensation
+
 <br />
 <br />
+
 Swift action in disbursal of funds is often required due to the constantly changing needs of the protocol. For all the beauty of Bitocracy, it is too cumbersome to properly manage day-to-day budget decisions. To solve this, it was proposed to delegate such daily decisions to a trusted Exchequer Committee, accountable to the Bitocracy.
-</ul>
-<b>Consisting of 7 approved members (chancellors), The Exchequer Committee will work on the following:</b>
+
+**Consisting of 7 approved members (chancellors), The Exchequer Committee will work on the following:**
 
 * Propose Exchequer budget to discuss and vote on
 * Define liquidity requirements based on budget
@@ -52,7 +55,7 @@ Swift action in disbursal of funds is often required due to the constantly chang
 * Stefan
 
 <br />
-<b>Early Funders and Advisors:</b>
+**Early Funders and Advisors:**
 <br />
 
 * Max Shapiro
@@ -66,7 +69,8 @@ Swift action in disbursal of funds is often required due to the constantly chang
 <br />
 This is the proposed structure, composed of active and reputed community members of Sovryn until a legal trust which is subservient to the Bitocracy is formed. This may take 2-3 months, after which the Treasury Committee needs to be reconstituted as per the procedures and protocols of the formed trust. This is a step towards including more transparency in the process.
 <br />
-<h2>Bitocracy user comments:</h2>
+
+## Bitocracy user comments:
 <br />
 A balance between agility and consensus is needed. I imagine it is very difficult to find the middle ground. But one cannot consult on every decision before taking it. It is good to delegate to those who are able to deal with problems in the best and quickest way.
 <br />
