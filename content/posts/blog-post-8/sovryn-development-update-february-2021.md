@@ -148,6 +148,6 @@ The main work included:
 For more details about the Sovryn tech stack, its use cases, and the SOV token see the Sovryn Black Paper.
 <br />
 <br />
-Follow Sovryn on <a href="#" className="btn-link">Twitter</a>
-Join us on <a href="#" className="btn-link">Discord</a>
-Stay <a href="#" className="btn-link">Sovryn</a>
+Follow Sovryn on Twitter</a>
+Join us on Discord</a>
+Stay Sovryn</a>

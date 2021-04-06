@@ -24,9 +24,9 @@ To participate in the Bitocracy voting process, SOV holders stake their SOV toke
 
         <blockquote><i>After evaluating many of the projects in the space, I am excited about the prospects of Sovryn and believe that the team and community has a high probability to build one of the core decentralised infrastructure stacks to ensure that bitcoin remains decentralised, sovereign, and aligned with the original bitcoin ethos.”</i></blockquote>
 <br />
-The future of Sovryn is bright. To stay-up-to date on current and upcoming votes visit <a href="#" className="btn-link">Sovryn’s Bitocracy Discord</a> channel.
+The future of Sovryn is bright. To stay-up-to date on current and upcoming votes visit Sovryn’s Bitocracy Discord</a> channel.
 <br />
 Join the Sovryn community:
-<a href="#" className="btn-link">Discord</a>
-<a href="#" className="btn-link">Twitter</a>
-<a href="#" className="btn-link">Telegram</a>
+Discord</a>
+Twitter</a>
+Telegram</a>

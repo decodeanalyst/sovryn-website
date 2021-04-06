@@ -92,6 +92,6 @@ On matters of trust, it was highlighted that any decision taken by the Exchequer
 Thus, with the passing of SIP-0015, you can expect decision making at Sovryn to speed up, allowing you to experience the best of what Sovryn has to offer.
 <br />
 <br />
-Just visit Sovryn’s <a href="#" className="btn-link">Bitocracy Discord</a> channel to stay-up-to date on current and upcoming votes.
+Just visit Sovryn’s Bitocracy Discord channel to stay-up-to date on current and upcoming votes.
 <br />
 <br />

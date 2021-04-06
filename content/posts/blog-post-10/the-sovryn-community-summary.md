@@ -32,7 +32,7 @@ Thank you for that.
 During the first month of the bug bounty, a bonus payment program will incentivise an intensified search for bugs in the protocol.
 <br /><br />
 
-**You can submit any bug reports here - <a href="#" className="btn-link">https://immunefi.com/bounty/sovryn/</a>**
+**You can submit any bug reports here [https://immunefi.com/bounty/sovryn/]**
 
 <br /><br />
 **SIP 10**
@@ -43,7 +43,7 @@ With SIP 10 it was approved to make all the SOV tokens from Origin available for
 <br /><br />
 Upon claiming SOV, your RSK address will be whitelisted to use the Sovryn dapp. You will be able to trade, lend and top-up your rBTC.
 <br /><br />
-Ensure you have rBTC in your RSK wallet address and get ready to claim your SOV. You can check the instructions on our Wiki: <a href="https://wiki.sovryn.app/en/getting-started/wallet-setup#how-do-you-get-rbtc-on-your-rsk-mainnet-wallet" className="btn-link">https://wiki.sovryn.app/en/getting-started/wallet-setup#how-do-you-get-rbtc-on-your-rsk-mainnet-wallet<a>
+Ensure you have rBTC in your RSK wallet address and get ready to claim your SOV. You can check the instructions on our Wiki: [https://wiki.sovryn.app/en/getting-started/wallet-setup#how-do-you-get-rbtc-on-your-rsk-mainnet-wallet]
 *Origin SOVs will be non-transferable until March 26th
 <br /><br />
 **Development**
