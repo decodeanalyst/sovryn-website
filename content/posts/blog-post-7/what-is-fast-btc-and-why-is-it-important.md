@@ -9,8 +9,8 @@ imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
 Due to the decentralised nature of Sovryn, confirming a transaction should normally take more than just a few seconds. This waiting time can be a deal-breaker for many users who are used to the speed of centralised finance. If the DeFi ecosystem wants to remain competitive, the transaction speed is an issue that has to be addressed. Enter Fast BTC, with only 1 BTC blockchain transaction you can now get your Bitcoin into your Sovryn wallet within minutes.
 <br />
 <br />
-**Tell me more!
-**
+
+**Tell me more!**
 <br />
 <br />
 
@@ -22,7 +22,7 @@ This is where FastBTC comes into place. With only 1 BTC blockchain confirmation 
 <br />
 <br />
 
-<b>How is this achieved?</b>
+**How is this achieved?**
 <br />
 <br />
 
@@ -30,7 +30,7 @@ For every rBTC address provided by the user, a BTC deposit address is generated 
 <br />
 <br />
 
-<b>In simpler terms:</b>
+**In simpler terms:**
 <br />
 <br />
 
@@ -43,4 +43,4 @@ Since there are a lot of malicious actors in the DeFi space, we have enforced so
 <br />
 
 And there you go, you are ready to trade.
-You can find more documentation on how FastBTC works from the user’s perspective on our wiki at <a href="https://wiki.sovryn.app/en/sovryn-dapp/fast_btc" className="btn-link"> https://wiki.sovryn.app/en/sovryn-dapp/fast_btc.</a>Hopefully, that will clear out any doubts that you might still have.
+You can find more documentation on how FastBTC works from the user’s perspective on our wiki at  [https://wiki.sovryn.app/en/sovryn-dapp/fast_btc]. Hopefully, that will clear out any doubts that you might still have.

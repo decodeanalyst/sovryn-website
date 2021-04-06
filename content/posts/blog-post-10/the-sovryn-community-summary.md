@@ -19,7 +19,7 @@ The past week we conducted several votings:
 <br /><br />
 You voted favourably on our proposal to amend the SIP6. You agreed to offer SOV to Origin sale participants at a price of 9736 sats per SOV rather than the 10,000 sats per SOV approved in the initial proposal.
 <br /><br />
-<b>SIP 8: Sovryn Bug Bounty Program</b>
+**SIP 8: Sovryn Bug Bounty Program**
 <br /><br />
 Immunefi proposed to create and help manage a bug bounty program for Sovryn, as well as ongoing review and triaging of bug reports.
 <br /><br />
@@ -62,13 +62,13 @@ The dev team also is working diligently on the ETH bridge integration. As you kn
 <br /><br />
 Additionally, the dev team is improving the user interface for the Swap and the AMM section of the Dapp, fixing UI bugs and getting ready to launch the Staking UI.
 <br /><br />
-<b>Creative and Design</b>
+**Creative and Design**
 <br /><br />
 In addition to the above-mentioned, we will launch the new website soon. We have been working on it for the last few weeks and we are almost done. We believe it will be a nice surprise for the community.
 <br /><br />
 We have also kicked off the design for the Staking option, the ETH bridge interface and the arbitrage interface. Some time is still needed to deliver them but we hope to have some of them ready by the next Community meeting.
 <br /><br />
-<b>Liquidity</b>
+**Liquidity**
 <br /><br />
 Following the Origin SOVs claim kick-off, users from Origin will have access to the Sovryn exchange. Naturally, we expect a lot of traffic and trading volume from your side. Therefore, the Sovryn team is actively working towards ensuring good liquidity. We are talking with a number of partners that will support and bring liquidity onto the platform. Lastly, we have a special surprise prepared just for you guys. Stay tuned…
 <br />

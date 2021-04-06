@@ -37,7 +37,7 @@ After your wallet is loaded with funds, you can trade easily using our intuitive
 <br />
 <br />
 
-<b>Where Arbitrage?</b>
+**Where Arbitrage?**
 <br />
 <br />
 
@@ -45,7 +45,7 @@ As the Sovryn protocol is scaling up its prices often diverge from prices tradin
 <br />
 <br />
 
-<b>NEW:</b> In addition, there are arbitrage opportunities balancing the AMM within the Sovryn platform itself. Spotting these opportunities could not be easier! We have just launched notifications within the dapp. Navigate to the Swap tab within the Trade area to see exactly what the AMM needs to stay in balance and the premium it will pay you for making the required swap. We encourage you to take these opportunities and help to close the price differential.
+**NEW:** In addition, there are arbitrage opportunities balancing the AMM within the Sovryn platform itself. Spotting these opportunities could not be easier! We have just launched notifications within the dapp. Navigate to the Swap tab within the Trade area to see exactly what the AMM needs to stay in balance and the premium it will pay you for making the required swap. We encourage you to take these opportunities and help to close the price differential.
 
 <br />
 <br />
@@ -67,4 +67,4 @@ What are you waiting for? Get started with Sovryn today.
 <br />
 <br />
 
-<b>*Only you control and have access to your wealth, any actions you take could cause a potential loss of funds. In particular, please be sure to check all transaction fee prices before proceeding as third party wallets may automatically present high fees.</b>
+***Only you control and have access to your wealth, any actions you take could cause a potential loss of funds. In particular, please be sure to check all transaction fee prices before proceeding as third party wallets may automatically present high fees.**

@@ -20,13 +20,17 @@ The community vote on the investment proposal, called SIP14, exercised the decen
 
 To participate in the Bitocracy voting process, SOV holders stake their SOV tokens. Votes are weighted to the amount of SOV held and the length of time staked. The Bitocracy upholds the principles of decentralisation that initially attracted Anthony Pompliano to the project who commented,
 
-        <blockquote><i>“I have always believed that the bitcoin industry would eventually have to bring decentralised sound money and decentralised infrastructure together. While some people want to bring bitcoin to Ethereum via tBTC or WBTC, I have been a big believer that decentralised infrastructure will get built on top of, and around, bitcoin.</i></blockquote>
+> “I have always believed that the bitcoin industry would eventually have to bring decentralised sound money and decentralised infrastructure together. While some people want to bring bitcoin to Ethereum via tBTC or WBTC, I have been a big believer that decentralised infrastructure will get built on top of, and around, bitcoin.
 
-        <blockquote><i>After evaluating many of the projects in the space, I am excited about the prospects of Sovryn and believe that the team and community has a high probability to build one of the core decentralised infrastructure stacks to ensure that bitcoin remains decentralised, sovereign, and aligned with the original bitcoin ethos.”</i></blockquote>
+> After evaluating many of the projects in the space, I am excited about the prospects of Sovryn and believe that the team and community has a high probability to build one of the core decentralised infrastructure stacks to ensure that bitcoin remains decentralised, sovereign, and aligned with the original bitcoin ethos.”
+
 <br />
-The future of Sovryn is bright. To stay-up-to date on current and upcoming votes visit Sovryn’s Bitocracy Discord</a> channel.
+
+The future of Sovryn is bright. To stay-up-to date on current and upcoming votes visit Sovryn’s Bitocracy Discord channel.
 <br />
+
 Join the Sovryn community:
-Discord</a>
-Twitter</a>
-Telegram</a>
+<br />
+Discord
+Twitter
+Telegram

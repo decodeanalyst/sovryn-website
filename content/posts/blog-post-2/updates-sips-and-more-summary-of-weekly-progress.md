@@ -13,7 +13,7 @@ Hello Sovryns and Bitcoin Mutants,
 We’ve had some busy days here at Sovryn. Here is a summary of our latest achievements:
 <br />
 <br />
-<b>Governance</b>
+**Governance**
 The past week we conducted several votings:
 <br />
 <br />
@@ -29,28 +29,28 @@ SIP-15
 With 100% consensus, you approved the Sovryn Treasury Management proposal. As a result of the favourable vote, Sovryn will be able to make effective use of the protocol treasury in a transparent and time-effective way. The rapidly changing needs of the protocol will be addressed through effective deployment of funds as advised by highly informed decision-makers.
 <br />
 <br />
-<b>Development</b>
+**Development**
 <br />
 <br />
-<b>Fast BTC</b>
+**Fast BTC**
 <br />
 <br />
 As you know, the Fast BTC has already been working for a few weeks now. Since no flaws have been discovered we raised the limit to 1rBTC. The Fast BTC allows you to top-up your rBTC stash in a fast and cheap way and to start using the Sovryn platform.
 <br />
 <br />
-<b>Sovryn Crosschain bridge (ETH and BNB SmartChain)</b>
+**Sovryn Crosschain bridge (ETH and BNB SmartChain)**
 <br />
 <br />
 Already on the public test-net, the community had the chance to analyze the way the bridge responds. Our internal goal is to launch it on the main net in the first half of April followed by the launch of the mirrored native SOV on the ETH blockchain. A similar bridge is developed for the BNB chain. We will post comprehensive materials about both of them before the main-net launch.
 <br />
 <br />
-<b>Sovryn BTC</b>
+**Sovryn BTC**
 <br />
 <br />
 Easy and cheap access to peg-in options is one of our main objectives. Along with the already live FastBTC option, as you know we are also working on our own pegged BTC called Sovryn BTC. In the last couple of weeks, the team have made considerable progress and we hope that this addition will also be made available sometime in April.
 <br />
 <br />
-<b>Arbitrum layer 2</b>
+**Arbitrum layer 2**
 <br />
 <br />
 The tweaks and development continue on the test-net with encouraging results.
@@ -59,7 +59,7 @@ The tweaks and development continue on the test-net with encouraging results.
 At the end of April, we will launch a number of tutorials to show you: How Layer 2 works; what are its strong points; how can it be used within the Sovryn platform. Although the Layer 2 development is quite intricate, we expect to launch it sometime in May.
 <br />
 <br />
-<b>SOV/BTC pool</b>
+**SOV/BTC pool**
 <br />
 <br />
 Last but not least we have to mention the SOV pool! As you know, its launch was postponed. At Sovryn we like to test our systems thoroughly before release, so we can launch with confidence. “Better safe than sorry” - we are strong adherents to this saying.

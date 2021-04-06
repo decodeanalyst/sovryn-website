@@ -29,11 +29,11 @@ We plan to launch the pool within 2 weeks time. Development is not a straight pa
 <br />
 <br />
 
-<b>Additional On-going Work</b>
+**Additional On-going Work**
 <br />
 <br />
 
-<b>Sovryn Crosschain bridge (ETH and BNB SmartChain)</b>
+**Sovryn Crosschain bridge (ETH and BNB SmartChain)**
 <br />
 <br />
 
@@ -45,7 +45,7 @@ A similar architecture is built for the Binance chain and it will soon be made a
 <br />
 <br />
 
-<b>Arbitrum layer 2</b>
+**Arbitrum layer 2**
 <br />
 <br />
 
@@ -53,7 +53,7 @@ This is live on the RSK test-net. For now, we are testing it internally. When we
 <br />
 <br />
 
-<b>Sovryn BTC</b>
+**Sovryn BTC**
 <br />
 <br />
 
@@ -65,7 +65,7 @@ While still in the testing phase, the results are encouraging and we are confide
 <br />
 <br />
 
-<b>Liquidity</b>
+**Liquidity**
 <br />
 <br />
 
