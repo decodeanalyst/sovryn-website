@@ -80,4 +80,5 @@ Increased liquidity and lower slippage is the expected outcome of the Sovryn BTC
 Expected project roadmap for the next few weeks
 <br />
 <br />
-<img src="./blog-post-6-img.png" className="img-fluid align-center">
+
+!()["./blog-post-6-img.png"]
