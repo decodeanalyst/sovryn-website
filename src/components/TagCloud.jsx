@@ -1,5 +1,4 @@
 import React from 'react';
-import InfoLabel from './InfoLabel';
 import BlogPostLabel from './BlogPostLabel';
  
 export default function TagCloud({tags}) {
