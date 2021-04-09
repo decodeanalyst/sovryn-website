@@ -1,0 +1,35 @@
+.framebanner {
+    width: auto;
+	background: gray;
+    border: 5px solid white;
+    z-index: 1;
+}
+.frametextdefault {
+    z-index: 2;
+    transform: skew(-15deg);
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    color: black;
+    font-size: 37px;
+    text-align: left;
+    letter-spacing: 00.01em;
+    white-space: normal;
+    padding-left: 15px;
+    padding-right: 15px;
+    top: 20px;
+    right: 25px;
+    font-family: Bangers-Regular, Bangers;
+}
+.frametext {
+    position:relative;
+    display: block;
+}
+.img {
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+.nne{
+    display: none !important;
+}
