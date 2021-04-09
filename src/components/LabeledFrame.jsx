@@ -15,12 +15,11 @@ export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
             className1='h3-1';
             top='-100px';
         }
-        console.log(breakString(figtxt))
         return(
             <>
             <div className="row col-md-12">
                 <div className={ className }>
-                    <h3 className={ className1 }>{ breakString(figtxt) }</h3>
+                    <h3 className={ className1 }>{ breakString(figtxt, 20) }</h3>
                 </div>
                 <img style={{ top: top }} className="img-fluid frame-cover" src={ img } />
             </div>

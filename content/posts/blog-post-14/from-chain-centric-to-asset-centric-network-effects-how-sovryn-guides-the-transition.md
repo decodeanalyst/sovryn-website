@@ -1,5 +1,5 @@
 ---
-title: From Chain-Centric to Asset-Centric Network Effects
+title: From Chain Centric to Asset Centric Network Effects
 date: 2021-03-02
 description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform"
 categoreis: ["News"]

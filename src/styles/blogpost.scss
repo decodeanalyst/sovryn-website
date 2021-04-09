@@ -14,9 +14,8 @@
       font-size: 18px;
       display: inline-flex;
       letter-spacing: 00.01em;
-      white-space: pre-wrap;
       background-color: rgba(247, 246, 232, 1);
-      text-align: left;
+      text-align: left !important;
       text-transform: uppercase;
       padding-inline: 15px;
       width: fit-content;

@@ -1,34 +1,47 @@
 .side-bar-post {
-  z-index: 1;
   position: relative;
   color: black;
   font-family: Bangers;
   text-transform: uppercase;
 
-    img {
-      z-index: 2;
-      display: flex;
-      width: 200px;
+    .img-fluid {
+      z-index: 1;
+      display: inline-block;
+      width: 150px;
       height: 90px;
-      background-size: cover;
+      position: relative;
     }
+
+    img{
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      position: absolute;
+      top:0; bottom:0;
+      left:0; right:0;
+      margin:auto;
+    }
+
+  .label-set{
+    z-index: 2;
+    width: 200px;
+  }
 
 	.post-label {
     display: block;
-    z-index: 3;
     top: -10px;
     margin-left: -20px;
 		letter-spacing: 00.01em;
-		white-space: pre-wrap;
 		background-color: rgba(247, 246, 232, 1);
 		text-align: left;
-		width: fit-content;
+		width: 100%;
 
 		h3 {
-			display: inline-flex;
-			font-size: 16px;
+			display: flex;
+			font-size: 15px;
 			line-height: 20px;
-			padding: 5px;
+      padding-top: 5px;
 		}
 	}
 
@@ -41,7 +54,7 @@
 
 
   .post-meta-label {
-    z-index: 4;
+    z-index: 3;
     margin-left: 10px;
     font-size: 16px;
     padding-left: 10px;

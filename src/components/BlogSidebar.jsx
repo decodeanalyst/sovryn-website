@@ -1,7 +1,8 @@
 import React from 'react';
 import TagCloud from './TagCloud';
 import SidebarBlogPost from './SidebarBlogPost';
-import "../styles/sidebar.scss"
+import SearchMenu from '../components/SearchMenu';
+import "../styles/sidebar.scss";
 
 export default function BlogSidebar({ articles }) {
  
@@ -18,6 +19,9 @@ export default function BlogSidebar({ articles }) {
     return (
         <>
             <TagCloud tags={ tags } />
+            <div className="pt-2"></div>
+            <SearchMenu />
+            <div className="pb-2"></div>
             <h3>Featured</h3>
 
             {

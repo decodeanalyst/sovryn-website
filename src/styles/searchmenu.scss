@@ -1,5 +1,5 @@
 
-.inputbox-input{
+.searchmenu{
     -ms-transform: skewX(-0.02turn);
     -webkit-transform: skewX(-0.02turn);
     transform: skewX(-0.02turn);
@@ -13,17 +13,12 @@
     padding-inline: 15px;
     display: inline-block;
     height: 40px;
-    width: 250px;
+    width: 360px;
     border: rgb(155, 144, 131) solid 2px;
-    right: 3.70px;
+    right: 10.70px;
 }
-.signuptext {
-    font-family: Bangers;
-    font-size: 22px;
-    text-align: left;
-    display: block;
-    text-transform: uppercase;
-    color: black;
-    
-} 
-
+.search:hover {
+	-ms-transform: scale(1.2); /* IE 9 */
+	-webkit-transform: scale(0.5); /* Safari 3-8 */
+	transform: scale(1.2);
+}
