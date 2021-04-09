@@ -8,7 +8,7 @@ export default function HeroBlogPost({article}) {
 
     return (
       <>
-        <LabeledFrame figtxt={ article.frontmatter.title } img={ imgURL } banner={true} pageStyle="blog" />
+        <LabeledFrame figtxt={ article.frontmatter.title } img={ imgURL } banner={ true } pageStyle="blog" />
       </>
     )
 }
