@@ -5,25 +5,25 @@
 .post {
 
     .post-label {
+      z-index: 2;
       top: -24px;
       margin-left: 10px;
       position: relative;
       color: black;
       font-family: Bangers;
       font-size: 18px;
-      text-align: center;
-      display: block;
+      display: inline-flex;
       letter-spacing: 00.01em;
-      white-space: nowrap;
+      white-space: pre-wrap;
       background-color: rgba(247, 246, 232, 1);
-      text-align: center;
+      text-align: left;
       text-transform: uppercase;
       padding-inline: 15px;
       width: fit-content;
-      display: inline-block;
   
       h3 {
-          font-size: 22px;
+        display: inline-flex;
+        font-size: 22px;
       }
   }
   
@@ -31,7 +31,7 @@
       -ms-transform: skewX(-0.02turn);
       -webkit-transform: skewX(-0.02turn);
       transform: skewX(-0.02turn);
-      border: 7px solid rgba(247, 246, 232, 1);;
+      border: 7px solid rgba(247, 246, 232, 1);
   }
   
   .post-meta-label {
@@ -61,48 +61,55 @@
 }
 
 
- }
-
- .hero-post {
-
-  .article-cover {
-    top: -40px;
-    position: relative;
-    z-index: 1;
-  }
-
-  .hero-label {
-    z-index: 2;
-    float: left;
-    bottom: -20px;
-    left: -40px;
-    padding-inline: 10px;
-    position: relative;
-    color: black;
-    font-family: Bangers;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: 00.01em;
-    white-space: nowrap;
-    background-color: rgba(247, 246, 232, 1);
-    text-align: center;
-    text-transform: uppercase;
-    width: fit-content;
-    display: inline;
-
-    h3 {
-      display: inline;
-      font-size: 30px;
-      line-height: 40px;
-      padding: 5px;
-    }
 }
 
-.hero-label-slanted{
-    -ms-transform: skewX(-0.02turn);
-    -webkit-transform: skewX(-0.02turn);
-    transform: skewX(-0.02turn);
+.blog-feed-img {
+  z-index: 1;
+  width: 100%;
+  height: fit-content;
 }
+
+
+//  .hero-post {
+
+//   .article-cover {
+//     top: -40px;
+//     position: relative;
+//     z-index: 1;
+//   }
+
+//   .hero-label {
+//     z-index: 2;
+//     float: left;
+//     bottom: -20px;
+//     left: -40px;
+//     padding-inline: 10px;
+//     position: relative;
+//     color: black;
+//     font-family: Bangers;
+//     font-size: 18px;
+//     text-align: center;
+//     letter-spacing: 00.01em;
+//     white-space: nowrap;
+//     background-color: rgba(247, 246, 232, 1);
+//     text-align: center;
+//     text-transform: uppercase;
+//     width: fit-content;
+//     display: inline;
+
+//     h3 {
+//       display: inline;
+//       font-size: 30px;
+//       line-height: 40px;
+//       padding: 5px;
+//     }
+// }
+
+// .hero-label-slanted{
+//     -ms-transform: skewX(-0.02turn);
+//     -webkit-transform: skewX(-0.02turn);
+//     transform: skewX(-0.02turn);
+// }
   
- }
+//  }
  

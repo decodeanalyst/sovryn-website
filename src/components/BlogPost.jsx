@@ -14,7 +14,7 @@ export default function BlogPost({title, image, date, category}) {
           </div>
   
             <div className="article-cover">
-                <img className="img-fluid" src={ image } />
+                <img className="img-fluid blog-feed-img" src={ image } />
             </div>
             <BlogPostLabel text={ title } />
       </div>
