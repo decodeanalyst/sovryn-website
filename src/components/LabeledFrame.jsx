@@ -10,7 +10,11 @@ export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
             className='frame-lbl-blog';
             className1='h3-1';
         }
-
+        else if(pageStyle==="indexTrending") {
+            className='frame-lbl-trending';
+            top='-75px';
+        }
+        
         if(banner===false){
             className='nne';
             className1='nne';

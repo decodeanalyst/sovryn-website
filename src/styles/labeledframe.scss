@@ -54,6 +54,28 @@
         white-space: pre-wrap;
     }
 }
+
+.frame-lbl-trending{
+    z-index: 2;
+    display: flex;
+    bottom: -35px;
+    right: 35px;
+    position: relative;
+    background-color: white;
+    color: black;
+    letter-spacing: 00.01em;
+    padding: 10px 5px 0px 5px;
+    font-family: Bangers-Regular, Bangers;
+    -ms-transform: skewX(-0.02turn);
+    -webkit-transform: skewX(-0.02turn);
+    transform: skewX(-0.02turn);
+
+    h3 {
+        display: inline-flex;
+        font-size: 30px;
+        white-space: pre-wrap;
+    }
+}
   
 img{
     position: relative;

@@ -31,13 +31,14 @@ export default function Trending() {
   )
 
   let data=md.allMarkdownRemark.nodes;
+  const imgURL = data[0].frontmatter.image ?  data[0].frontmatter.image.publicURL : "";
 
   return (
     <>
     <div class="container align-middle">
     <div class="row">
         <div class="col-md-6">
-            <LabeledFrame figtxt="" img={pic} banner={false} pageStyle="index" />
+            <LabeledFrame figtxt={data[0].frontmatter.title} img={imgURL} banner={true} pageStyle="indexTrending" />
         </div>
         <div className="col-md-6">
             <div className="container">
