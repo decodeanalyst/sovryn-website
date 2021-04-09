@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogPostLabel from './BlogPostLabel';
+import TagCloudLabel from '../components/TagCloudLabel';
  
 export default function TagCloud({tags}) {
  
@@ -10,10 +10,11 @@ export default function TagCloud({tags}) {
                      tags.map((tag, index) => {
     
                             return (
-                                <div className="tag-item col-md-4 d-flex" key={ index }>
-                                    <BlogPostLabel
+                                <div className="tag-item col-md-4" key={ index }>
+                                    <TagCloudLabel
                                      text={ tag.name }
-                                     link={ tag.link } />
+                                     link={ tag.link }
+                                     col={ tag.color } />
                                 </div>
                             )
                         })

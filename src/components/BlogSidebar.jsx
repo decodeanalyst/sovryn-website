@@ -5,11 +5,15 @@ import "../styles/sidebar.scss"
 
 export default function BlogSidebar({ articles }) {
  
-    const tags = [{name: "All", link: "/blog/all"},
-                {name: "Roadmap", link: "/blog/roadmap"},
-                {name: "Community", link: "/blog/community"},
-                {name: "Tutorial", link: "/blog/tutorial"},
-                {name: "Governance", link: "/blog/governance"}]
+    const tags = [{name: "All", link: "/blog", color: "#F7F6E7"},
+                {name: "Roadmap", link: "/blog/roadmap", color: "#97C7CB"},
+                {name: "Community", link: "/blog/community", color: "#B48F7F"},
+                {name: "Tutorial", link: "/blog/tutorial", color: "#B48F7F"},
+                {name: "Governance", link: "/blog/governance", color: "#DDC269"},
+                {name: "Defi", link: "/blog/defi", color: "#50414F"},
+                {name: "News", link: "/blog/news", color: "#99BCB1"},
+                {name: "Vision", link: "/blog/vision", color: "#AA9B9D"},
+                {name: "Press Release", link: "/blog/pressrelease", color: "#E0C78E"}]
 
     return (
         <>
