@@ -1,14 +1,13 @@
 import React from "react";
 import "../styles/trending.scss";
-import "../static/arrow.jpeg"
 import { graphql, useStaticQuery } from 'gatsby';
 import arrow from "../static/arrow.jpeg"
+import pic from "../static/blog/blog-post-1.jpg"
 
 import StyledButton from "../components/StyledButton";
 import BlogPostMetaLabel from "./BlogPostMetaLabel";
 import BlogPostLabel from "./BlogPostLabel";
-// import TrendingComponent from "./trendingcomponent";
-
+import LabeledFrame from "../components/LabeledFrame";
 
 
 export default function Trending() {
@@ -31,16 +30,21 @@ export default function Trending() {
   }`
   )
 
+  let data=md.allMarkdownRemark.nodes;
+
   return (
+    <>
     <div class="container align-middle">
     <div class="row">
         <div class="col-md-6">
+            <LabeledFrame figtxt="" img={pic} banner={false} pageStyle="index" />
         </div>
         <div className="col-md-6">
             <div className="container">
                 <div className="row">
-                    {
-                        md.map((node, index) => {
+                {
+                        data.map((node, index) => {
+
                             return (
                                 <div className="row pt-2">
                                     <div className="col-md-12">
@@ -60,10 +64,10 @@ export default function Trending() {
                                         </div>
                                     </div>
                                 </div>
-                            );
-                        } )
-                    }
-                    </div>
+                            )
+                        })
+                }
+                </div>
                 <div className="row">
                   <div className="col-md-6">
                   </div>
@@ -75,5 +79,6 @@ export default function Trending() {
         </div>
     </div>
 </div>
-  )
+</>
+  );
 }
