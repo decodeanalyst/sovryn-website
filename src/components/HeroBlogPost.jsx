@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import LabeledFrame from '../components/LabeledFrame'
 
 import "../styles/blogpost.scss"
 
@@ -9,14 +10,7 @@ export default function HeroBlogPost({article}) {
 
     return (
       <>
-        <div className="hero-post row">
-          <div className="col-md-12">
-            <div className="hero-label hero-label-slanted">
-              <h3 className="">{ article.frontmatter.title }</h3>
-             </div>
-                <img className="img-fluid article-cover" src={ imgURL } />
-          </div>
-        </div>
+        <LabeledFrame figtxt={ article.frontmatter.title } img={ imgURL } banner={true} pageStyle="blog" />
       </>
     )
 }
