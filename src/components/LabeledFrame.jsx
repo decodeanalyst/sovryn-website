@@ -6,12 +6,16 @@ export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
         let className='frame-label';
         let className1='h3';
         let top='0px';
-        if(pageStyle=="blog"){
+        if(pageStyle==="blog"){
             className='frame-lbl-blog';
             className1='h3-1';
         }
-
-        if(banner==false){
+        else if(pageStyle==="indexTrending") {
+            className='frame-lbl-trending';
+            top='-75px';
+        }
+        
+        if(banner===false){
             className='nne';
             className1='nne';
         }
