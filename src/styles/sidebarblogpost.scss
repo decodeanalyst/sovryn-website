@@ -1,27 +1,31 @@
 .side-bar-post {
+  z-index: 1;
   position: relative;
   color: black;
   font-family: Bangers;
-  text-align: center;
   text-transform: uppercase;
 
     img {
-      width: 190px;
-      height: auto;
+      z-index: 2;
+      display: flex;
+      width: 200px;
+      height: 90px;
+      background-size: cover;
     }
 
 	.post-label {
-    z-index: 1;
+    display: block;
+    z-index: 3;
     top: -10px;
     margin-left: -20px;
 		letter-spacing: 00.01em;
-		white-space: nowrap;
+		white-space: pre-wrap;
 		background-color: rgba(247, 246, 232, 1);
 		text-align: left;
 		width: fit-content;
 
 		h3 {
-			display: inline;
+			display: inline-flex;
 			font-size: 16px;
 			line-height: 20px;
 			padding: 5px;
@@ -37,14 +41,13 @@
 
 
   .post-meta-label {
-    z-index: 2;
+    z-index: 4;
     margin-left: 10px;
     font-size: 16px;
     padding-left: 10px;
     padding-right: 10px;
     display: block;
     letter-spacing: 00.01em;
-    white-space: nowrap;
     background-color: rgba(193, 183, 163, 1);
     text-align: center;
     text-transform: uppercase;

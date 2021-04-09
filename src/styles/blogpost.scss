@@ -35,6 +35,7 @@
   }
   
   .post-meta-label {
+    z-index: 2;
     bottom: -12px;
     margin-left: 10px;
     position: relative;
@@ -66,7 +67,8 @@
 .blog-feed-img {
   z-index: 1;
   width: 100%;
-  height: fit-content;
+  height: 300px;
+  background-size: cover;
 }
 
 
