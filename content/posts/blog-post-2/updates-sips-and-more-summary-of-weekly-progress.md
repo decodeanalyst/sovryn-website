@@ -5,6 +5,7 @@ description: Your Funds, Your Control | Sovryn is the decentralized Bitcoin trad
 image : "./blog-post-2.png"
 images: ["./blog-post-2.png"]
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
+categories: ["Roadmap"]
 ---
 
 Hello Sovryns and Bitcoin Mutants,

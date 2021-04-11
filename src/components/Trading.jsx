@@ -8,15 +8,16 @@ export default function Trading() {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-lg-12">
-                    <svg data-layer="2470579f-723d-40d2-8657-7df946945060" preserveAspectRatio="none" viewBox="0 -0.0048828125 1022 118" class="path6307"><path d="M 37.49576568603516 -0.0048828125 L 1022 -0.0048828125 L 984.5042114257813 117.9951171875 L 0 117.9951171875 L 37.49576568603516 -0.0048828125 Z"></path></svg>
-                </div>
-                <div class="group4925">
-                    <div class="trySovrynsBitcoinNativeTradingAndLendingPlatform">
-                        Try SOVRYN’s Bitcoin native trading and lending platform
+                    <div className="d-flex justify-content-center">
+                        <div className="slantedrectangle text-center">
+                            <h1 class="text-black">
+                                Try SOVRYN’s Bitcoin native trading and lending platform
+                            </h1>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="row py-5">
                 <div className="col-lg-4">
                     <div className="rectangle1">
                             <div className="swap">

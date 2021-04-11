@@ -7,14 +7,14 @@ import "../styles/blogpost.scss"
 export default function BlogPost({title, image, date, category}) {
  
     return (
-      <div className="post py-5">
+      <div className="post">
           <div className="d-inline-flex">
             <BlogPostMetaLabel text={ date } />
             <BlogPostMetaLabel text={ category } />
           </div>
   
             <div className="article-cover">
-                <img className="img-fluid" src={ image } />
+                <img className="img-fluid blog-feed-img" src={ image } />
             </div>
             <BlogPostLabel text={ title } />
       </div>

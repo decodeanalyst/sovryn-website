@@ -51,7 +51,7 @@
     margin-right: 0.00px;
     margin-bottom: 0.00px;
     margin-left: 0.00px;
-    padding-top: 35.00px;
+    padding-top: 33.00px;
     padding-right: 0.00px;
     padding-bottom: 0.00px;
     padding-left: 0.00px;
@@ -61,17 +61,11 @@
     letter-spacing: 0.00px;
     color: rgba(0, 0, 0, 1);
     -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-    font-size: 14.00px;
+    font-size: 16.00px;
     font-weight: 500;
     font-style: normal;
     font-family: Montserrat, Arial;
-    text-decoration: none;
-    box-shadow: none;
-    overflow-x: unset;
-    overflow-y: unset;
-    width: 388.00px;
-    height: 73.00px;
-    left: 0;  
+
   }
   .frame {
     position: relative;
@@ -125,4 +119,11 @@
     width: 100%;
     height: auto;
   }
-  
+  .ogbitcoiner {
+    position: relative;
+    font-size: 40px;
+    font-family: Bangers;
+    bottom: 150px;
+    left: 500px;
+
+  }

@@ -1,21 +1,33 @@
 import React from "react";
 import "../styles/labeledframe.scss";
+import {breakString} from '../components/BreakString.js'
 
-export default function LabeledFrame({figtxt1, figtxt, img, banner}) {
-        let className='frametextdefault';
-        let className1='frametext';
-        if(banner==false){
+export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
+        let className='frame-label';
+        let className1='h3';
+        let top='0px';
+        if(pageStyle==="blog"){
+            className='frame-lbl-blog';
+            className1='h3-1';
+        }
+        else if(pageStyle==="indexTrending") {
+            className='frame-lbl-trending';
+            top='-75px';
+        }
+        
+        if(banner===false){
             className='nne';
-            className1='nne'
+            className1='nne';
         }
         return(
-            <div className="framebanner img-fluid">
-                <div className={className}>
-                    <span className={className1}>{figtxt}</span>
-                    <span className={className1}>{figtxt1}</span>
+            <>
+            <div className="row col-md-12">
+                <div className={ className }>
+                    <h3 className={ className1 }>{ breakString(figtxt, 20) }</h3>
                 </div>
-                <img src={img} className="img" />
+                <img style={{ top: top }} className="img-fluid frame-cover" src={ img } />
             </div>
+            </>
         );
 
 }

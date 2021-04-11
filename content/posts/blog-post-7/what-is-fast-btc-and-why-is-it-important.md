@@ -5,6 +5,7 @@ description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin tra
 image : "./blog-post-7.png"
 images: ["./blog-post-7.png"]
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
+categories: ["News", "Roadmap"]
 ---
 Due to the decentralised nature of Sovryn, confirming a transaction should normally take more than just a few seconds. This waiting time can be a deal-breaker for many users who are used to the speed of centralised finance. If the DeFi ecosystem wants to remain competitive, the transaction speed is an issue that has to be addressed. Enter Fast BTC, with only 1 BTC blockchain transaction you can now get your Bitcoin into your Sovryn wallet within minutes.
 <br />

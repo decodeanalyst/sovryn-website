@@ -12,7 +12,7 @@ export default function SidebarBlogPost({title, image, date}) {
             <div className="article-cover">
                 <img className="img-fluid" src={ image } />
             </div>
-            <div className="">
+            <div className="label-set">
               <BlogPostMetaLabel text={ date } />
               <BlogPostLabel text={ title } />
             </div>
