@@ -13,14 +13,12 @@ const Index = () => {
     return (
         <>
             <DefaultLayout>
+         
+                <HeroSection />
+
                 <div className="row py-5">
-                    <div className="col">
-                        <HeroSection />
-                    </div>
-                </div>
-                <div className="row py-5">
-                    <div className="col">
-                        <WebsiteInfo />
+                    <div className="col-md-12">
+                        {/* <WebsiteInfo /> */}
                     </div>
                 </div>
                 <div className="row py-5">

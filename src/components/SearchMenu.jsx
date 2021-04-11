@@ -2,11 +2,15 @@ import React from "react";
 
 import "../styles/searchmenu.scss";
 
-export default function SearchMenu() {
+export default function SearchMenu({ onSearchChanged }) {
     return (
         <div className="container">
             <div className="d-inline-flex">
-            <input type="text" className="searchmenu" placeholder="Search..." />
+            <input type="text"
+             className="searchmenu"
+             placeholder="Search..."
+            onChange={ e => onSearchChanged(e.target.value) } />
+
             <div className="pr-2"></div>
             <svg xmlns="http://www.w3.org/2000/svg" className="search"  width="42" height="42" viewBox="0 0 42.475 42.475">
             <g id="Group_5844" data-name="Group 5844" transform="translate(-1710 -346)">

@@ -15,6 +15,7 @@ export default function Blog() {
             frontmatter {
               title
               categories
+              description
               date(formatString: "MMMM DD, YYYY")
               image {
                 publicURL

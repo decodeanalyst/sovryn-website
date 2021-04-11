@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import TagCloud from './TagCloud';
 import SidebarBlogPost from './SidebarBlogPost';
 import SearchMenu from '../components/SearchMenu';
@@ -6,6 +6,8 @@ import "../styles/sidebar.scss";
 
 export default function BlogSidebar({ articles }) {
  
+    const emptyQuery = ""
+
     const tags = [{name: "All", link: "/blog", color: "#F7F6E7"},
                 {name: "Roadmap", link: "/blog/roadmap", color: "#97C7CB"},
                 {name: "Community", link: "/blog/community", color: "#B48F7F"},
@@ -16,23 +18,59 @@ export default function BlogSidebar({ articles }) {
                 {name: "Vision", link: "/blog/vision", color: "#AA9B9D"},
                 {name: "Press Release", link: "/blog/pressrelease", color: "#E0C78E"}]
 
+
+    const [state, setState] = useState({
+      filteredData: [],
+      query: emptyQuery
+    })
+
+
+  const handleSearchChange = query => {
+
+    console.log("query found: ", query)
+
+    const posts = articles || []
+
+    const filteredData = posts.filter(post => {
+
+      const { description, title, tags } = post.frontmatter
+
+      return (
+
+        description.toLowerCase().includes(query.toLowerCase()) ||
+
+        title.toLowerCase().includes(query.toLowerCase()) ||
+
+        (tags &&
+          tags
+            .join("")
+            .toLowerCase()
+            .includes(query.toLowerCase()))
+      )
+    })
+
+    setState({
+      query,
+      filteredData
+    })
+  }
+
+  const featuredArticles = state.query ? state.filteredData : articles;
+
     return (
         <>
             <TagCloud tags={ tags } />
             <div className="pt-2"></div>
-            <SearchMenu />
-            <div className="pb-2"></div>
-            <h3>Featured</h3>
+
+                <SearchMenu onSearchChanged={ (text) => handleSearchChange(text) } />
+
+            <div className="pb-5"></div>
+            <h3>{ state.query ? `Search Results For: ${ state.query }` : "Featured" }</h3>
 
             {
-                    articles.map((node, index) => {
+                    featuredArticles.map((node, index) => {
 
                     const imgURL = node.frontmatter.image ? node.frontmatter.image.publicURL : "https://via.placeholder.com/427x240";
-
-                    console.log("ImageURL: ", imgURL)
-                    console.log("Date: ", node.frontmatter.date)
-                    console.log("Categories: ", node.frontmatter.categories)
-
                         return (
                             <SidebarBlogPost key={ index }
                              title={ node.frontmatter.title }

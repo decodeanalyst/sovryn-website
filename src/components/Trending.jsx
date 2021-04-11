@@ -14,23 +14,25 @@ export default function Trending() {
 
   const md = useStaticQuery(graphql`
   {
-    allMarkdownRemark(limit: 3) {
-          nodes {
-            frontmatter {
-              title
-              categories
-              date(formatString: "MMMM DD, YYYY")
-              image {
-                publicURL
-              }
-            }
-            excerpt
+    allMarkdownRemark(limit: 3, sort: {order: DESC, fields: frontmatter___date}) {
+      nodes {
+        frontmatter {
+          title
+          categories
+          date(formatString: "MMMM DD, YYYY")
+          image {
+            publicURL
           }
         }
-  }`
+        excerpt
+      }
+    }
+  }
+  `
   )
 
-  let data=md.allMarkdownRemark.nodes;
+  let data= md.allMarkdownRemark.nodes
+
   const imgURL = data[0].frontmatter.image ?  data[0].frontmatter.image.publicURL : "";
 
   return (
@@ -73,7 +75,7 @@ export default function Trending() {
                   <div className="col-md-6">
                   </div>
                   <div className="col-md-6 justify-content-center pt-5">
-                    <StyledButton text="VISIT BLOG" />
+                    <StyledButton text="VISIT BLOG" pageName="blog" />
                   </div>
                 </div>
             </div>
