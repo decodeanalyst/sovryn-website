@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/trending.scss";
-import { graphql, useStaticQuery } from 'gatsby';
+import { graphql, Link, useStaticQuery } from 'gatsby';
 import arrow from "../static/arrow.jpeg"
 import pic from "../static/blog/blog-post-1.jpg"
 
@@ -16,9 +16,12 @@ export default function Trending() {
   {
     allMarkdownRemark(limit: 3, sort: {order: DESC, fields: frontmatter___date}) {
       nodes {
+        fields {
+          slug
+        }
         frontmatter {
           title
-          categories
+          category
           date(formatString: "MMMM DD, YYYY")
           image {
             publicURL
@@ -48,6 +51,9 @@ export default function Trending() {
                 {
                         data.map((node, index) => {
 
+                          const slug = node.fields.slug;
+                          const articleLink = `/blog${slug}`
+
                             return (
                                 <div className="row pt-2">
                                     <div className="col-md-12">
@@ -55,6 +61,7 @@ export default function Trending() {
                                             <BlogPostMetaLabel text={node.frontmatter.date} />
                                             <BlogPostMetaLabel text={node.frontmatter.category} />
                                         </div>
+                                        <Link to={ articleLink }>
                                         <div className="rectangle">
                                             <div className="d-flex d-inline-block">
                                                 <div className="col-md-8 p-3">
@@ -64,7 +71,8 @@ export default function Trending() {
                                                 <img src={arrow} className="img-fluid p-4 pb-2" id="arrow" />
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>                                     
+                                        </Link>
                                     </div>
                                 </div>
                             )

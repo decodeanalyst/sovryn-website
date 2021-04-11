@@ -2,9 +2,9 @@
 title: Sov Holders, prepare to cast your votes!
 date: 2021-03-02
 description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform"
-categoreis: ["News"]
 image: "./blog-post-13.png"
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
+category: News
 ---
 <br />
 Starting today, votes on SIP-0006 (A1) and SIP-0008 will be open for 24 hours in the Bitocracy app,

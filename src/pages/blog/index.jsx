@@ -1,10 +1,10 @@
 import React from 'react';
-import DefaultLayout from '../components/DefaultLayout';
+import DefaultLayout from '../../components/DefaultLayout';
 import { graphql, useStaticQuery } from 'gatsby';
 
-import BlogFeed from '../components/BlogFeed';
-import BlogSidebar from '../components/BlogSidebar';
-import HeroBlogPost from '../components/HeroBlogPost';
+import BlogFeed from '../../components/BlogFeed';
+import BlogSidebar from '../../components/BlogSidebar';
+import HeroBlogPost from '../../components/HeroBlogPost';
 
 export default function Blog() {
 
@@ -12,9 +12,13 @@ export default function Blog() {
   {
     allMarkdownRemark {
           nodes {
+            fields {
+              slug
+            }
             frontmatter {
               title
-              categories
+              category
+              tags
               description
               date(formatString: "MMMM DD, YYYY")
               image {

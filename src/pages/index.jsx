@@ -8,7 +8,7 @@ import Trending from '../components/Trending';
 import SignupSection from '../components/SignupSection';
 
  
-const Index = () => {
+export default function Index() {
  
     return (
         <>
@@ -75,5 +75,3 @@ const Index = () => {
         </>
     );
 }
-
-export default Index;

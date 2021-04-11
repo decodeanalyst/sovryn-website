@@ -4,7 +4,8 @@ date: 2021-03-15
 description: Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform
 image : "./blog-post-9.png"
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
-categories: ["News", "Roadmap"]
+category: Press Releases
+tags: ["Featured", "Most Popular"]
 ---
 <br />
 <br />

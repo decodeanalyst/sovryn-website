@@ -16,7 +16,7 @@ export default function BlogSidebar({ articles }) {
                 {name: "Defi", link: "/blog/defi", color: "#50414F"},
                 {name: "News", link: "/blog/news", color: "#99BCB1"},
                 {name: "Vision", link: "/blog/vision", color: "#AA9B9D"},
-                {name: "Press Release", link: "/blog/pressrelease", color: "#E0C78E"}]
+                {name: "Press Releases", link: "/blog/press-releases", color: "#E0C78E"}]
 
 
     const [state, setState] = useState({
@@ -27,19 +27,19 @@ export default function BlogSidebar({ articles }) {
 
   const handleSearchChange = query => {
 
-    console.log("query found: ", query)
-
     const posts = articles || []
 
     const filteredData = posts.filter(post => {
 
-      const { description, title, tags } = post.frontmatter
+      const { description, title, tags, category } = post.frontmatter
 
       return (
 
         description.toLowerCase().includes(query.toLowerCase()) ||
 
         title.toLowerCase().includes(query.toLowerCase()) ||
+
+        (category && category.includes(query.toLowerCase())) ||
 
         (tags &&
           tags
@@ -76,7 +76,7 @@ export default function BlogSidebar({ articles }) {
                              title={ node.frontmatter.title }
                              image={ imgURL }
                              date={node.frontmatter.date }
-                                />
+                             slug={node.fields.slug }   />
                         )
                     })
                 }

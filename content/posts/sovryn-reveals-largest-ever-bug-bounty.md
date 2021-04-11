@@ -2,9 +2,9 @@
 title: Sovryn reveals largest every bug bounty
 date: 2021-03-02
 description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform"
-categoreis: ["Roadmap"]
 image: "./blog-post-11.png"
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
+category: Roadmap
 ---
 * Sovryn sets Immunefi bug bounty at up to $1.25M
 * Origin token presale a sell out for Sovryn DeFi on Bitcoin protocol

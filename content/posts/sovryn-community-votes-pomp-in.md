@@ -5,6 +5,7 @@ description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin tra
 image : "./blog-post-4.png"
 images: ["./blog-post-4.png"]
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
+category: Roadmap
 ---
 <br />
 A key vote by the Sovryn community has taken place to determine the participation of a syndicate of strategic partners led by Pomp Investments. On 24th March the vote was successful with 99.87% of the votes in favour. Sovryn will now welcome an additional 180 BTC of investment.

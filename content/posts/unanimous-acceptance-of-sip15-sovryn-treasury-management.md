@@ -5,6 +5,7 @@ description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin tra
 image : "./blog-post-3.png"
 images: ["./blog-post-3.png"]
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
+category: Roadmap
 ---
 Through Bitocracy, voters unequivocally voted in favour of SIP15 this Thursday, 25th of March, with 100% approval. This paves the path for the formation of a treasury committee, referred to hereafter as the Exchequer Committee in honour of the Bitcoin Genesis block quote.
 <br />
