@@ -5,7 +5,7 @@ import StyledButton from "../components/StyledButton";
 import StyledButton1 from "../components/StyledButton1";
 import InfoLabel from "../components/InfoLabel";
 import LabeledFrame from "../components/LabeledFrame";
-import indeximg from "../static/index/index.png"
+import indeximg from "../static/home-page/hero-image.png"
 
 export default function HeroSection() {
   return (
