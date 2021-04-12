@@ -15,7 +15,7 @@ export default function Article({ pageContext, data }) {
     const date = frontmatter.date
     const description = frontmatter.description;
 
-    const timeToRead = `markdown.timeToRead mins`
+    const timeToRead = `${markdown.timeToRead} min read`
 
     const imgURL = frontmatter.image
       ? frontmatter.image.publicURL
@@ -44,7 +44,7 @@ export default function Article({ pageContext, data }) {
                     <BlogPostMetaLabel text={ date } />
                     <BlogPostMetaLabel text={ timeToRead } />
                 </div>
-                <div className="subheading">
+                <div className="sidebar-description">
                     { description }
                 </div>
             </div>
