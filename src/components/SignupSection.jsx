@@ -6,32 +6,31 @@ import SignupComponent from "../components/SignupComponent"
 export default function SignupSection() {
     return (
         <>
-        <div className="ogbitcoiner">JOIN FOLLOW OG BITCOINERS AT SOVRYN</div>
+        <div className="d-flex flex-row-reverse">
+        <div className="pr-5"></div>
+        <div className="ogbitcoiner align-items-start">JOIN FOLLOW OG BITCOINERS AT SOVRYN</div>
+        </div>
         <div className="container rectangle1542">
             <div className="row">
-                <div className="col-lg-5">
+                <div className="col-lg-4">
                     <div className="frame">
                     </div>
                 </div>
-                <div  className="col-md-4 pr-3">
-                <div  class="signUpForEcosystemNewsAndUpdatesPrivacyIsOurPolicyAndAllSovrynUsersAreAnonymous">Sign up for ecosystem news and updates. Privacy is our policy and all Sovryn users are anonymous. </div>
-                <div className="py-5 pr-1">
-                <div className="py-5">
-                <SocialFooterLinks /> 
+                <div  className="col-lg-5 pl-5">
+                    <div className="row">
+                    <div  class="signUpForEcosystemNewsAndUpdatesPrivacyIsOurPolicyAndAllSovrynUsersAreAnonymous">
+                        Sign up for ecosystem news and updates. Privacy is our policy and all Sovryn users are anonymous. 
+                    </div>
+                    </div>
+                    <div className="pt-4"></div>
+                    <div class="row py-5 pt-5 pl-3">
+                    <SocialFooterLinks /> 
+                    </div>
                 </div>
-                </div>
-                </div>
-                <div className="col-md-3 pt-4">
+                <div className="col-lg-3 py-4">
                 <SignupComponent />
                 </div>
             </div>
-            {/* <div className="row">
-                <div className="col-md-5"></div>
-                <div className="col-md-4">
-                    <SocialFooterLinks />
-                </div>
-                <div className ="col-md-3"></div>
-            </div> */}
         </div>
         </>
     )
