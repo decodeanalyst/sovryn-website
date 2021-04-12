@@ -17,6 +17,8 @@ export default function Category({ pageContext, data }) {
     totalCount === 1 ? "" : "s"
   } category with "${category}"`
 
+  const imgURL = "https://via.placeholder.com/900x500";
+
   return (
 
     <>
@@ -30,11 +32,11 @@ export default function Category({ pageContext, data }) {
 
         <div className="row">
           <div className="col-md-8">
-            <HeroBlogPost article={ nodes[0] } />
+            <HeroBlogPost title={ category } imgURL={ imgURL } />
             <BlogFeed articles={ nodes } />
           </div>
           <div className="col-md-4">
-            <BlogSidebar articles={ nodes } />
+            <BlogSidebar />
           </div>
         </div>
     </DefaultLayout>

@@ -1,11 +1,37 @@
 import React, { useState } from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
+
 import TagCloud from './TagCloud';
 import SidebarBlogPost from './SidebarBlogPost';
 import SearchMenu from '../components/SearchMenu';
 import "../styles/sidebar.scss";
 
-export default function BlogSidebar({ articles }) {
+export default function BlogSidebar() {
  
+  const markdown = useStaticQuery(graphql`
+  {
+    allMarkdownRemark {
+          nodes {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+              category
+              tags
+              description
+              date(formatString: "MMMM DD, YYYY")
+              image {
+                publicURL
+              }
+            }
+            excerpt
+          }
+        }
+  }`)
+
+  const articles = markdown.allMarkdownRemark.nodes;
+
     const emptyQuery = ""
 
     const tags = [{name: "All", link: "/blog", color: "#F7F6E7"},
