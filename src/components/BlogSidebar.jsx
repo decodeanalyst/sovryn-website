@@ -9,14 +9,14 @@ export default function BlogSidebar({ articles }) {
     const emptyQuery = ""
 
     const tags = [{name: "All", link: "/blog", color: "#F7F6E7"},
-                {name: "Roadmap", link: "/blog/roadmap", color: "#97C7CB"},
-                {name: "Community", link: "/blog/community", color: "#B48F7F"},
-                {name: "Tutorial", link: "/blog/tutorial", color: "#B48F7F"},
-                {name: "Governance", link: "/blog/governance", color: "#DDC269"},
-                {name: "Defi", link: "/blog/defi", color: "#50414F"},
-                {name: "News", link: "/blog/news", color: "#99BCB1"},
-                {name: "Vision", link: "/blog/vision", color: "#AA9B9D"},
-                {name: "Press Releases", link: "/blog/press-releases", color: "#E0C78E"}]
+                {name: "Roadmap", link: "/blog/roadmap", color: "#88B8BC"},
+                {name: "Community", link: "/blog/community", color: "#A58D80"},
+                {name: "Tutorial", link: "/blog/tutorial", color: "#9F7D71"},
+                {name: "Governance", link: "/blog/governance", color: "#CBB464"},
+                {name: "Defi", link: "/blog/defi", color: "#8493A5"},
+                {name: "News", link: "/blog/news", color: "#9C9C78"},
+                {name: "Vision", link: "/blog/vision", color: "#B1BBB4"},
+                {name: "Press Releases", link: "/blog/press-releases", color: "#DFC78E"}]
 
 
     const [state, setState] = useState({
