@@ -27,7 +27,7 @@ export default function SignupComponent() {
                         <input type="text" className="inputbox-input" placeholder="Enter Email" />
                     </div>
                 </div>
-                <div className="row justify-content-center py-3">
+                <div className="row justify-content-center py-3 pr-4">
                     <StyledButton text="SIGN UP" />
                 </div>
             </div>
