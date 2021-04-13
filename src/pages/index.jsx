@@ -18,9 +18,13 @@ export default function Index() {
 
                 <div className="row py-5">
                     <div className="col-md-12">
-                        {/* <WebsiteInfo /> */}
+                        <WebsiteInfo />
                     </div>
                 </div>
+                <div className="pt-5"></div>
+                <div className="pt-5"></div>
+                <div className="pt-5"></div>
+
                 <div className="row py-5">
                     <div className="col">
                         <Trading />

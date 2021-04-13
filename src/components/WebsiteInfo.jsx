@@ -9,16 +9,14 @@ export default function WebsiteInfo() {
                     <div class="float-md-left">
                         <div className="rectangle2744"></div>
                     </div>
-                    <div className="float-md-right">
-                        <div class="group3846">
+                    <div className="float-md-right pl-5">
                             <div class="rectangle1700">
-                                <div class="infolabel">
+                                <div class="infolabel p-3">
                                     Sovryn is a non-custodial and permissionless smart contract
                                         <br />
                                         based system for Bitcoin lending, borrowing and margin trading.
                                     </div>
                             </div>
-                        </div>
                     </div>
                     <div className="d-flex d-inline-block">
                         <div className="d-flex justify-content-end">
