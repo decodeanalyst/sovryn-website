@@ -1,5 +1,5 @@
 .label-cover {
-    height: 110px;
+    height: 140px;
 }
 
 .lbl-default {
@@ -11,6 +11,9 @@
     padding-inline: 15px;
     width: 100%;
     display: inline-block;
+    line-height: 50px;
+    height: auto;
+    padding: 5px;
 }
 
 .lbl-slanted {
@@ -23,18 +26,19 @@
 .lbl-figtext {
     position: relative;
     color: black;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     display: block;
     letter-spacing: 00.01em;
+    white-space: nowrap;
 }
 
 .lbl-exptext {
     position: relative;
     color: black;
-    font-size: 18px;
+    font-size: 30px;
     text-align: center;
     display: block;
     letter-spacing: 00.01em;
-    white-space: pre-wrap;
+    white-space: nowrap;
 }
