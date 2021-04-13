@@ -1,0 +1,40 @@
+.tag-label {
+    margin-left: 10px;
+    position: relative;
+    color: black;
+    font-family: Bangers;
+    letter-spacing: 00.01em;
+    white-space: nowrap;
+    background-color: rgba(247, 246, 232, 1);
+    text-transform: uppercase;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+
+    h3 {
+        text-align: center;
+        width: fit-content;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    a {
+        vertical-align: middle;
+        color:black;
+    }
+    a:active{
+        text-decoration: underline;
+    }
+}
+
+.tag-label-slanted{
+    padding-left: 59px;
+    padding-right: 59px;
+    -ms-transform: skewX(-0.02turn);
+    -webkit-transform: skewX(-0.02turn);
+    transform: skewX(-0.02turn);
+    padding-top: 8px;
+}

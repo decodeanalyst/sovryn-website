@@ -1,22 +1,27 @@
 import React from 'react';
 import BlogPostLabel from './BlogPostLabel';
 import BlogPostMetaLabel from './BlogPostMetaLabel';
+import { Link } from 'gatsby';
 
 import "../styles/blogpost.scss"
 
-export default function BlogPost({title, image, date, category}) {
+export default function BlogPost({title, image, date, category, slug}) {
  
+  const articleLink = `/blog${slug}`
+
     return (
-      <div className="post py-5">
+      <div className="post">
           <div className="d-inline-flex">
             <BlogPostMetaLabel text={ date } />
             <BlogPostMetaLabel text={ category } />
           </div>
-  
             <div className="article-cover">
-                <img className="img-fluid" src={ image } />
+              <Link to={ articleLink } >
+                <img className="img-fluid blog-feed-img" src={ image } />
+              </Link>
             </div>
-            <BlogPostLabel text={ title } />
+            <BlogPostLabel text={ title } link={ articleLink } />
+
       </div>
     )
 }

@@ -1,21 +1,20 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-
+import LabeledFrame from '../components/LabeledFrame'
 import "../styles/blogpost.scss"
 
-export default function HeroBlogPost({article}) {
+export default function HeroBlogPost({title, imgURL}) {
  
-  const imgURL = article.frontmatter.image ? article.frontmatter.image.publicURL : "https://via.placeholder.com/900x427";
-
     return (
       <>
-        <div className="hero-post row">
-          <div className="col-md-12">
+        <div className="hero pb-5">
+          <div className="article-cover">
+                <img className="img-fluid" src={ imgURL } />
+              </div>
             <div className="hero-label hero-label-slanted">
-              <h3 className="">{ article.frontmatter.title }</h3>
-             </div>
-                <img className="img-fluid article-cover" src={ imgURL } />
-          </div>
+              <h3>{ title }</h3>
+            </div>
+      
         </div>
       </>
     )

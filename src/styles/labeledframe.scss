@@ -1,33 +1,87 @@
-.framebanner {
-    width: auto;
-	background: gray;
-    border: 5px solid white;
+.frame-cover {
+    position: relative;
+    z-index: 1;
+    border: 5px solid #f7f6e7;
+    }
+
+.frame-label {
+    z-index: 2;
+    display: flex;
+    bottom: -115px;
+    right: 35px;
+    position: relative;
+    background-color: #f7f6e7;
+    color: black;
+    letter-spacing: 00.01em;
+    padding: 10px 5px 0px 5px;
+    font-family: Bangers-Regular, Bangers;
+    -ms-transform: skewX(-0.02turn);
+    -webkit-transform: skewX(-0.02turn);
+    transform: skewX(-0.02turn);
+    
+    h3 {
+        display: inline-flex;
+        font-size: 30px;
+        white-space: pre-wrap;
+    }
 }
-.frametextdefault {
-    transform: skew(-15deg);
-    display: inline-block;
+
+.frame-cover-blog {
+    top: -40px;
+}
+
+.frame-lbl-blog {
+    z-index: 2;
+    bottom: -10px;
+    left: -40px;
+    padding-inline: 10px;
+    position: relative;
+    color: black;
+    font-family: Bangers;
+    letter-spacing: 00.01em;
+    background-color: rgba(247, 246, 232, 1);
+    text-align: left !important;
+    text-transform: uppercase;
+    display: inline-flex;
+    -ms-transform: skewX(-0.02turn);
+    -webkit-transform: skewX(-0.02turn);
+    transform: skewX(-0.02turn);
+    width: fit-content;
+    
+    .h3-1 {
+        display: inline-flex;
+        font-size: 30px;
+        white-space: pre-wrap;
+    }
+}
+
+.frame-lbl-trending{
+    z-index: 2;
+    display: flex;
+    bottom: -35px;
+    right: 35px;
     position: relative;
     background-color: white;
     color: black;
-    font-size: 37px;
-    text-align: left;
     letter-spacing: 00.01em;
-    white-space: normal;
-    padding-left: 15px;
-    padding-right: 15px;
-    top: 20px;
-    right: 25px;
+    padding: 10px 5px 0px 5px;
     font-family: Bangers-Regular, Bangers;
-}
-.frametext {
-    position:relative;
-    display: block;
-}
-.img {
-    background-repeat: no-repeat;
-    width: 100%;
+    -ms-transform: skewX(-0.02turn);
+    -webkit-transform: skewX(-0.02turn);
+    transform: skewX(-0.02turn);
 
+    h3 {
+        display: inline-flex;
+        font-size: 30px;
+        white-space: pre-wrap;
+    }
 }
+  
+img{
+    position: relative;
+    width: 100%;
+}
+
 .nne{
     display: none !important;
 }
