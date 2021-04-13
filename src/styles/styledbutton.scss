@@ -7,6 +7,7 @@
 	padding: 1px 25px;
 	margin: 10px;
 	display: inline-block;
+	width: 100%;
 }
 
 .button-slanted {
@@ -24,13 +25,15 @@
 	-webkit-transform: skewX(0.03turn);
 	transform: skewX(0.03turn);
 	display: inline-block;
-	font-size: 18px;
+	font-size: 26px;
+	white-space: nowrap;
 	letter-spacing: 00.01em;
 	font-family: Bangers-Regular, Bangers;
 }
 
 .btn {
 	border-radius: 0 !important;
+	height: 50px;
 }
 
 .btn-link {

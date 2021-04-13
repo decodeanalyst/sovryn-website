@@ -18,8 +18,12 @@ export default function HeroSection() {
           </div>
           <div className="container">
             <div className="btn-wrap">
-              <StyledButton text="trade now" pageName="" />
-              <StyledButton1 text="faq" pageName="" />
+              <div className="col-md-2">
+                <StyledButton text="trade now" pageName="" />
+              </div>
+              <div className="col-md-2">
+                <StyledButton1 text="faq" pageName="" />
+              </div>
             </div>
           </div>
         </div>
