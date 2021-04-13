@@ -1,5 +1,6 @@
 import React from 'react';
 import DefaultLayout from '../components/DefaultLayout';
+import LabeledFrame from '../components/LabeledFrame';
 import InfoLabel from "../components/InfoLabel";
 import SignupComponent from '../components/SignupComponent';
 import SocialFooterLinks from '../components/SocialFooterLinks';
@@ -16,7 +17,10 @@ export default function mobileindex() {
             <DefaultLayout>
                 <div className="row">
                     <div className="col-md-12">
-                        {/* **hero frame** */}
+                        <LabeledFrame />
+                    </div>
+                    <div className="btn-wrap">
+                        <StyledButton text="trade now" pageName="/" />
                     </div>
                     <div className="col-md-6">
                         {/* **info label 1** */}

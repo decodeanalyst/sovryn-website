@@ -13,9 +13,13 @@ export default function Index() {
     return (
         <>
             <DefaultLayout>
-         
-                <HeroSection />
-
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <HeroSection />
+                        </div>
+                    </div>
+                </div>
                 <div className="row py-5">
                     <div className="col-md-12">
                         <WebsiteInfo />

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import LabeledFrame from '../components/LabeledFrame'
 import "../styles/blogpost.scss"
 
 export default function HeroBlogPost({title, imgURL}) {

@@ -369,3 +369,16 @@
   width: 1100.00px;
   height: 400.00px;
 }
+
+.btn-wrap {
+  display: flex; 
+  z-index: 3;
+  position:absolute;
+  bottom: 0px;
+  padding-bottom: 35px;
+  width:100%;
+}
+
+.headerimage {
+  position: relative;
+}

@@ -21,9 +21,13 @@ export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
         }
         return(
             <>
-            <div className="row col-md-12">
-                <div className={ className }>
-                    <h3 className={ className1 }>{ breakString(figtxt, 20) }</h3>
+            <div className="row head-img">
+                <div className="container">
+                    <div className="text-wrap">
+                        <div className={ className }>
+                            <h3>{ breakString(figtxt, 20) }</h3>
+                        </div>
+                    </div>
                 </div>
                 <img style={{ top: top }} className="img-fluid frame-cover" src={ img } />
             </div>
