@@ -6,6 +6,7 @@ import Trading from '../components/Trading';
 import SovDetails from '../components/SovDetails';
 import Trending from '../components/Trending';
 import SignupSection from '../components/SignupSection';
+import MobSignUp from '../components/MobSignUp';
 
  
 export default function Index() {
@@ -44,39 +45,16 @@ export default function Index() {
                         <Trending />
                     </div>
                 </div>
-                <div className="row">
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
-                <div className="p-5"></div>
+                <div className="row" id="div-desktop">
                 <div className="p-5"></div>
                 <div className="p-5"></div>
                 </div>
                 <div className="row py-5">
-                    <div className="col">
+                    <div className="col" id="div-desktop">
                         <SignupSection />
+                    </div>
+                    <div className="col" id="div-mobile">
+                        <MobSignUp />
                     </div>
                 </div>
             </DefaultLayout>
