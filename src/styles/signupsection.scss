@@ -131,19 +131,26 @@
     border-top-style: none;
     border-top-width: 1.00px;
     box-shadow: none;
-    width: 350px;
-    height: 600.00px;
+    width: max-content;
+    height: 450.00px;
   
   }
   .signUpboxText {
     position: relative;
     box-sizing: content-box;
     text-align: justify;
-    line-height: 24.00px;
+    line-height: 20.00px;
     color: rgba(0, 0, 0, 1);
-    font-size: 18.00px;
+    font-size: 14.00px;
     font-family: Montserrat;
 
+  }
+
+  .joinsov-mob {
+    font-family: Bangers;
+    font-size: 24px;
+    font-weight: 400px;
+    text-align: justify;
   }
 
   }

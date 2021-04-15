@@ -59,16 +59,17 @@ export default function SovDetails() {
                     </div>
                 </div>
             </div>
+            <div className="container"  id="div-mobile">
             <div className="row pt-5">
-                    <div className="col-md-5">
+                    <div className="col-md-12">
                             <div className="pl-3">
                                 <div className="rectangle1687-mob"> 
-                                    <div className="text-black-mob p-2">
+                                    <div className="sovtext-black-mob p-2">
                                         Participate in Sovryn Governance & earn fees
                                     </div>
                                 </div>
                             </div>
-                            <div className="whitebox2-mob p-3 text-justify">
+                            <div className="sovwhitebox2-mob p-3 text-justify">
                                 Sovryn is the first truly decentralised system where SOV token holders decide the free market. SOV token holders vote on how the first decentralised system built on Bitcoin will evolve and also earn fees for providing governance to the SOVRYN protocol.
                             </div>
                     </div>
@@ -87,6 +88,7 @@ export default function SovDetails() {
                 <div className="row pt-2 pb-5" >
                     <StyledButton1 text="how is sov governed?" pageName="" />
                 </div>
+            </div>
         </>
 
 

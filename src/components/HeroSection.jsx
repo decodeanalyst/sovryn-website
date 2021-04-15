@@ -41,7 +41,7 @@ export default function HeroSection() {
         </div>
       </div>
       </section>
-      <section id="mob-display">
+      <section id="div-mobile">
         <div className="row headerimage pt-4">
           <div className="row" id="herolabel">
             <LabeledFrame figtxt="The decentralized bitcoin trading and lending platform" img={ indeximg } banner={ true } pageStyle="index" />
@@ -58,10 +58,10 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="row py-4">
-          <div className="col-xs-6 pl-2">
+          <div className="col-xs-6 pl-3">
           <InfoLabel figtxt="100 BTC" exptxt="24hr trading volume" />
           </div>
-          <div className="col-xs-6 pl-2">
+          <div className="col-xs-6 pl-4">
           <InfoLabel figtxt="100,000" exptxt="total transactions" />
           </div>
         </div>

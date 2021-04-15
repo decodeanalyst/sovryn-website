@@ -115,13 +115,13 @@ export default function Trading() {
                 </div>
                 <div className="col-sm-12 pt-3">
                     <div className="rectangle1-mob">
-                        <div className="rectangle-text-mob">
+                        <div className="tradingrectangle-text-mob p-2">
                             SWAP
                         </div>
                         </div>
                         <div className="p-2"></div>
-                        <div className="whitebox-mob">
-                            <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
+                        <div className="tradingwhitebox-mob">
+                            <div className="p-2"> 
                                 Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
                             </div>
                         </div>
@@ -130,12 +130,12 @@ export default function Trading() {
                 <div className="row pt-3">
                 <div className="col-sm-12">
                     <div className="rectangle2-mob">
-                        <div className="rectangle-text-mob">
+                        <div className="tradingrectangle-text-mob p-2">
                             MARGIN TRADE
                         </div>
                         </div>
                         <div className="p-2"></div>
-                        <div className="whitebox-mob">
+                        <div className="tradingwhitebox-mob">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
                                 Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
                             </div>
@@ -145,12 +145,12 @@ export default function Trading() {
                 <div className="row pt-3">
                 <div className="col-sm-12">
                     <div className="rectangle3-mob">
-                        <div className="rectangle-text-mob">
+                        <div className="tradingrectangle-text-mob p-2">
                             STAKE
                         </div>
                         </div>
                         <div className="p-2"></div>
-                        <div className="whitebox-mob">
+                        <div className="tradingwhitebox-mob">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
                                 Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
                             </div>
@@ -160,12 +160,12 @@ export default function Trading() {
                 <div className="row pt-3">
                 <div className="col-sm-12">
                     <div className="rectangle4-mob">
-                        <div className="rectangle-text-mob">
+                        <div className="tradingrectangle-text-mob p-2">
                             BORROW
                         </div>
                         </div>
                         <div className="p-2"></div>
-                        <div className="whitebox-mob">
+                        <div className="tradingwhitebox-mob">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
                                 Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
                             </div>
@@ -175,12 +175,12 @@ export default function Trading() {
                 <div className="row pt-3">
                 <div className="col-sm-12">
                     <div className="rectangle5-mob">
-                        <div className="rectangle-text-mob">
+                        <div className="tradingrectangle-text-mob p-2">
                             LEND
                         </div>
                         </div>
                         <div className="p-2"></div>
-                        <div className="whitebox-mob">
+                        <div className="tradingwhitebox-mob">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
                                 Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
                             </div>
@@ -190,19 +190,19 @@ export default function Trading() {
                 <div className="row pt-3">
                 <div className="col-sm-12">
                     <div className="rectangle6-mob">
-                        <div className="rectangle-text-mob">
+                        <div className="tradingrectangle-text-mob p-2">
                             LIQUIDITY
                         </div>
                         </div>
                         <div className="p-2"></div>
-                        <div className="whitebox-mob">
+                        <div className="tradingwhitebox-mob">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
                                 Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="row pl-5 pt-3">
+                <div className="row pt-3">
                 <StyledButton text="GO TO DAPP" pageName="" />
                 </div>
             </div>

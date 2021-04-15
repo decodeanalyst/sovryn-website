@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/signupsection.scss'
+import MobSocialFooterLinks from './MobSocialFooterLinks';
 import SignupComponent from './SignupComponent';
 import SocialFooterLinks from './SocialFooterLinks';
  
@@ -8,28 +9,26 @@ export default function MobSignUp() {
     return (
         <>
                 <div className="row pt-5 pl-4">
-                    <h2 className="text-justify">
+                    <div className="joinsov-mob">
                         JOIN FOLLOW OG BITCOINERS AT SOVRYN
-                    </h2>
-                    <div className="col-md-12">
+                    </div>
+                    <div className="col-xs-12">
                     <div className="brownbox-mob">
-                        <div className="col-md-12">
-                            <div className=" d-flex justify-content-center">
-                                <div className="signUpboxText pt-3">
-                                Sign up for ecosystem news and updates. Privacy is our policy and all Sovryn users are anonymous. 
+                        <div className="col-xs-12">
+                            <div className="text-justify">
+                                <div className="signUpboxText pt-3 pl-3">
+                                Sign up for ecosystem news and <br /> updates. Privacy is our policy and all<br /> Sovryn users are anonymous. 
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-12 pt-3 pr-5">
-                            <div className=" d-flex justify-content-center">
-                            <div className="p-2"></div>
+                        <div className="col-xs-12 pt-3 pr-3 p-3">
+                            <div className="justify-content-center">
                             <SignupComponent />
                             </div>
                         </div>
-                        <div className="col-md-12 pr-5 pb-1">
-                            <div className=" d-flex justify-content-center">
-                                {/* <div className="p-2"></div> */}
-                                <SocialFooterLinks />
+                        <div className="col-xs-12 pt-1 pr-3">
+                            <div className="justify-content-center">
+                                <MobSocialFooterLinks />
                           </div>
                           <div className="pb-3"></div>
                         </div>
