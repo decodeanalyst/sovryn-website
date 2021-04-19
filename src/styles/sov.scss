@@ -485,7 +485,7 @@
   bottom: 15px;
 }
 .rectangle1687-mob {
-  z-index: 1;
+  z-index: 2;
   position: absolute;
   box-sizing: content-box;
   // -ms-transform: skewX(-0.02turn);
@@ -518,7 +518,6 @@
   width: 269px;
   height: 65.00px;
   left: 35px;
-  top: -55px;
 
 }
 
@@ -658,8 +657,8 @@ position: relative;
   box-sizing: content-box;
   background-color: rgb(255, 255, 255);
   box-shadow: none;
-  width: 100%;
-height: 130.00px;
+  width: fit-content;
+height: fit-content;
 color: rgba(0, 0, 0, 1);
 font-weight: 500;
 font-style: normal;

@@ -22,24 +22,22 @@ export default function Index() {
                     </div>
                 </div>
                 <div className="row py-5">
-                    <div className="col-md-12">
+                    <div className="col-md-12 pb-5">
                         <WebsiteInfo />
                     </div>
                 </div>
-                <div className="pt-5"></div>
-                <div className="pt-5"></div>
-                <div className="pt-5"></div>
-
+                <div className="py-5" id="div-desktop"></div>
                 <div className="row py-5">
                     <div className="col">
                         <Trading />
                     </div>
                 </div>
-                <div className="row py-5">
-                    <div className="col">
+                <div className="row py-5 pb-5">
+                    <div className="col pb-5">
                         <SovDetails />
                     </div>
                 </div>
+                <div className="py-5"></div>
                 <div className="row py-5">
                     <div className="col">
                         <Trending />

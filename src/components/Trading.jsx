@@ -28,7 +28,7 @@ export default function Trading() {
                         <div className="p-2"></div>
                         <div className="whitebox">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
-                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
+                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="yellow btn-link">Learn more</span>
                             </div>
                         </div>
                         <div className="p-2"></div>
@@ -41,7 +41,7 @@ export default function Trading() {
                         <div className="p-2"></div>
                         <div className="whitebox">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
-                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
+                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="yellow btn-link">Learn more</span>
                             </div>
                         </div>
                         <div className="p-2"></div>
@@ -54,7 +54,7 @@ export default function Trading() {
                         <div className="p-2"></div>
                         <div className="whitebox">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
-                            Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
+                            Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="yellow btn-link">Learn more</span>
                             </div>
                         </div>
                         <div className="p-2"></div>
@@ -72,7 +72,7 @@ export default function Trading() {
                         <div className="p-2"></div>
                         <div className="whitebox">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
-                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
+                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="yellow btn-link">Learn more</span>
                             </div>
                         </div>
                         <div className="p-2"></div>
@@ -85,7 +85,7 @@ export default function Trading() {
                         <div className="p-2"></div>
                         <div className="whitebox">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
-                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
+                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="yellow btn-link">Learn more</span>
                             </div>
                         </div>
                         <div className="p-2"></div>
@@ -98,7 +98,7 @@ export default function Trading() {
                         <div className="p-2"></div>
                         <div className="whitebox">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
-                            Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
+                            Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="yellow btn-link">Learn more</span>
                             </div>
                         </div>
                         <div className="p-2"></div>
@@ -106,14 +106,14 @@ export default function Trading() {
                     </div>
                 </div>
             </div>
-            <div className="container" id="div-mobile">
+            <div className="container pl-4" id="div-mobile">
             <div className="row pt-5">
-                <div className="col-sm-12">
+                <div className="col-xs-12">
                     <div className="slantedrectangle-mob text-black-mob p-2">
                                 Try SOVRYN’s Bitcoin native trading and lending platform
                     </div>
                 </div>
-                <div className="col-sm-12 pt-3">
+                <div className="col-xs-12 pt-3">
                     <div className="rectangle1-mob">
                         <div className="tradingrectangle-text-mob p-2">
                             SWAP
@@ -122,13 +122,13 @@ export default function Trading() {
                         <div className="p-2"></div>
                         <div className="tradingwhitebox-mob">
                             <div className="p-2"> 
-                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
+                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="yellow btn-link">Learn more</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="row pt-3">
-                <div className="col-sm-12">
+                <div className="col-xs-12">
                     <div className="rectangle2-mob">
                         <div className="tradingrectangle-text-mob p-2">
                             MARGIN TRADE
@@ -137,13 +137,13 @@ export default function Trading() {
                         <div className="p-2"></div>
                         <div className="tradingwhitebox-mob">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
-                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
+                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="yellow btn-link">Learn more</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="row pt-3">
-                <div className="col-sm-12">
+                <div className="col-xs-12">
                     <div className="rectangle3-mob">
                         <div className="tradingrectangle-text-mob p-2">
                             STAKE
@@ -152,13 +152,13 @@ export default function Trading() {
                         <div className="p-2"></div>
                         <div className="tradingwhitebox-mob">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
-                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
+                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="yellow btn-link">Learn more</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="row pt-3">
-                <div className="col-sm-12">
+                <div className="col-xs-12">
                     <div className="rectangle4-mob">
                         <div className="tradingrectangle-text-mob p-2">
                             BORROW
@@ -167,13 +167,13 @@ export default function Trading() {
                         <div className="p-2"></div>
                         <div className="tradingwhitebox-mob">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
-                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
+                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="yellow btn-link">Learn more</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="row pt-3">
-                <div className="col-sm-12">
+                <div className="col-xs-12">
                     <div className="rectangle5-mob">
                         <div className="tradingrectangle-text-mob p-2">
                             LEND
@@ -182,13 +182,13 @@ export default function Trading() {
                         <div className="p-2"></div>
                         <div className="tradingwhitebox-mob">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
-                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
+                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="yellow btn-link">Learn more</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="row pt-3">
-                <div className="col-sm-12">
+                <div className="col-xs-12">
                     <div className="rectangle6-mob">
                         <div className="tradingrectangle-text-mob p-2">
                             LIQUIDITY
@@ -197,7 +197,7 @@ export default function Trading() {
                         <div className="p-2"></div>
                         <div className="tradingwhitebox-mob">
                             <div className="swapYourCryptoNearInstantlyWithoutAMiddleManAndWithoutGivingUpYourKeysLearnMore p-2"> 
-                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="text-warning btn-link">Learn more</span>
+                                Swap your crypto near instantly, without a middle man and without giving up your keys. <span className="yellow btn-link">Learn more</span>
                             </div>
                         </div>
                     </div>

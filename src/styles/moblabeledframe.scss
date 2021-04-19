@@ -1,0 +1,59 @@
+.frame-cover-mob {
+    top: 0px;
+    position: relative;
+    z-index: 1;
+    border: 5px solid #f7f6e7;
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    display: inline;
+    }
+
+.frame-label-mob {
+    z-index: 2;
+    display:inline-block;
+    position: relative;
+    background-color: #f7f6e7;
+    color: black;
+    letter-spacing: 00.01em;
+    padding: 10px 15px 0px 15px;
+    font-family: Bangers-Regular, Bangers;
+    -ms-transform: skewX(-0.02turn);
+    -webkit-transform: skewX(-0.02turn);
+    transform: skewX(-0.02turn);
+    
+    h3 {
+        display: inline-flex;
+        font-size: 40px;
+        line-height: 40px;
+        padding: 5px;
+        white-space: pre-wrap;
+    }
+}
+
+  
+img{
+    position: relative;
+    width: 100%;
+}
+
+.nne{
+    display: none !important;
+}
+
+.head-img {
+    position: relative;
+}
+
+.text-wrap {
+    display: flex;
+    position:absolute;
+    top: 0px;
+    padding-top: 40px;
+    left: -20px;
+    width:100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+
+}

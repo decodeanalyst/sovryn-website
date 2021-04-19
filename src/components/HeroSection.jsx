@@ -43,7 +43,7 @@ export default function HeroSection() {
       </section>
       <section id="div-mobile">
         <div className="row headerimage pt-4">
-          <div className="row" id="herolabel">
+          <div className="col-xs-12 pl-4 justify-content-center" id="herolabel">
             <LabeledFrame figtxt="The decentralized bitcoin trading and lending platform" img={ indeximg } banner={ true } pageStyle="index" />
           </div>
           <div className="container">

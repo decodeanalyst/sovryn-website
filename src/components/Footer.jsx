@@ -13,7 +13,7 @@ export default function Footer() {
     return (
       <section id="footer" className="footer-wrapper">
         <div className="container">
-          <div className="row text-center text-xs-center text-sm-left text-md-left">
+          <div className="row text-center text-xs-center text-sm-left text-md-left position-sticky">
             
             <div className="col-xs-12 col-sm-4 col-md-8">
               <div className="row">

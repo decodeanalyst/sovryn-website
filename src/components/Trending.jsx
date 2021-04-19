@@ -92,10 +92,10 @@ export default function Trending() {
 </div>
 <div class="container align-middle" id="div-mobile">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-xs-12 p-3">
             <LabeledFrame figtxt={data[0].frontmatter.title} img={imgURL} banner={true} pageStyle="indexTrending" />
         </div>
-        <div className="col-md-6">
+        <div className="col-xs-12 p-2">
             <div className="container">
                 <div className="row">
                 {
@@ -129,10 +129,10 @@ export default function Trending() {
                         })
                 }
                 </div>
-                <div className="row">
+                <div className="row pr-3">
                   <div className="col-md-6">
                   </div>
-                  <div className="col-md-6 justify-content-center pt-5">
+                  <div className="col-md-12 justify-content-center py-3">
                     <StyledButton text="VISIT BLOG" pageName="blog" />
                   </div>
                 </div>

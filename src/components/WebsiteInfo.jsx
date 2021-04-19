@@ -1,16 +1,17 @@
 import React from "react";
 import "../styles/websiteinfo.scss";
+import img from "../static/rectangle2744.png";
+import MobLabeledFrame from "../components/MobLabeledFrame";
 
 export default function WebsiteInfo() {
     return (
         <>
             <div className="container" id="div-desktop">
                 <div className="row">
-                    <div className="col-md-12">
-                        <div class="float-md-left">
+                    <div className="col-md-4">
                             <div className="rectangle2744"></div>
-                        </div>
-                        <div className="float-md-right pl-5">
+                    </div>
+                    <div className="col-md-8">
                                 <div class="rectangle1700">
                                     <div class="infolabel p-3">
                                         Sovryn is a non-custodial and permissionless smart contract
@@ -18,10 +19,9 @@ export default function WebsiteInfo() {
                                             based system for Bitcoin lending, borrowing and margin trading.
                                         </div>
                                 </div>
-                        </div>
-                        <div className="d-flex d-inline-block">
-                            <div className="d-flex justify-content-end">
-                                <div className="col-md-3">
+                        <div className=" row d-flex d-inline-block">
+                            <div className="d-flex">
+                                <div className="col-md-4 pr-3 pt-5">
                                     <div class="group5812">
                                         <div className="d-flex d-inline-block">
                                             <div class="x1">
@@ -29,16 +29,16 @@ export default function WebsiteInfo() {
                                             </div>
                                             <div class="theCryptoExchangeThatSatoshiWouldUse">
                                                 The crypto exchange <br />that satoshi would use
+                                            </div>
                                         </div>
-                                        </div>
-                                        <div className="rectangle2820">
+                                        <div className="rectangle-info">
                                             <div className="sovrynExpands p-2">
                                                 Sovryn expands on Satoshi’s vision by providing OG bitcoiners with the non-custodial and permissionless, smart contract based Bitcoin-native system for Bitcoin lending, borrowing and margin trading.
                                         </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-3">
+                                <div className="col-md-4 pt-5">
                                     <div className="group5813">
                                         <div className="d-flex d-inline-block">
                                             <div className="x2">
@@ -48,22 +48,24 @@ export default function WebsiteInfo() {
                                                 Your keys, <br />your control
                                             </div>
                                         </div>
-                                        <div class="rectangle1823">
+                                        <div class="rectangle-info">
                                             <div class="earnYield p-2">
                                                 Earn yield on your Bitcoin, trade cryptocurrencies, borrow and lend on Sovryn’s open, fair and transparent financial system directly from your wallet.
                                                 </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-3">
+                                <div className="col-md-5 pt-5">
                                     <div className="group5814">
-                                        <div className="escapeCentralisation">
-                                            Escape <br />centralisation
-                                </div>
+                                    <div className="d-flex d-inline-block">
                                         <div className="x3">
                                             3.
-                                </div>
-                                        <div className="rectangle1821">
+                                        </div>
+                                        <div className="escapeCentralisation P-3">
+                                            Escape <br />centralisation
+                                        </div>
+                                        </div>
+                                        <div className="rectangle-info">
                                             <div className="sovrynIs p-2">
                                                 Sovryn is the next step in bitcoin’s evolution. Bitcoiners never have to give away their keys to a centralised service again. Every transaction on Sovryn is secured by the Bitcoin miners and every transaction is pseudonymous, giving you back your sovereignty.
                                     </div>
@@ -75,19 +77,19 @@ export default function WebsiteInfo() {
                     </div>
                 </div>
             </div>
-            <div className="container" id="div-mobile">
-                <div className="col-xs-12 pt-3">
-                    {/* **insert frame here** */}
+            <div id="div-mobile">
+                <div className="col-xs-12 pt-3 justify-content-center pl-4">
+                    <MobLabeledFrame figtxt="" img={ img } banner={ false } pageStyle="blog" />
                 </div>
-            <div className="col-xs-12 pt-2">
+                <div className="col-xs-12 pt-3 pl-4">
                         <div className="textbox1-webinfo p-3 text-left">
                             <h3>
                                 Sovryn is a non-custodial and permissionless smart contract
                                 based system for Bitcoin lending, borrowing and margin trading.
                             </h3>
                         </div>
-                    </div>
-                    <div className="col-xs-12 pt-3 justify-content-center">
+                </div>
+                    <div className="col-xs-12 pt-3 justify-content-center pl-5">
                         <div className="d-flex d-inline-block">
                             <div class="x1-webinfo">
                                 1.<span></span>
@@ -96,15 +98,13 @@ export default function WebsiteInfo() {
                                 The crypto exchange <br />that satoshi would use
                             </div>
                         </div>
-                        <div className="pt-2"></div>
+                        <div className="pt-3"></div>
                         <div className="rectangle2820-webinfo">
                             <div className="sovrynExpands-webinfo p-2">
                                 Sovryn expands on Satoshi’s vision by providing OG bitcoiners with the non-custodial and permissionless, smart contract based Bitcoin-native system for Bitcoin lending, borrowing and margin trading.
                             </div>
                         </div>
-                    </div>
-                    <div className="col-xs-12 pt-3 justify-content-center">
-                        <div className="d-flex d-inline-block">
+                        <div className="d-flex d-inline-block pt-3">
                             <div class="x1-webinfo">
                                 2.<span></span>
                             </div>
@@ -112,15 +112,13 @@ export default function WebsiteInfo() {
                                 Your Keys <br /> your control
                             </div>
                         </div>
-                        <div className="pt-2"></div>
+                        <div className="pt-3"></div>
                         <div className="rectangle2820-webinfo">
                             <div className="sovrynExpands-webinfo p-2">
                             Earn yield on your Bitcoin, trade cryptocurrencies, borrow and lend on Sovryn’s open, fair and transparent financial system directly from your wallet.
                             </div>
                         </div>
-                    </div>
-                    <div className="col-xs-12 pt-3 justify-content-center">
-                        <div className="d-flex d-inline-block">
+                        <div className="d-flex d-inline-block pt-3">
                             <div class="x1-webinfo">
                                 3.<span></span>
                             </div>
@@ -128,10 +126,10 @@ export default function WebsiteInfo() {
                             Escape <br />centralisation
                             </div>
                         </div>
-                        <div className="pt-2"></div>
-                        <div className="rectangle2820-webinfo">
+                        <div className="pt-3"></div>
+                        <div className="rectangle2820-webinfo p-2">
                             <div className="sovrynExpands-webinfo p-2">
-                            Sovryn is the next step in bitcoin’s evolution. Bitcoiners never have to give away their keys to a centralised service again. Every transaction on Sovryn is secured by the Bitcoin miners and every transaction is pseudonymous, giving you back your sovereignty.
+                                Sovryn is the next step in bitcoin’s evolution. Bitcoiners never have to give away their keys to a centralised service again. Every transaction on Sovryn is secured by the Bitcoin miners and every transaction is pseudonymous, giving you back your sovereignty.
                             </div>
                         </div>
                     </div>
