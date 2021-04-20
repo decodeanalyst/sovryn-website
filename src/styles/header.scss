@@ -1,6 +1,7 @@
 
 .menu {
 
+	cursor: pointer;
 	padding-bottom: 60px;
 
 	a {
@@ -14,11 +15,18 @@
 		height: 40.00px;
 	}
 
+	.navbar-toggler-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	}
+
+	.navbar-nav {
+		background-color: white;
+	}
+
 	.titles {
 		transform: rotate(0.00deg);
 		transform-origin: center;
 		opacity: 1;
-		cursor: default;
 		background-color: rgba(255, 255, 255, 0);
 		text-align: left;
 		line-height: 36.00px;
@@ -46,7 +54,6 @@
 		-webkit-transform-origin: center;
 		transform-origin: center;
 		opacity: 1;
-		cursor: default;
         margin-right: 20px;
 		overflow-x: unset;
 		overflow-y: unset;
@@ -61,7 +68,6 @@
 			-webkit-transform-origin: center;
 			transform-origin: center;
 			opacity: 1;
-			cursor: default;
 			padding-left: 20px;
 			padding-right: 20px;
 			padding-top: 4px;
@@ -88,7 +94,6 @@
 
 		.toTheDapp {
 			opacity: 1;
-			cursor: default;
 			margin-top: 10.00px;
 			margin-right: 0.00px;
 			margin-bottom: 10.00px;

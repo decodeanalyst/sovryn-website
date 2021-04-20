@@ -3,12 +3,11 @@
     -ms-transform: skewX(-0.02turn);
     -webkit-transform: skewX(-0.02turn);
     transform: skewX(-0.02turn);
-    position: relative;
     font-family: Bangers;
     font-size: 18px;
     font-weight: 400;
     text-align: left;
-    display: block;
+    float: left;
     letter-spacing: 00.01em;
     padding-inline: 15px;
     display: inline-block;

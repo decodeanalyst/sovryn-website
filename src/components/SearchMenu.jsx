@@ -4,8 +4,8 @@ import "../styles/searchmenu.scss";
 
 export default function SearchMenu({ onSearchChanged }) {
     return (
-        <div className="container">
-            <div className="d-inline-flex">
+        <div>
+            <div className="d-flex">
             <input type="text"
              className="searchmenu"
              placeholder="Search..."
