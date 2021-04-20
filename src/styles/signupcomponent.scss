@@ -27,3 +27,36 @@
     
 } 
 
+@media screen and (min-width: 0px) and (max-width: 700px) {
+
+
+    .inputbox-input{
+        -ms-transform: skewX(-0.02turn);
+        -webkit-transform: skewX(-0.02turn);
+        transform: skewX(-0.02turn);
+        position: relative;
+        font-family: Bangers;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        display: block;
+        letter-spacing: 00.01em;
+        padding-inline: 15px;
+        display: inline-block;
+        height: 40px;
+        width: 280px;
+        border: rgb(155, 144, 131) solid 2px;
+        right: 3.70px;
+    }
+
+    .signuptext {
+        font-family: Bangers;
+        font-size: 16px;
+        text-align: left;
+        display: block;
+        text-transform: uppercase;
+        color: black;
+        
+    } 
+
+}

@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import SidebarBlogPost from './BlogSidebar';
 
-import TagCloud from './TagCloud';
-import SidebarBlogPost from './SidebarBlogPost';
+import MobTagCloud from './MobTagCloud';
 import SearchMenu from '../components/SearchMenu';
 import "../styles/sidebar.scss";
 
-export default function BlogSidebar() {
+export default function BlogMenu() {
  
   const markdown = useStaticQuery(graphql`
   {
@@ -84,30 +84,25 @@ export default function BlogSidebar() {
   const featuredArticles = state.query ? state.filteredData : articles;
 
     return (
-        <>  
-              <div id="div-desktop">
+        <>    
+            <div className="container-fluid" id="div-mobile">
+                <div className="row">
+                    <div className="col-md-12">
+                    <MobTagCloud tags={ tags } />
+                    <div className="pt-4"></div>
+                    <SearchMenu onSearchChanged={ (text) => handleSearchChange(text) } />
+                    <div className="pb-5"></div>
+                    <h3>{ state.query ? `Search Results For: ${ state.query }` : "Featured" }</h3>
+                    </div>
+                </div>
+            </div>
+              {/* <div id="div-mobile">
               <TagCloud tags={ tags } />
               <div className="pt-2"></div>
               <SearchMenu onSearchChanged={ (text) => handleSearchChange(text) } />
               </div>
-
-
-            <div className="pb-5"></div>
-            <h3>{ state.query ? `Search Results For: ${ state.query }` : "Featured" }</h3>
-
-            {
-                    featuredArticles.map((node, index) => {
-
-                    const imgURL = node.frontmatter.image ? node.frontmatter.image.publicURL : "https://via.placeholder.com/427x240";
-                        return (
-                            <SidebarBlogPost key={ index }
-                             title={ node.frontmatter.title }
-                             image={ imgURL }
-                             date={node.frontmatter.date }
-                             slug={node.fields.slug }   />
-                        )
-                    })
-                }
+              <div className="pb-5"></div>
+            <h3>{ state.query ? `Search Results For: ${ state.query }` : "Featured" }</h3> */}
         </>
     );
 }

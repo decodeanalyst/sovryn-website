@@ -2,6 +2,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {

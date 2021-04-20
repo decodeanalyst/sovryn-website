@@ -27,7 +27,7 @@ export default function SignupSection() {
                     <SocialFooterLinks /> 
                     </div>
                 </div>
-                <div className="col-lg-3 py-4">
+                <div className="col-lg-3 py-2">
                 <SignupComponent />
                 </div>
             </div>

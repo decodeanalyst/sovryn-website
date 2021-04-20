@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/labeledframe.scss";
+import "../styles/moblabeledframe.scss";
 import {breakString} from '../components/BreakString.js'
 
-export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
-        let className='frame-label';
+export default function MobLabeledFrame({figtxt, img, banner, pageStyle}) {
+        let className='frame-label-mob';
         let className1='h3';
         let top='0px';
         if(pageStyle==="blog"){
@@ -29,7 +29,7 @@ export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
                         </div>
                     </div>
                 </div>
-                <img style={{ top: top }} className="img-fluid frame-cover" src={ img } />
+                <img style={{ top: top }} className="img-fluid frame-cover-mob" src={ img } />
             </div>
             </>
         );

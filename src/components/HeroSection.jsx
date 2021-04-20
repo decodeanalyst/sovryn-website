@@ -11,23 +11,62 @@ export default function HeroSection() {
   return (
     <>
     
-        <LabeledFrame figtxt="The decentralized bitcoin trading and lending platform" img={ indeximg } banner={ true } pageStyle="index" />
-  
-          <StyledButton text="trade now" pageName="" />
-          <StyledButton1 text="faq" pageName="" />
-      <div className="row">
-        <div className="col-lg-4 py-5">
-          <InfoLabel figtxt="100 BTC" exptxt="24hr trading volume" />
-          <div className="p-3"></div>
+      <section id="div-desktop">
+      <div className="row headerimage pt-4">
+          <div className="row" id="herolabel">
+            <LabeledFrame figtxt="The decentralized bitcoin trading and lending platform" img={ indeximg } banner={ true } pageStyle="index" />
+          </div>
+          <div className="container">
+            <div className="btn-wrap">
+              <div className="col-md-2">
+                <StyledButton text="trade now" pageName="" />
+              </div>
+              <div className="col-md-2">
+                <StyledButton1 text="faq" pageName="" />
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="col-lg-4 py-5">
+      <div className="row">
+        <div className="col align-self-start py-5" id="infolabel1-mob">
+          <InfoLabel figtxt="100 BTC" exptxt="24hr trading volume" />
+        </div>
+        <div className="col-md-1"></div>
+        <div className="col align-self-center py-5">
         <InfoLabel figtxt="100,000" exptxt="total transactions" />
         </div>
-        <div className="col-lg-4 py-5">
+        <div className="col-md-1"></div>
+        <div className="col align-self-end py-5" id="optional">
         <InfoLabel figtxt="1,000,000 BTC" exptxt="total transacted" />
         </div>
-
       </div>
+      </section>
+      <section id="div-mobile">
+        <div className="row headerimage pt-4">
+          <div className="col-xs-12 pl-4 justify-content-center" id="herolabel">
+            <LabeledFrame figtxt="The decentralized bitcoin trading and lending platform" img={ indeximg } banner={ true } pageStyle="index" />
+          </div>
+          <div className="container">
+            <div className="btn-wrap">
+              <div className="col-md-2">
+                <StyledButton text="trade now" pageName="" />
+              </div>
+              <div className="col-md-2">
+                <StyledButton1 text="faq" pageName="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row py-4">
+          <div className="col-xs-6 pl-3">
+          <InfoLabel figtxt="100 BTC" exptxt="24hr trading volume" />
+          </div>
+          <div className="col-xs-6 pl-4">
+          <InfoLabel figtxt="100,000" exptxt="total transactions" />
+          </div>
+        </div>
+
+      </section>
     </>
   )
 }

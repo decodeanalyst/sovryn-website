@@ -5,6 +5,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 import BlogFeed from '../../components/BlogFeed';
 import BlogSidebar from '../../components/BlogSidebar';
 import HeroBlogPost from '../../components/HeroBlogPost';
+import BlogMenu from '../../components/BlogMenu';
 
 export default function Blog() {
 
@@ -45,6 +46,7 @@ export default function Blog() {
                   <HeroBlogPost title={ markdown.allMarkdownRemark.nodes[0].frontmatter.title }
                    imgURL= { markdown.allMarkdownRemark.nodes[0].frontmatter.image.publicURL }
                    />
+                   {/* <BlogMenu /> */}
                   <BlogFeed articles={ markdown.allMarkdownRemark.nodes } />
                 </div>
                 <div className="col-md-4">

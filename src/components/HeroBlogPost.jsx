@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import LabeledFrame from '../components/LabeledFrame'
 import "../styles/blogpost.scss"
+import BlogMenu from './BlogMenu'
 
 export default function HeroBlogPost({title, imgURL}) {
  
@@ -14,8 +14,8 @@ export default function HeroBlogPost({title, imgURL}) {
             <div className="hero-label hero-label-slanted">
               <h3>{ title }</h3>
             </div>
-      
         </div>
+        <BlogMenu />
       </>
     )
 }
