@@ -4,11 +4,13 @@ import GovernanceFooterLinks from './GovernanceFooterLinks';
 import LearnFooterLinks from './LearnFooterLinks';
 import ProductFooterLinks from './ProductFooterLinks';
 import SocialFooterLinks from './SocialFooterLinks';
+import useWindowSize from '../components/useWindowSize';
  
 import "../styles/footer.scss"
 
 
 export default function Footer() {
+  const {width} = useWindowSize(); 
  
     return (
       <section id="footer" className="footer-wrapper">
@@ -16,24 +18,61 @@ export default function Footer() {
           <div className="row text-center text-xs-center text-sm-left text-md-left position-sticky">
             
             <div className="col-xs-12 col-sm-4 col-md-8">
-              <div className="row">
-                <div className="col">
-                  <ProductFooterLinks />
+              {width > 768 &&(
+                <div className="row">
+                <div className="row px-4">
+                  <div className="col-md">
+                    <ProductFooterLinks />
+                  </div>
                 </div>
 
-                <div className="col">
+                <div className="row px-4">
+                  <div className="col-md">
                   <GovernanceFooterLinks />
+                  </div>
                 </div>
 
-                <div className="col-5">
+                <div className="row px-4">
+                  <div className="col-md">
                   <LearnFooterLinks />
+                  </div>
                 </div>
             
-                <div className="col">
+                <div className="row px-3">
+                  <div className="col-md">
                   <AboutFooterLinks />
+                  </div>
+                </div>
+                </div>
+              )}
+              {width < 768 &&(
+                <div className="col">
+                <div className="row px-4">
+                  <div className="col-md">
+                    <ProductFooterLinks />
+                  </div>
+                </div>
+
+                <div className="row px-4">
+                  <div className="col-md">
+                  <GovernanceFooterLinks />
+                  </div>
+                </div>
+
+                <div className="row px-4">
+                  <div className="col-md">
+                  <LearnFooterLinks />
+                  </div>
+                </div>
+            
+                <div className="row px-3">
+                  <div className="col-md">
+                  <AboutFooterLinks />
+                  </div>
                 </div>
 
               </div>
+              )}
             </div>
 
             <div className="col-xs-12 col-sm-12 col-md-4">
