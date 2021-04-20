@@ -17,7 +17,7 @@ export default function mobileindex() {
             <DefaultLayout>
                 <div className="row">
                     <div className="col-md-12">
-                        <LabeledFrame />
+                        {/* <LabeledFrame /> */}
                     </div>
                     <div className="btn-wrap">
                         <StyledButton text="trade now" pageName="/" />
