@@ -4,13 +4,11 @@ import GovernanceFooterLinks from './GovernanceFooterLinks';
 import LearnFooterLinks from './LearnFooterLinks';
 import ProductFooterLinks from './ProductFooterLinks';
 import SocialFooterLinks from './SocialFooterLinks';
-import useWindowSize from '../components/useWindowSize';
  
 import "../styles/footer.scss"
 
 
 export default function Footer() {
-  const {width} = useWindowSize(); 
  
     return (
       <section id="footer" className="footer-wrapper">
@@ -18,7 +16,7 @@ export default function Footer() {
           <div className="row text-center text-xs-center text-sm-left text-md-left position-sticky">
             
             <div className="col-xs-12 col-sm-4 col-md-8">
-              {width > 768 &&(
+              <div id="div-desktop">
                 <div className="row">
                 <div className="row px-4">
                   <div className="col-md">
@@ -44,8 +42,8 @@ export default function Footer() {
                   </div>
                 </div>
                 </div>
-              )}
-              {width < 768 &&(
+                </div>
+              <div id="div-mobile">
                 <div className="col">
                 <div className="row px-4">
                   <div className="col-md">
@@ -72,7 +70,7 @@ export default function Footer() {
                 </div>
 
               </div>
-              )}
+              </div>
             </div>
 
             <div className="col-xs-12 col-sm-12 col-md-4 pt-5">
