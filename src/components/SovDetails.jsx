@@ -75,7 +75,7 @@ export default function SovDetails() {
                     </div>
                 </div>
                 <div className="row pt-3 d-inline-flex" id="div-mobile">
-                    <div className="col-xs-5 pl-1">
+                    <div className="col-xs-5 pl-3">
                     <InfoLabel figtxt="50,000,000" exptxt="sov remaining" />
                     </div>
                     <div className="col-xs-5 pl-3">

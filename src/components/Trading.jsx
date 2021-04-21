@@ -203,7 +203,9 @@ export default function Trading() {
                     </div>
                 </div>
                 <div className="row pt-3">
-                <StyledButton text="GO TO DAPP" pageName="" />
+                    <div className="col-xs-4 pl-5">
+                        <StyledButton text="Go to dapp" pageName="" />
+                    </div>
                 </div>
             </div>
         </>

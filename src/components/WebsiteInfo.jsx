@@ -78,11 +78,11 @@ export default function WebsiteInfo() {
                 </div>
             </div>
             <div id="div-mobile">
-                <div className="col-xs-12 pt-3 justify-content-center pl-4">
+                <div className="col-xs-12 pt-3 justify-content-center pl-4 pr-3">
                     <MobLabeledFrame figtxt="" img={ img } banner={ false } pageStyle="blog" />
                 </div>
-                <div className="col-xs-12 pt-3 pl-4">
-                        <div className="textbox1-webinfo p-3 text-left">
+                <div className="col-xs-12 pt-3 pl-3 pr-3">
+                        <div className="textbox1-webinfo text-left p-2">
                             <h3>
                                 Sovryn is a non-custodial and permissionless smart contract
                                 based system for Bitcoin lending, borrowing and margin trading.
