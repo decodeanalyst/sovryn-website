@@ -48,7 +48,7 @@ export default function HeroSection() {
           </div>
           <div className="container">
             <div className="btn-wrap d-flex justify-content-center">
-              <div className="col-xs">
+              <div className="col-xs pr-4">
                 <StyledButton text="trade now" pageName="" />
               </div>
             </div>

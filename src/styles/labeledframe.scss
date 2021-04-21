@@ -32,13 +32,18 @@
 }
 
 .frame-cover-blog {
-    top: -40px;
+    top: 0px;
+    position: relative;
+    z-index: 1;
+    border: 5px solid #f7f6e7;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-size: cover;
 }
 
 .frame-lbl-blog {
     z-index: 2;
-    bottom: -10px;
-    left: -40px;
     padding-inline: 10px;
     position: relative;
     color: black;
@@ -112,9 +117,9 @@ img{
     z-index: 1;
     border: 5px solid #f7f6e7;
     width: 100%;
-    height: 600px;
+    height: 450px;
     overflow: hidden;
-    display: inline;
+    background-size: cover;
     }
 
 .frame-label {
@@ -139,11 +144,22 @@ img{
     }
 }
 
+.frame-cover-trending {
+    top: 0px;
+    position: relative;
+    z-index: 1;
+    border: 5px solid #f7f6e7;
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+    background-size: cover;
+    }
+
 .frame-lbl-trending{
     z-index: 2;
     display: flex;
-    top: -55px;
-    right: -15px;
+    top: -15px;
+    right: -10px;
     position: relative;
     background-color: white;
     color: black;
@@ -156,6 +172,42 @@ img{
 
     h3 {
         display: inline-flex;
+        font-size: 28px;
+        white-space: pre-wrap;
+    }
+}
+
+.frame-cover-blog {
+    top: 0px;
+    position: relative;
+    z-index: 1;
+    border: 5px solid #f7f6e7;
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.frame-lbl-blog {
+    z-index: 2;
+    top: -20px;
+    right: -13px;
+    padding-inline: 10px;
+    position: relative;
+    color: black;
+    font-family: Bangers;
+    letter-spacing: 00.01em;
+    background-color: rgba(247, 246, 232, 1);
+    text-align: left !important;
+    text-transform: uppercase;
+    display: inline-flex;
+    -ms-transform: skewX(-0.02turn);
+    -webkit-transform: skewX(-0.02turn);
+    transform: skewX(-0.02turn);
+    width: fit-content;
+    
+    .h3-1 {
+        display: flex;
         font-size: 28px;
         white-space: pre-wrap;
     }

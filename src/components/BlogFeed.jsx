@@ -6,7 +6,7 @@ export default function BlogFeed({articles}) {
 
     return (
         <>
-                <div className="row">
+        <div className="row">
                 {
                     articles.map((node, index) => {
                     const { slug } = node.fields;
@@ -26,7 +26,8 @@ export default function BlogFeed({articles}) {
                         )
                     })
                 }
-            </div>
+        </div>
+                
 
         </>
     );

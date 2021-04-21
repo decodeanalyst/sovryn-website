@@ -42,12 +42,15 @@ export default function Blog() {
             </nav>
 
               <div className="row">
-                <div className="col-md-8">
+                <div className="col-md-7">
                   <HeroBlogPost title={ markdown.allMarkdownRemark.nodes[0].frontmatter.title }
                    imgURL= { markdown.allMarkdownRemark.nodes[0].frontmatter.image.publicURL }
                    />
                    {/* <BlogMenu /> */}
-                  <BlogFeed articles={ markdown.allMarkdownRemark.nodes } />
+                  <div id="div-desktop">
+                    <BlogFeed articles={ markdown.allMarkdownRemark.nodes } />
+                  </div>
+                <div className="col-md"></div>
                 </div>
                 <div className="col-md-4">
                   <BlogSidebar />

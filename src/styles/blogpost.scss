@@ -127,7 +127,6 @@
 			position: relative;
 			color: black;
 			font-family: Bangers;
-			font-size: 18px;
 			display: inline-flex;
 			letter-spacing: 00.01em;
 			background-color: rgba(247, 246, 232, 1);
@@ -187,4 +186,37 @@
 		}
 	}
 
+	.hero {
+		.article-cover {
+			position: relative;
+			z-index: 1;
+			width: 100%;
+			height: 400px;
+			overflow: hidden;
+		}
+	
+		.hero-label {
+			z-index: 2;
+			position: absolute;
+			color: black;
+			font-family: Bangers;
+			letter-spacing: 00.01em;
+			background-color: rgba(247, 246, 232, 1);
+			text-align: left;
+			text-transform: uppercase;
+			display: inline-block;
+	
+			h3 {
+				display: inline;
+				font-size: 28px;
+				line-height: 35px;
+			}
+		}
+	
+		.hero-label-slanted {
+			-ms-transform: skewX(-0.02turn);
+			-webkit-transform: skewX(-0.02turn);
+			transform: skewX(-0.02turn);
+		}
+	}
 }
