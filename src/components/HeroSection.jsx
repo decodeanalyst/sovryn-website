@@ -47,18 +47,15 @@ export default function HeroSection() {
             <LabeledFrame figtxt="The decentralized bitcoin trading and lending platform" img={ indeximg } banner={ true } pageStyle="index" />
           </div>
           <div className="container">
-            <div className="btn-wrap">
-              <div className="col-md-2">
+            <div className="btn-wrap d-flex justify-content-center">
+              <div className="col-xs">
                 <StyledButton text="trade now" pageName="" />
-              </div>
-              <div className="col-md-2">
-                <StyledButton1 text="faq" pageName="" />
               </div>
             </div>
           </div>
         </div>
         <div className="row py-4">
-          <div className="col-xs-6 pl-3">
+          <div className="col-xs-6 pl-2">
           <InfoLabel figtxt="100 BTC" exptxt="24hr trading volume" />
           </div>
           <div className="col-xs-6 pl-4">

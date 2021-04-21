@@ -4,7 +4,7 @@ export default function AboutFooterLinks() {
  
     return (
         <>
-            <h5>About</h5>
+            <h5 className="d-flex" >About</h5>
                   <ul className="list-unstyled quick-links">
                     <li>
                       <a href="https://www.fiverr.com/share/qb8D02">

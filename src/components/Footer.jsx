@@ -75,7 +75,7 @@ export default function Footer() {
               )}
             </div>
 
-            <div className="col-xs-12 col-sm-12 col-md-4">
+            <div className="col-xs-12 col-sm-12 col-md-4 pt-5">
                 <SocialFooterLinks />
             </div>
           </div>

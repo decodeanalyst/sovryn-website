@@ -4,7 +4,7 @@ export default function GovernanceFooterLinks() {
  
     return (
         <>
-            <h5>Governance</h5>
+            <h5 className="d-flex" >Governance</h5>
                   <ul className="list-unstyled quick-links">
                     <li>
                       <a href="https://www.fiverr.com/share/qb8D02">
