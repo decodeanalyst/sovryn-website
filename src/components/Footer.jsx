@@ -65,7 +65,7 @@ export default function Footer() {
                   </div>
                 </div>
             
-                <div className="row px-3">
+                <div className="row px-4">
                   <div className="col-md">
                   <AboutFooterLinks />
                   </div>
