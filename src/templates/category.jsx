@@ -31,10 +31,11 @@ export default function Category({ pageContext, data }) {
       </nav>
 
         <div className="row">
-          <div className="col-md-8">
+          <div className="col-md-7">
             <HeroBlogPost title={ category } imgURL={ imgURL } />
             <BlogFeed articles={ nodes } />
           </div>
+          <div className="col-md"></div>
           <div className="col-md-4">
             <BlogSidebar />
           </div>

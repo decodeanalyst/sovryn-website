@@ -81,7 +81,7 @@ export default function BlogMenu() {
     })
   }
 
-  const filterArticles = state.query ? state.filteredData : articles;
+  const featuredArticles = state.query ? state.filteredData : articles;
 
     return (
         <>    
@@ -96,7 +96,7 @@ export default function BlogMenu() {
                     <div className="row d-flex">
                       <ul className="nav nav-pills p-2 mob-feed">
                         <li className="active pr-3"><a href="#">Latest</a></li>
-                        <li><a className="pr-3" href="#">Featured</a></li>
+                        <li><a className="pr-3" href="#" >{ state.query ? `Search Results For: ${ state.query }` : "Featured" }</a></li>
                         <li><a href="#">Most Popular</a></li>
                       </ul>
                     </div> 

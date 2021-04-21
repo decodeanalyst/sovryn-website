@@ -50,8 +50,9 @@ export default function Blog() {
                   <div id="div-desktop">
                     <BlogFeed articles={ markdown.allMarkdownRemark.nodes } />
                   </div>
-                <div className="col-md"></div>
+                
                 </div>
+                <div className="col-md-1"></div>
                 <div className="col-md-4">
                   <BlogSidebar />
                 </div>
