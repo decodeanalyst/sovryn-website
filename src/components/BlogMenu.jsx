@@ -92,7 +92,14 @@ export default function BlogMenu() {
                     <div className="pt-4"></div>
                     <SearchMenu onSearchChanged={ (text) => handleSearchChange(text) } />
                     <div className="pb-5"></div>
-                    <h3>{ state.query ? `Search Results For: ${ state.query }` : "Featured" }</h3>
+                    {/* <h3>{ state.query ? `Search Results For: ${ state.query }` : "Featured" }</h3> */}
+                    <div className="row d-flex">
+                      <ul className="nav nav-pills p-2 mob-feed">
+                        <li className="active pr-3"><a href="#">Latest</a></li>
+                        <li><a className="pr-3" href="#" >{ state.query ? `Search Results For: ${ state.query }` : "Featured" }</a></li>
+                        <li><a href="#">Most Popular</a></li>
+                      </ul>
+                    </div> 
                     </div>
                 </div>
             </div>

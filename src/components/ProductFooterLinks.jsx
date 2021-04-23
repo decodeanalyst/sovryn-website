@@ -4,7 +4,7 @@ export default function ProductFooterLinks() {
  
     return (
         <>
-            <h5>Products</h5>
+            <h5 className="d-flex" >Products</h5>
                   <ul className="list-unstyled quick-links">
                     <li>
                       <a href="https://www.fiverr.com/share/qb8D02">

@@ -42,17 +42,14 @@ export default function HeroSection() {
       </div>
       </section>
       <section id="div-mobile">
-        <div className="row headerimage pt-4">
+        <div className="row headerimage pt-4 pr-3">
           <div className="col-xs-12 pl-4 justify-content-center" id="herolabel">
             <LabeledFrame figtxt="The decentralized bitcoin trading and lending platform" img={ indeximg } banner={ true } pageStyle="index" />
           </div>
           <div className="container">
-            <div className="btn-wrap">
-              <div className="col-md-2">
+            <div className="btn-wrap d-flex justify-content-center">
+              <div className="col-xs pr-4">
                 <StyledButton text="trade now" pageName="" />
-              </div>
-              <div className="col-md-2">
-                <StyledButton1 text="faq" pageName="" />
               </div>
             </div>
           </div>

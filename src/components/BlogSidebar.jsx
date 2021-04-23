@@ -85,29 +85,30 @@ export default function BlogSidebar() {
 
     return (
         <>  
-              <div id="div-desktop">
-              <TagCloud tags={ tags } />
-              <div className="pt-2"></div>
-              <SearchMenu onSearchChanged={ (text) => handleSearchChange(text) } />
-              </div>
+            <div id="div-desktop">
+            <TagCloud tags={ tags } />
+            <div className="pt-2"></div>
+            <SearchMenu onSearchChanged={ (text) => handleSearchChange(text) } />
+              
 
 
             <div className="pb-5"></div>
             <h3>{ state.query ? `Search Results For: ${ state.query }` : "Featured" }</h3>
 
             {
-                    featuredArticles.map((node, index) => {
+                  featuredArticles.map((node, index) => {
 
-                    const imgURL = node.frontmatter.image ? node.frontmatter.image.publicURL : "https://via.placeholder.com/427x240";
-                        return (
-                            <SidebarBlogPost key={ index }
-                             title={ node.frontmatter.title }
-                             image={ imgURL }
-                             date={node.frontmatter.date }
-                             slug={node.fields.slug }   />
-                        )
-                    })
-                }
+                  const imgURL = node.frontmatter.image ? node.frontmatter.image.publicURL : "https://via.placeholder.com/427x240";
+                      return (
+                          <SidebarBlogPost key={ index }
+                           title={ node.frontmatter.title }
+                           image={ imgURL }
+                           date={node.frontmatter.date }
+                           slug={node.fields.slug }   />
+                      )
+                  })
+            }
+            </div>
         </>
     );
 }

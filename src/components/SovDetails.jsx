@@ -78,7 +78,7 @@ export default function SovDetails() {
                     <div className="col-xs-5 pl-3">
                     <InfoLabel figtxt="50,000,000" exptxt="sov remaining" />
                     </div>
-                    <div className="col-xs-5 pl-4">
+                    <div className="col-xs-5 pl-3">
                     <InfoLabel figtxt="1540" exptxt="VOTING ADDRESSES" />
                     </div>
                 </div>

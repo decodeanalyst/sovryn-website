@@ -4,7 +4,7 @@ export default function LearnFooterLinks() {
  
     return (
         <>
-            <h5>Learn</h5>
+            <h5 className="d-flex" >Learn</h5>
                   <ul className="list-unstyled quick-links">
                     <li>
                       <a href="https://www.fiverr.com/share/qb8D02">

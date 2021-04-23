@@ -4,15 +4,14 @@ import {breakString} from '../components/BreakString.js'
 
 export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
         let className='frame-label';
-        let className1='h3';
-        let top='0px';
+        let className1='frame-cover';
         if(pageStyle==="blog"){
             className='frame-lbl-blog';
-            className1='h3-1';
+            className1='frame-cover-blog';
         }
         else if(pageStyle==="indexTrending") {
             className='frame-lbl-trending';
-            top='-75px';
+            className1='frame-cover-trending';
         }
         
         if(banner===false){
@@ -29,7 +28,9 @@ export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
                         </div>
                     </div>
                 </div>
-                <img style={{ top: top }} className="img-fluid frame-cover" src={ img } />
+                <div className={className1}>
+                    <img className="img-fluid" src={ img } />
+                </div>
             </div>
             </>
         );
