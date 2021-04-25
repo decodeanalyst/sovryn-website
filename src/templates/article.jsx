@@ -34,9 +34,12 @@ export default function Article({ pageContext, data }) {
 
           <div className="row post">
             <div className="col-md-8">
-                <img className="img-fluid frame-cover" src={ imgURL } />
-              <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+              <div className="article">
 
+                <img className="img-fluid frame-cover" src={ imgURL } />
+                <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+                
+              </div>
             </div>
             <div className="col-md-4">
                 <h1>{frontmatter.title}</h1>

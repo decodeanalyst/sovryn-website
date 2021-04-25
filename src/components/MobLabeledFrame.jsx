@@ -23,11 +23,9 @@ export default function MobLabeledFrame({figtxt, img, banner, pageStyle}) {
             <>
             <div className="row head-img">
                 <div className="container">
-                    <div className="text-wrap">
                         <div className={ className }>
                             <h3>{ breakString(figtxt, 20) }</h3>
                         </div>
-                    </div>
                 </div>
                 <img style={{ top: top }} className="img-fluid frame-cover-mob" src={ img } />
             </div>

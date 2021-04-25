@@ -116,4 +116,16 @@
 			white-space: pre;
 		}
 	}
+
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+	.navbar-collapse {
+		background-color: white;
+		text-align: center;
+	}
+
+	.cta {
+		padding-bottom: 20px;
+	}
+}
 }

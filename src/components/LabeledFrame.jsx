@@ -3,8 +3,10 @@ import "../styles/labeledframe.scss";
 import {breakString} from '../components/BreakString.js'
 
 export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
-        let className='frame-label';
-        let className1='frame-cover';
+        
+    let className='frame-label';
+    let className1='frame-cover';
+    
         if(pageStyle==="blog"){
             className='frame-lbl-blog';
             className1='frame-cover-blog';
@@ -22,11 +24,9 @@ export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
             <>
             <div className="row head-img">
                 <div className="container">
-                    <div className="text-wrap">
                         <div className={ className }>
                             <h3>{ breakString(figtxt, 20) }</h3>
                         </div>
-                    </div>
                 </div>
                 <div className={className1}>
                     <img className="img-fluid" src={ img } />

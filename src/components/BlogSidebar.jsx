@@ -32,9 +32,25 @@ export default function BlogSidebar() {
 
   const articles = markdown.allMarkdownRemark.nodes;
 
-    const emptyQuery = ""
+  const tagFilter = term => articles.filter(post => {
 
-    const tags = [{name: "All", link: "/blog", color: "#F7F6E7"},
+    const { tags } = post.frontmatter
+
+    return (
+      (tags &&
+        tags
+          .join("")
+          .toLowerCase()
+          .includes(term.toLowerCase()))
+    )
+  })
+
+  const featuredArticles = tagFilter("Featured");
+  const mostPopularArticles = tagFilter("Most Popular");
+
+  const emptyQuery = ""
+
+  const tags = [{name: "All", link: "/blog", color: "#F7F6E7"},
                 {name: "Roadmap", link: "/blog/roadmap", color: "#88B8BC"},
                 {name: "Community", link: "/blog/community", color: "#A58D80"},
                 {name: "Tutorial", link: "/blog/tutorial", color: "#9F7D71"},
@@ -81,7 +97,22 @@ export default function BlogSidebar() {
     })
   }
 
-  const featuredArticles = state.query ? state.filteredData : articles;
+  const mainArticles = state.query ? state.filteredData : featuredArticles;
+
+  const renderArticles = (articles) => {
+
+      return articles.map((node, index) => {
+        const imgURL = node.frontmatter.image ? node.frontmatter.image.publicURL : "https://via.placeholder.com/427x240";
+        
+        return (
+          <SidebarBlogPost key={ index }
+                           title={ node.frontmatter.title }
+                           image={ imgURL }
+                           date={node.frontmatter.date }
+                           slug={node.fields.slug }   />
+        )
+      })
+  }
 
     return (
         <>  
@@ -90,24 +121,15 @@ export default function BlogSidebar() {
             <div className="pt-2"></div>
             <SearchMenu onSearchChanged={ (text) => handleSearchChange(text) } />
               
-
-
             <div className="pb-5"></div>
             <h3>{ state.query ? `Search Results For: ${ state.query }` : "Featured" }</h3>
-
             {
-                  featuredArticles.map((node, index) => {
-
-                  const imgURL = node.frontmatter.image ? node.frontmatter.image.publicURL : "https://via.placeholder.com/427x240";
-                      return (
-                          <SidebarBlogPost key={ index }
-                           title={ node.frontmatter.title }
-                           image={ imgURL }
-                           date={node.frontmatter.date }
-                           slug={node.fields.slug }   />
-                      )
-                  })
+                  renderArticles(mainArticles)
             }
+            <h3 className="pt-5">{ state.query ? "" : "Most Popular" }</h3>
+
+            { state.query ? "" : renderArticles(mostPopularArticles) }
+
             </div>
         </>
     );

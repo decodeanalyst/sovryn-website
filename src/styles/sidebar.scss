@@ -36,10 +36,15 @@
 @media screen and (min-width: 0px) and (max-width: 700px) {
 	.mob-feed{
 		
+		.nav-link.active {
+			background-color: transparent;
+			color: #F7F6E7;
+		}
+
 		a{
 			font-family: Bangers;
-			font-size: 28px;
-			color: #F7F6E7;
+			font-size: 32px;
+			color: #B6C1BB;
 		}
 	}
 }

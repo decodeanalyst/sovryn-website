@@ -46,7 +46,6 @@ export default function Blog() {
                   <HeroBlogPost title={ markdown.allMarkdownRemark.nodes[0].frontmatter.title }
                    imgURL= { markdown.allMarkdownRemark.nodes[0].frontmatter.image.publicURL }
                    />
-                   {/* <BlogMenu /> */}
                   <div id="div-desktop">
                     <BlogFeed articles={ markdown.allMarkdownRemark.nodes } />
                   </div>

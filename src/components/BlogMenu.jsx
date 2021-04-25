@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import SidebarBlogPost from './BlogSidebar';
+import BlogFeed from './BlogFeed';
 
 import MobTagCloud from './MobTagCloud';
 import SearchMenu from '../components/SearchMenu';
@@ -81,7 +81,70 @@ export default function BlogMenu() {
     })
   }
 
-  const featuredArticles = state.query ? state.filteredData : articles;
+  const tagFilter = term => articles.filter(post => {
+
+    const { tags } = post.frontmatter
+
+    return (
+      (tags &&
+        tags
+          .join("")
+          .toLowerCase()
+          .includes(term.toLowerCase()))
+    )
+  })
+
+  const mostPopularArticles = tagFilter("Most Popular")
+
+  const featuredArticles = tagFilter("Featured")
+
+  const tabMenu = () => {
+
+    return (
+      <ul className="nav nav-pills nav-fill mob-feed">
+      <li className="nav-item">
+        <a class="nav-link active" id="latest-tab" data-toggle="tab" href="#latest" role="tab" aria-controls="latest" aria-selected="true">Latest</a>
+      </li>
+      <li className="nav-item">
+        <a class="nav-link" id="featured-tab" data-toggle="tab" href="#featured" role="tab" aria-controls="featured" aria-selected="true">Featured</a>
+      </li>
+      <li className="nav-item">
+        <a class="nav-link" id="most-popular-tab" data-toggle="tab" href="#most-popular" role="tab" aria-controls="most-popular" aria-selected="true">Most Popular</a>
+      </li>
+      </ul>
+    )
+  }
+
+  const tabContent = () => {
+    return (
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="latest"
+          role="tabpanel"
+          aria-labelledby="latest-tab"
+        >
+          <BlogFeed articles={articles} />
+        </div>
+        <div
+          class="tab-pane fade"
+          id="featured"
+          role="tabpanel"
+          aria-labelledby="featured-tab"
+        >
+          <BlogFeed articles={featuredArticles} />
+        </div>
+        <div
+          class="tab-pane fade"
+          id="most-popular"
+          role="tabpanel"
+          aria-labelledby="most-popular-tab"
+        >
+          <BlogFeed articles={mostPopularArticles} />
+        </div>
+      </div>
+    )
+  }
 
     return (
         <>    
@@ -90,26 +153,25 @@ export default function BlogMenu() {
                     <div className="col-md-12">
                     <MobTagCloud tags={ tags } />
                     <div className="pt-4"></div>
+                    
                     <SearchMenu onSearchChanged={ (text) => handleSearchChange(text) } />
+
                     <div className="pb-5"></div>
-                    {/* <h3>{ state.query ? `Search Results For: ${ state.query }` : "Featured" }</h3> */}
                     <div className="row d-flex">
-                      <ul className="nav nav-pills p-2 mob-feed">
-                        <li className="active pr-3"><a href="#">Latest</a></li>
-                        <li><a className="pr-3" href="#" >{ state.query ? `Search Results For: ${ state.query }` : "Featured" }</a></li>
-                        <li><a href="#">Most Popular</a></li>
-                      </ul>
+
+                    {
+                      state.query ? 
+                        <h2>{ `Search Results For: ${ state.query }` }</h2>
+                      : tabMenu() 
+                    }
+                
                     </div> 
+
+                    { state.query ? <BlogFeed articles={state.filteredData} /> : tabContent() }
+
                     </div>
                 </div>
             </div>
-              {/* <div id="div-mobile">
-              <TagCloud tags={ tags } />
-              <div className="pt-2"></div>
-              <SearchMenu onSearchChanged={ (text) => handleSearchChange(text) } />
-              </div>
-              <div className="pb-5"></div>
-            <h3>{ state.query ? `Search Results For: ${ state.query }` : "Featured" }</h3> */}
         </>
     );
 }
