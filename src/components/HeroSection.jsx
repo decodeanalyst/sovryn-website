@@ -12,10 +12,8 @@ export default function HeroSection() {
     <>
     
       <section id="div-desktop">
-      <div className="row headerimage pt-4">
-          <div className="row" id="herolabel">
+      <div className="row headerimage">
             <LabeledFrame figtxt="The decentralized bitcoin trading and lending platform" img={ indeximg } banner={ true } pageStyle="index" />
-          </div>
             <div className="btn-wrap">
               <div className="col-lg-2">
                 <StyledButton text="trade now" pageName="" />
@@ -40,7 +38,7 @@ export default function HeroSection() {
       </div>
       </section>
       <section id="div-mobile">
-        <div className="row headerimage pt-4 pr-3">
+        <div className="row headerimage pr-3">
           <div className="col-xs-12 pl-4 justify-content-center" id="herolabel">
             <LabeledFrame figtxt="The decentralized bitcoin trading and lending platform" img={ indeximg } banner={ true } pageStyle="index" />
           </div>

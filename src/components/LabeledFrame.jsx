@@ -54,16 +54,12 @@ export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
         }
         return(
             <>
-            <div className="row head-img">
-                <div className="container">
-                        <div className={ className } style={style}>
-                            <h3>{ breakString(figtxt, 20) }</h3>
-                        </div>
+                <div className={ className } style={style}>
+                    <h3>{ breakString(figtxt, 20) }</h3>
                 </div>
                 <div className={className1}>
                     <img className="img-fluid" src={ img } />
                 </div>
-            </div>
             </>
         );
 
