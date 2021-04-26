@@ -5,7 +5,6 @@ import {breakString} from '../components/BreakString.js'
 export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
    
     let style={};
-    debugger;
     switch (figtxt.toLowerCase()) {
       case 'roadmap':
        style={ backgroundColor:'#88b8bc'};
@@ -37,8 +36,8 @@ export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
         break;
     }
 
-    let className='frame-label';
-    let className1='frame-cover';
+    let className='frame-lbl-blog';
+    let className1='frame-cover-blog';
     
         if(pageStyle==="blog"){
             className='frame-lbl-blog';

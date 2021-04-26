@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 .label-cover {
     height: 140px;
     padding-left: 15px;
@@ -44,7 +46,7 @@
     white-space: nowrap;
 }
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: $mobile-display-width) {
 
     .label-cover {
         height: 80px;

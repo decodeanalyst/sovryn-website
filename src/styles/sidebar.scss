@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 .tag-cloud {
 	text-align: center;
 
@@ -33,7 +35,7 @@
 	}
 }
 
-@media screen and (min-width: 0px) and (max-width: 700px) {
+@media screen and (min-width: 0px) and (max-width: $mobile-display-width) {
 	.mob-feed{
 		
 		.nav-link.active {
@@ -43,7 +45,6 @@
 
 		a{
 			font-family: Bangers;
-			font-size: 32px;
 			color: #B6C1BB;
 		}
 	}

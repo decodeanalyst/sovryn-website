@@ -12,12 +12,12 @@ export default function SovDetails() {
         <>
             <div className="container" id="div-desktop">
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-lg-12">
                         <div data-layer="47490b46-340e-4eb4-a601-f27dab101ea5" className="rectangle3190"></div>
                     </div>
                 </div>
                 <div className="row py-5 d-inline-block d-flex">
-                    <div className="col-md-6">
+                    <div className="col-lg-6">
                         <div className="group5753">
                             <div className="rectangle1687"> 
                                 <div className="participateInSovrynGovernanceEarnFees text-center p-2">
@@ -31,7 +31,7 @@ export default function SovDetails() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-5 d-flex d-inline-block">
+                    <div className="col-lg-5 d-flex d-inline-block">
                     <div className="col-sm-5 py-4">
                             <InfoLabel figtxt="50,000,000" exptxt="sov remaining" />
                         </div>
@@ -44,7 +44,7 @@ export default function SovDetails() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 ">
+                    <div className="col-lg-6 ">
                         <div class="float-left">
                         <StyledButton text="buy sov" pageName="" />
 
@@ -61,7 +61,7 @@ export default function SovDetails() {
                 <div className="col-xs-12 pl-3">
                 <MobLabeledFrame figtxt="" img={ img1 } banner={ false } pageStyle="blog" />
                 </div>
-                    <div className="col-md-12 pt-4">
+                    <div className="col-lg-12 pt-4">
                             <div className="pb-5">
                                 <div className="rectangle1687-mob"> 
                                     <div className="sovtext-black-mob p-2">

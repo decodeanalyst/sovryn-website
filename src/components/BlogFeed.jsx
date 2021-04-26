@@ -13,7 +13,7 @@ export default function BlogFeed({articles}) {
                     const imgURL = node.frontmatter.image ? node.frontmatter.image.publicURL : "https://via.placeholder.com/427x240";
                     
                         return (
-                            <div className="col-md-6" key={ index }>
+                            <div className="col-lg-6" key={ index }>
                                 <BlogPost
                                     date={ node.frontmatter.date }
                                     title={ node.frontmatter.title }

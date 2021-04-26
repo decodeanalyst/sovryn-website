@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 .frame-cover {
     top: 0px;
     position: relative;
@@ -108,7 +110,7 @@ img{
 }
 
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: $mobile-display-width) {
 
     .text-wrap {
         display: flex;

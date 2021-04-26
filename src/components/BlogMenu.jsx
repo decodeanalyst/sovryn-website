@@ -101,7 +101,7 @@ export default function BlogMenu() {
   const tabMenu = () => {
 
     return (
-      <ul className="nav nav-pills nav-fill mob-feed">
+      <ul className="nav nav-pills mob-feed">
       <li className="nav-item">
         <a class="nav-link active" id="latest-tab" data-toggle="tab" href="#latest" role="tab" aria-controls="latest" aria-selected="true">Latest</a>
       </li>
@@ -150,14 +150,13 @@ export default function BlogMenu() {
         <>    
             <div className="container-fluid" id="div-mobile">
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-lg-12">
                     <MobTagCloud tags={ tags } />
                     <div className="pt-4"></div>
                     
                     <SearchMenu onSearchChanged={ (text) => handleSearchChange(text) } />
 
                     <div className="pb-5"></div>
-                    <div className="row d-flex">
 
                     {
                       state.query ? 
@@ -165,7 +164,6 @@ export default function BlogMenu() {
                       : tabMenu() 
                     }
                 
-                    </div> 
 
                     { state.query ? <BlogFeed articles={state.filteredData} /> : tabContent() }
 

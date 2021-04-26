@@ -8,10 +8,10 @@ export default function WebsiteInfo() {
         <>
             <div className="container" id="div-desktop">
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-lg-4">
                             <div className="rectangle2744"></div>
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-lg-8">
                                 <div class="rectangle1700">
                                     <div class="infolabel p-3">
                                         Sovryn is a non-custodial and permissionless smart contract
@@ -21,7 +21,7 @@ export default function WebsiteInfo() {
                                 </div>
                         <div className=" row d-flex d-inline-block">
                             <div className="d-flex">
-                                <div className="col-md-4 pr-3 pt-5">
+                                <div className="col-lg-4 pr-3 pt-5">
                                     <div class="group5812">
                                         <div className="d-flex d-inline-block">
                                             <div class="x1">
@@ -38,7 +38,7 @@ export default function WebsiteInfo() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4 pt-5">
+                                <div className="col-lg-4 pt-5">
                                     <div className="group5813">
                                         <div className="d-flex d-inline-block">
                                             <div className="x2">
@@ -55,7 +55,7 @@ export default function WebsiteInfo() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-5 pt-5">
+                                <div className="col-lg-5 pt-5">
                                     <div className="group5814">
                                     <div className="d-flex d-inline-block">
                                         <div className="x3">

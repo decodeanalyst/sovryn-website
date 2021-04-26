@@ -16,13 +16,13 @@ export default function Index() {
             <DefaultLayout>
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-md-12">
+                        <div className="col-lg-12">
                             <HeroSection />
                         </div>
                     </div>
                 </div>
                 <div className="row py-5">
-                    <div className="col-md-12 pb-5">
+                    <div className="col-lg-12 pb-5">
                         <WebsiteInfo />
                     </div>
                 </div>
