@@ -2,7 +2,7 @@
 title: rBTC 101
 date: 2021-02-21
 description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform"
-image: "./blog-post-15.png"
+image: "./assets/blog-post-15.png"
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
 category: News
 Author: Sovryn Community

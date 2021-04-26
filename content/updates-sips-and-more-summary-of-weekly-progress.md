@@ -2,7 +2,7 @@
 title: Updates sips and more summary of weekly progress
 date: 2021-03-31
 description: Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform"
-image : "./blog-post-2.png"
+image: "./assets/blog-post-2.png"
 images: ["./blog-post-2.png"]
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
 category: Roadmap

@@ -2,7 +2,7 @@
 title: Sovryn go brrrrrr
 date: 2021-03-31
 description: Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform
-image : "./blog-post-1.jpg"
+image: "./assets/blog-post-1.jpg"
 images: ["./blog-post-1.jpg"]
 category: Roadmap
 tags: ["Featured", "Most Popular"]

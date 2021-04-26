@@ -2,7 +2,7 @@
 title: Sovryn Development update feburary 2021
 date: 2021-03-14
 description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform"
-image : "./blog-post-8.png"
+image: "./assets/blog-post-8.png"
 images: ["./blog-post-8.png"]
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
 category: Vision

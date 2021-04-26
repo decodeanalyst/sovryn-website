@@ -2,7 +2,7 @@
 title: Sov Holders, prepare to cast your votes!
 date: 2021-03-02
 description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform"
-image: "./blog-post-13.png"
+image: "./assets/blog-post-13.png"
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
 category: News
 Author: Sovryn

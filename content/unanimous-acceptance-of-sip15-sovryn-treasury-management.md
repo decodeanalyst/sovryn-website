@@ -2,7 +2,7 @@
 title: Unanimous acceptance of sip15
 date: 2021-03-28
 description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform"
-image : "./blog-post-3.png"
+image: "./assets/blog-post-3.png"
 images: ["./blog-post-3.png"]
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
 category: Roadmap

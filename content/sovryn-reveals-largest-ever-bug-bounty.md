@@ -2,7 +2,7 @@
 title: Sovryn reveals largest every bug bounty
 date: 2021-03-02
 description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform"
-image: "./blog-post-11.png"
+image: "./assets/blog-post-11.png"
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
 category: Roadmap
 Author: Sovryn Developer

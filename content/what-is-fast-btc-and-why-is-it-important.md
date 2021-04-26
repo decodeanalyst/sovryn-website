@@ -2,7 +2,7 @@
 title: What is Fast BTC and why is it important
 date: 2021-03-17
 description: "Your Funds, Your Control | Sovryn is the decentralized Bitcoin trading and lending platform"
-image : "./blog-post-7.png"
+image: "./assets/blog-post-7.png"
 images: ["./blog-post-7.png"]
 imageAlt: Sovryn is the decentralized Bitcoin trading and lending platform.
 category: Governance
