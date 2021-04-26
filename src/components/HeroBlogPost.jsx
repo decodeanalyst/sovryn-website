@@ -8,7 +8,7 @@ export default function HeroBlogPost({title, imgURL}) {
  
     return (
       <>
-        <div className="pl-3 pr-3 pb-5">
+        <div className="pb-5">
           <LabeledFrame figtxt={ title } img={ imgURL } banner={ true } pageStyle="blog" />
         </div>
         <BlogMenu />

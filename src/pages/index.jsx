@@ -16,7 +16,7 @@ export default function Index() {
             <DefaultLayout>
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-lg-12">
+                        <div className="col-lg-12 pt-4">
                             <HeroSection />
                         </div>
                     </div>

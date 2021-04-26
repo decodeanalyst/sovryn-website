@@ -35,7 +35,7 @@ export default function Category({ pageContext, data }) {
             <HeroBlogPost title={ category } imgURL={ imgURL } />
             <BlogFeed articles={ nodes } />
           </div>
-          <div className="col-md"></div>
+          <div className="col-lg"></div>
           <div className="col-lg-4">
             <BlogSidebar />
           </div>
