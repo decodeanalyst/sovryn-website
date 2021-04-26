@@ -101,7 +101,7 @@ export default function BlogMenu() {
   const tabMenu = () => {
 
     return (
-      <ul className="nav nav-pills nav-fill mob-feed">
+      <ul className="nav nav-pills mob-feed">
       <li className="nav-item">
         <a class="nav-link active" id="latest-tab" data-toggle="tab" href="#latest" role="tab" aria-controls="latest" aria-selected="true">Latest</a>
       </li>
