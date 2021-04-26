@@ -1,25 +1,4 @@
-// .frame {
-//     top: -300px;
-//     height: auto;
-//     width: auto;
-//     background-image: url(../static/path6241.png);
-    
-    
-//     .framebanner{
-//       top: 40px;
-//       right: 20px;
-//       text-align: justify;
-//       font-size: 50px;
-//       font-family: Bangers;
-//       font-weight: 400;
-//       padding-inline: 15px;
-//       color: black;
-//       background-color: white;
-//       -ms-transform: skewX(-0.02turn);
-//         -webkit-transform: skewX(-0.02turn);
-//         transform: skewX(-0.02turn);
-//     }
-// }
+@use 'variables' as *;
 
 .rectangle {
   height: 110px;
@@ -148,7 +127,7 @@
     
    }
    
-   @media screen and (min-width: 0px) and (max-width: 768px) {
+   @media screen and (min-width: 0px) and (max-width: $mobile-display-width) {
 
     .rectangle {
       height: 130px;

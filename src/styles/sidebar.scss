@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 .tag-cloud {
 	text-align: center;
 
@@ -43,7 +45,6 @@
 
 		a{
 			font-family: Bangers;
-			font-size: 32px;
 			color: #B6C1BB;
 		}
 	}

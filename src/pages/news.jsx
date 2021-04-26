@@ -13,7 +13,7 @@ const Index = () => {
         <>
             <DefaultLayout>
                 <div className="row">
-                    <div className="col-md-8">
+                    <div className="col-lg-8">
                         <div className="row py-5">
                             <LabeledFrame figtxt="" img={pic} banner={false} pageStyle="blog" />
                         </div>
@@ -47,7 +47,7 @@ const Index = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-lg-4">
                     </div>
                     
                 </div>

@@ -42,7 +42,7 @@ export default function Blog() {
             </nav>
 
               <div className="row">
-                <div className="col-md-7">
+                <div className="col-lg-7">
                   <HeroBlogPost title={ markdown.allMarkdownRemark.nodes[0].frontmatter.title }
                    imgURL= { markdown.allMarkdownRemark.nodes[0].frontmatter.image.publicURL }
                    />
@@ -51,8 +51,8 @@ export default function Blog() {
                   </div>
                 
                 </div>
-                <div className="col-md-1"></div>
-                <div className="col-md-4">
+                <div className="col-lg-1"></div>
+                <div className="col-lg-4">
                   <BlogSidebar />
                 </div>
               </div>

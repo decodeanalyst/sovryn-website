@@ -9,7 +9,7 @@ export default function TagCloud({tags}) {
                     {
                         tags.map((tag, index) => {
                                 return (
-                                    <div className="tag-item col-md-4" key={ index }>
+                                    <div className="tag-item col-lg-4" key={ index }>
                                         <TagCloudLabel
                                         text={ tag.name }
                                         link={ tag.link }

@@ -42,10 +42,10 @@ export default function Trending() {
     <>
     <div class="container align-middle" id="div-desktop">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6">
             <LabeledFrame figtxt={data[0].frontmatter.title} img={imgURL} banner={true} pageStyle="indexTrending" />
         </div>
-        <div className="col-md-6">
+        <div className="col-lg-6">
             <div className="container">
                 <div className="row">
                 {
@@ -56,7 +56,7 @@ export default function Trending() {
 
                             return (
                                 <div className="row pt-2">
-                                    <div className="col-md-12">
+                                    <div className="col-lg-12">
                                         <div className="d-inline-flex post">
                                             <BlogPostMetaLabel text={node.frontmatter.date} />
                                             <BlogPostMetaLabel text={node.frontmatter.category} />
@@ -64,10 +64,10 @@ export default function Trending() {
                                         <Link to={ articleLink }>
                                         <div className="rectangle">
                                             <div className="d-flex d-inline-block">
-                                                <div className="col-md-8 p-3">
+                                                <div className="col-lg-8 p-3">
                                                     <BlogPostLabel text={node.frontmatter.title} />
                                                 </div>
-                                            <div className="col-md-4">
+                                            <div className="col-lg-4">
                                                 <img src={arrow} className="img-fluid p-4 pb-2" id="arrow" />
                                                 </div>
                                             </div>
@@ -80,9 +80,9 @@ export default function Trending() {
                 }
                 </div>
                 <div className="row">
-                  <div className="col-md-6">
+                  <div className="col-lg-6">
                   </div>
-                  <div className="col-md-6 justify-content-center pt-5">
+                  <div className="col-lg-6 justify-content-center pt-5">
                     <StyledButton text="VISIT BLOG" pageName="blog" />
                   </div>
                 </div>
@@ -117,7 +117,7 @@ export default function Trending() {
                                                 <div className="col-xs-12 p-3 pt-4">
                                                     <BlogPostLabel text={node.frontmatter.title} />
                                                 </div>
-                                            <div className="col-md-1">
+                                            <div className="col-lg-1">
                                                 <img src={arrow} className="img-fluid p-4 pb-2" id="arrow" />
                                                 </div>
                                             </div>
@@ -130,9 +130,9 @@ export default function Trending() {
                 }
                 </div>
                 <div className="row pr-3">
-                  <div className="col-md-6">
+                  <div className="col-lg-6">
                   </div>
-                  <div className="col-md-12 justify-content-center py-3">
+                  <div className="col-lg-12 justify-content-center py-3">
                     <StyledButton text="VISIT BLOG" pageName="blog" />
                   </div>
                 </div>

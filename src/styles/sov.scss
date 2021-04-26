@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 .rectangle3190 {
     position: relative;
     box-sizing: border-box;
@@ -453,7 +455,7 @@
 }
 
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: $mobile-display-width) {
 
 .group5753-mob {
   

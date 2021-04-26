@@ -11,10 +11,10 @@ export default function InfoLabel({figtxt, exptxt}) {
                     <div className="iconrectangle"></div>
                     <div className="rectangle">
                         <div className="d-flex d-inline-block">
-                            <div className="col-md-12 p-3">
+                            <div className="col-lg-12 p-3">
                                 <div className="howto-text">How to send BTC to your RSK wallet</div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-lg-4">
                                 <img src={arrow} className="img-fluid p-4 pb-2" id="arrow" />
                             </div>
                         </div>
@@ -28,10 +28,10 @@ export default function InfoLabel({figtxt, exptxt}) {
                     <div className="iconrectangle"></div>
                     <div className="rectangle">
                         <div className="d-flex d-inline-block">
-                            <div className="col-md-12 p-3">
+                            <div className="col-lg-12 p-3">
                                 <div className="howto-text">How to connect Nifty wallet</div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-lg-4">
                                 <img src={arrow} className="img-fluid p-4 pb-2" id="arrow" />
                             </div>
                         </div>
@@ -45,10 +45,10 @@ export default function InfoLabel({figtxt, exptxt}) {
                     <div className="iconrectangle"></div>
                     <div className="rectangle">
                         <div className="d-flex d-inline-block">
-                            <div className="col-md-12 p-3">
+                            <div className="col-lg-12 p-3">
                                 <div className="howto-text">How to SET UP METAMASK</div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-lg-4">
                                 <img src={arrow} className="img-fluid p-4 pb-2" id="arrow" />
                             </div>
                         </div>
