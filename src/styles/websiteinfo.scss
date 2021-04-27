@@ -56,7 +56,10 @@
   width: fit-content;
   height: 100.00px;
 }
+.rectangle1700{
+  margin: 0 auto;
 
+}
 .infolabel {
   position: relative;
   box-sizing: content-box;
@@ -79,7 +82,8 @@
   font-family: Bangers;
   text-decoration: none;
   white-space: pre;
-  text-align: center;
+  // text-align: center;
+  text-align: inherit; // make text left align as per final image.
   top: 12px;
 }
 
@@ -407,7 +411,7 @@
   cursor: default;
   background-color: rgba(255, 255, 255, 0);
   text-align: left;
-  line-height: 16.00px;
+  //line-height: 16.00px; //commet to adjust number as per line in new desing image
   letter-spacing: 1.80px;
   color: rgba(247, 246, 231, 1);
   -webkit-text-stroke: unset;
@@ -491,7 +495,7 @@
   cursor: default;
   background-color: rgba(255, 255, 255, 0);
   text-align: left;
-  line-height: 16.00px;
+  //line-height: 16.00px; //commet to adjust number as per line in new desing image
   letter-spacing: 1.80px;
   color: rgba(247, 246, 231, 1);
   -webkit-text-stroke: unset;
@@ -647,7 +651,7 @@
   cursor: default;
   background-color: rgba(255, 255, 255, 0);
   text-align: left;
-  line-height: 16.00px;
+  //line-height: 16.00px; //commet to adjust number as per line in new desing image
   letter-spacing: 1.80px;
   color: rgba(247, 246, 231, 1);
   -webkit-text-stroke: unset;
