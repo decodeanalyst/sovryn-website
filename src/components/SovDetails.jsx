@@ -58,10 +58,10 @@ export default function SovDetails() {
             </div>
             <div className="container p-3"  id="div-mobile">
             <div className="row pt-5">
-                <div className="col-xs-12 pl-3">
+                <div className="col-md-12 pl-3">
                 <MobLabeledFrame figtxt="" img={ img1 } banner={ false } pageStyle="blog" />
                 </div>
-                    <div className="col-lg-12 pt-4">
+                    <div className="col-md-12 pt-4">
                             <div className="pb-5">
                                 <div className="rectangle1687-mob"> 
                                     <div className="sovtext-black-mob p-2">
@@ -74,12 +74,14 @@ export default function SovDetails() {
                             </div>
                     </div>
                 </div>
-                <div className="row pt-3 d-inline-flex" id="div-mobile">
-                    <div className="col-xs-5 pl-3">
-                    <InfoLabel figtxt="50,000,000" exptxt="sov remaining" />
-                    </div>
-                    <div className="col-xs-5 pl-3">
+                <div className="row pt-3" id="div-mobile">
+                    <div className="col-md-12">
+                        <div className="col-md-6 pl-3 mb-5">
+                        <InfoLabel figtxt="50,000,000" exptxt="sov remaining" />
+                        </div>
+                        <div className="col-md-6 pl-3">
                     <InfoLabel figtxt="1540" exptxt="VOTING ADDRESSES" />
+                    </div>
                     </div>
                 </div>
                 <div className="row pt-2">

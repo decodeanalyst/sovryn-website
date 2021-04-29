@@ -107,8 +107,8 @@ export default function Trending() {
                           const articleLink = `/blog${slug}`
 
                             return (
-                                <div className="row pt-2">
-                                    <div className="col-xs-12">
+                                <div className="col-md-12 pt-2">
+                                    <div className="col-md-12">
                                         <div className="d-inline-flex post">
                                             <BlogPostMetaLabel text={node.frontmatter.date} />
                                             <BlogPostMetaLabel text={node.frontmatter.category} />
