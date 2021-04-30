@@ -1,5 +1,7 @@
+@use 'variables' as *;
+
 // * Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: $mobile-display-width) {
 #infolabel1-mob { 
   float: left;
 

@@ -5,7 +5,6 @@ import {breakString} from '../components/BreakString.js'
 export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
    
     let style={};
-    debugger;
     switch (figtxt.toLowerCase()) {
       case 'roadmap':
        style={ backgroundColor:'#88b8bc'};
@@ -36,9 +35,7 @@ export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
        style={ backgroundColor:'#f7f6e8'};
         break;
     }
-    
-    //let className='frame-label';
-    //let className1='frame-cover';
+
     let className='frame-lbl-blog';
     let className1='frame-cover-blog';
     
@@ -57,16 +54,12 @@ export default function LabeledFrame({figtxt, img, banner, pageStyle}) {
         }
         return(
             <>
-            <div className="row head-img">
-                <div className="container">
-                        <div className={ className } style={style}>
-                            <h3>{ breakString(figtxt, 20) }</h3>
-                        </div>
+                <div className={ className } style={style}>
+                    <h3>{ breakString(figtxt, 20) }</h3>
                 </div>
                 <div className={className1}>
                     <img className="img-fluid" src={ img } />
                 </div>
-            </div>
             </>
         );
 

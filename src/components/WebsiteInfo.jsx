@@ -55,7 +55,7 @@ export default function WebsiteInfo() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-5 pt-5">
+                                <div className="col-lg-4 pt-5">
                                     <div className="group5814">
                                     <div className="d-flex d-inline-block">
                                         <div className="x3">
