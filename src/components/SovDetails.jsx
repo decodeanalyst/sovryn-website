@@ -16,7 +16,7 @@ export default function SovDetails() {
                         <div data-layer="47490b46-340e-4eb4-a601-f27dab101ea5" className="rectangle3190"></div>
                     </div>
                 </div>
-                <div className="row py-5 d-inline-block d-flex">
+                <div className="row pt-5 d-inline-block d-flex">
                     <div className="col-lg-6">
                         <div className="group5753">
                             <div className="rectangle1687"> 
@@ -44,12 +44,12 @@ export default function SovDetails() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-6 ">
-                        <div class="float-left">
+                    <div className="col-lg-6">
+                        <div class="float-left col-lg-6">
                         <StyledButton text="buy sov" pageName="" />
 
                         </div>
-                        <div class="float-right">
+                        <div class="float-right col-lg-6">
                         <StyledButton1 text="how is sov governed?" pageName="" />
 
                         </div>

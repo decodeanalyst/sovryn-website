@@ -80,10 +80,12 @@ export default function Trending() {
                 }
                 </div>
                 <div className="row">
-                  <div className="col-lg-6">
-                  </div>
-                  <div className="col-lg-6 justify-content-center pt-5">
-                    <StyledButton text="VISIT BLOG" pageName="blog" />
+                  {/* <div className="col-lg-6">
+                  </div> */}
+                  <div className="col-lg-12">
+                    <div className="pt-5 col-lg-6 btn-center-aligh">
+                      <StyledButton text="VISIT BLOG" pageName="blog" />
+                    </div>
                   </div>
                 </div>
             </div>
