@@ -22,6 +22,29 @@
     border-radius: 0px;
     box-shadow: none;
     height: 400.00px;
+
+    .frame-label {
+      z-index: 2;
+      display:inline-block;
+      position: relative;
+      background-color: #f7f6e7;
+      color: black;
+      letter-spacing: 00.01em;
+      padding: 10px 15px 0px 15px;
+      font-family: Bangers-Regular, Bangers;
+      -ms-transform: skewX(-0.02turn);
+      -webkit-transform: skewX(-0.02turn);
+      transform: skewX(-0.02turn);
+      left: 450px;
+      
+      h3 {
+          display: inline-flex;
+          font-size: 38px;
+          line-height: 38px;
+          padding: 5px;
+          white-space: pre-wrap;
+      }
+  }
   }
   .aboutus-layer-env-hero-sm{
     position: relative;

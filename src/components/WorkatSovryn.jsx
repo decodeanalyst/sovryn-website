@@ -3,6 +3,7 @@ import "../styles/WorkatSovryn.scss";
 import "../styles/websiteinfo.scss";
 import arrow from "../static/arrow.jpeg"
 import StyledButton from "../components/StyledButton";
+import HiringComponent from "./HiringComponent";
 
 export default function WorkatSovryn() {
     return (
@@ -37,28 +38,20 @@ export default function WorkatSovryn() {
                                 </div>
                             </div>
                         </div>
-
-
                         <div className="col-md-6 float-left">
                             <div className="aboutus-layer-env-hero"></div>
                         </div>
-
-
                     </div>
-
-
-
-
                     <div className="col-md-12 mt-5">
                         <div className="row">
-                        <div className="col-md-4 bg-c-test">
-                        
+                        <div className="col-md-4">
+                        <HiringComponent/>
                         </div>
-                        <div className="col-md-4 bg-c-test">
-                        
+                        <div className="col-md-4">
+                        <HiringComponent/>
                         </div>
-                        <div className="col-md-4 bg-c-test">
-                        
+                        <div className="col-md-4">
+                        <HiringComponent/>
                         </div>
                         </div>
                     </div>
@@ -70,14 +63,14 @@ export default function WorkatSovryn() {
 
                         </div>
 
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="pt-5 col-md-4 btn-center-aligh">
-                                    <div class="button-default button-slanted btn">
-                                     <StyledButton text="VIEW ALL POSITIONS" pageName="" />
+                        <div class="row pt-5">
+                                <div className="col-md-4" id="div-desktop"></div>
+                                <div className="col-md-4">
+                                    <div className="d-flex justify-content-center">
+                                        <StyledButton text="VIEW ALL POSITIONS" pageName="" />
                                     </div>
                                 </div>
-                            </div>
+                                <div className="col-md-4" id="div-desktop"></div>
                         </div>
 
                         </div>
@@ -128,14 +121,14 @@ export default function WorkatSovryn() {
 
                     <div className="col-md-12 mt-5">
                         <div className="row">
-                        <div className="col-md-4 bg-c-test">
-                        
+                        <div className="col-md-4">
+                        <HiringComponent/>
                         </div>
-                        <div className="col-md-4 bg-c-test">
-                        
+                        <div className="col-md-4 pt-3">
+                        <HiringComponent/>
                         </div>
-                        <div className="col-md-4 bg-c-test">
-                        
+                        <div className="col-md-4 pt-3">
+                        <HiringComponent/>
                         </div>
                         </div>
                     </div>

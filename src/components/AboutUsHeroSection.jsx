@@ -10,7 +10,11 @@ export default function AboutUsHeroSection() {
                 <div className="row mt-5">
                 <div className="col-md-12">
                 <div className="col-md-6 float-left">
-                            <div className="aboutus-layer-env-hero"></div>
+                            <div className="aboutus-layer-env-hero">
+                                <div className="frame-label">
+                                    <h3>Next step in bitcoin’s <br/> evolution</h3>
+                                </div>
+                            </div>
                         </div>
                         <div className="col-md-6 float-left mtp-200">
 
@@ -19,7 +23,7 @@ export default function AboutUsHeroSection() {
                             <div class="about-us-hero-section-text">
                                 <div class="p-3 about-us-hero-format">
                                     <div className="about-us-hero-text-format p-2 mt-3 ml-5"><p>
-                                We’re on a mission to change thaT.
+                                We’re on a mission to change that.
                                 </p>
                                     </div>
                                 </div>

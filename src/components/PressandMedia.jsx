@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/PressandMedia.scss";
 import arrow from "../static/arrow.jpeg"
 import StyledButton from "../components/StyledButton";
+import PressAndMediaComponent from "./PressAndMediaComponent";
 
 export default function PressandMedia() {
     return (
@@ -19,6 +20,29 @@ export default function PressandMedia() {
                     </div>
                 </div>
 
+                <div className="row pt-5">
+                    <div className="col-md-4">
+                        <PressAndMediaComponent/>
+                    </div>
+                    <div className="col-md-4">
+                    <PressAndMediaComponent/>
+                    </div>
+                    <div className="col-md-4">
+                    <PressAndMediaComponent/>
+                    </div>
+                </div>
+
+                <div className="row pt-3">
+                    <div className="col-md-4">
+                    <PressAndMediaComponent/>
+                    </div>
+                    <div className="col-md-4">
+                    <PressAndMediaComponent/>
+                    </div>
+                    <div className="col-md-4">
+                    <PressAndMediaComponent/>
+                    </div>
+                </div>
         </div>
         </>
     )
