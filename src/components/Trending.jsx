@@ -117,7 +117,7 @@ export default function Trending() {
                                         <div className="rectangle">
                                             <div className="d-flex d-inline-block">
                                                 <div className="col-xs-12 p-3 pt-4">
-                                                    <BlogPostLabel text={node.frontmatter.title} />
+                                                    <BlogPostLabel text="slkd" />
                                                 </div>
                                             <div className="col-lg-1">
                                                 <img src={arrow} className="img-fluid p-4 pb-2" id="arrow" />

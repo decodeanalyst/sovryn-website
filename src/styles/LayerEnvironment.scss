@@ -1,0 +1,58 @@
+@use 'variables' as *;
+.layer-rectangle-info {
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 1px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding: 15px !important;
+    background-color: #F7F6E7;
+    border: 1px none rgba(112, 112, 112, 1);;    
+    border-radius: 0.00px;
+    box-shadow: none;
+    min-height: 170px;
+  }
+  .layer-slantedrectangle {
+    width: 900px;
+    background-color: #B6C1BB;
+    -ms-transform: skewX(-0.03turn);
+      -webkit-transform: skewX(-0.03turn);
+      transform: skewX(-0.03turn);
+      border: 1px solid rgba(193, 183, 163, 1);
+  }
+  .layer-text-headding {
+    text-align: center;
+    font-family: Bangers;
+    font-size: 32px;
+    color: #151515;
+    white-space: inherit;
+    font-weight: normal;
+    padding: 20px;
+}
+#layer-infolabel1-mob { 
+    float: left;
+  
+  }
+  .btn-width-100{
+    width: 100%;
+  }
+  .btn-fixes
+  {
+    text-align: center;
+    border-radius: 2px;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .btn-pl-85{
+    padding-left: 85px;
+  }
