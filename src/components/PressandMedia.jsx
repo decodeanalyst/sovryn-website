@@ -6,7 +6,7 @@ import PressAndMediaComponent from "./PressAndMediaComponent";
 
 export default function PressandMedia() {
     return (
-        <>
+        <> 
         <div className="container-fluid" id="div-desktop">
                 <div className="row mt-5">
                     <div className="col-lg-12">
@@ -20,26 +20,8 @@ export default function PressandMedia() {
                     </div>
                 </div>
 
-                <div className="row pt-5">
-                    <div className="col-md-4">
-                        <PressAndMediaComponent/>
-                    </div>
-                    <div className="col-md-4">
-                    <PressAndMediaComponent/>
-                    </div>
-                    <div className="col-md-4">
-                    <PressAndMediaComponent/>
-                    </div>
-                </div>
-
                 <div className="row pt-3">
-                    <div className="col-md-4">
-                    <PressAndMediaComponent/>
-                    </div>
-                    <div className="col-md-4">
-                    <PressAndMediaComponent/>
-                    </div>
-                    <div className="col-md-4">
+                    <div className="col-md-12">
                     <PressAndMediaComponent/>
                     </div>
                 </div>

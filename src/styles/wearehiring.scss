@@ -1,0 +1,60 @@
+@use 'variables' as *;
+
+.workwithus-ogbitcoiner {
+    position: relative;
+    font-size: 40px;
+    font-family: Bangers;
+    margin: 0 auto;
+}
+.workwithus-center{
+    margin: 0 auto;
+}
+
+.workwithus-searchmenu{
+    -ms-transform: skewX(-0.02turn);
+    -webkit-transform: skewX(-0.02turn);
+    transform: skewX(-0.02turn);
+    font-family: Bangers;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    float: left;
+    letter-spacing: 00.01em;
+    padding-inline: 15px;
+    display: inline-block;
+    height: 40px;
+    width: 450px;
+    border: rgb(155, 144, 131) solid 2px;
+    right: 10.70px;
+}
+.workwithus-search:hover {
+	-ms-transform: scale(1.2); /* IE 9 */
+	-webkit-transform: scale(0.5); /* Safari 3-8 */
+	transform: scale(1.2);
+}
+
+@media screen and (min-width: 0px) and (max-width: $mobile-display-width) {
+    .workwithus-searchmenu{
+        -ms-transform: skewX(-0.02turn);
+        -webkit-transform: skewX(-0.02turn);
+        transform: skewX(-0.02turn);
+        position: relative;
+        font-family: Bangers;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        display: block;
+        letter-spacing: 00.01em;
+        padding-inline: 15px;
+        display: inline-block;
+        height: 40px;
+        border: rgb(155, 144, 131) solid 2px;
+        align-self: center;
+        justify-content: center;
+    }
+    .workwithus-search:hover {
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(0.5); /* Safari 3-8 */
+        transform: scale(1.2);
+    }
+}
