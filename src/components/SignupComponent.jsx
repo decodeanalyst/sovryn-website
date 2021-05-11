@@ -12,9 +12,11 @@ export default function SignupComponent() {
                         Enter Name/Pseudonym
                     </div>  
                 </div>
-                <div className="row pt-2">
-                    <div className="inputbox">
+                <div className="pt-2">
+                    <div className="row">
+                    <div className="col-md-12 inputbox">
                         <input type="text" className="inputbox-input" placeholder="Enter Name" />
+                    </div>
                     </div>
                 </div>
                 <div className="row pt-3">
@@ -22,9 +24,11 @@ export default function SignupComponent() {
                             Enter Email
                     </div>
                 </div>
-                <div className="row pt-2">
-                    <div className="inputbox">
-                        <input type="text" className="inputbox-input" placeholder="Enter Email" />
+                <div className="pt-2">
+                    <div className="row">
+                    <div className="col-md-12 inputbox">
+                    <input type="text" className="inputbox-input" placeholder="Enter Email" />
+                    </div>
                     </div>
                 </div>
                 <div className="row justify-content-center py-3 p-3 pr-5" id="div-desktop">

@@ -71,7 +71,7 @@ export default function Header() {
               </a>
             </li>
             <li className="titles nav-item">
-              <a className="nav-link btn btn-white" href="#">
+              <a className="nav-link btn btn-white" href="aboutus">
                 About
               </a>
             </li>

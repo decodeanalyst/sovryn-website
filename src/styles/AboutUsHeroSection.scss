@@ -1,0 +1,71 @@
+@use 'variables' as *;
+.about-us-hero-section-headding {
+    font-size: 18px;
+    font-family: Bangers-Regular, Bangers;
+    bottom: 150px;
+    left: -70px;
+  }
+
+  .about-us-hero-section-text {
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin: 0px;
+    padding: 0px;
+    background-color: #E4C786;
+    border: 1px solid rgba(247, 246, 232, 1);;
+    border-radius: 0px;
+    box-shadow: none;
+    width: inherit;
+    height: 100px;
+    margin-top: 1rem !important;
+  }
+  .about-us-hero-text-format {
+    position: relative;
+    box-sizing: content-box;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    line-height: 16.00px;
+    color: rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 14.00px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Bangers;
+    text-align: left;
+  }
+  .about-us-hero-format {
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    text-align: left;
+    line-height: 20.00px;
+    letter-spacing: 0.32px;
+    color: rgba(29, 29, 29, 1);
+    -webkit-text-stroke: unset;
+    font-size: 22.00px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Bangers-Regular, Bangers;
+    text-decoration: none;
+    white-space: pre;
+    text-align: inherit; 
+    top: 0px;
+  }
+  .mtp-200{
+    margin-top: 200px;
+  }

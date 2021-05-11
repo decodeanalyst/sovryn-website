@@ -55,6 +55,7 @@
   box-shadow: none;
   width: fit-content;
   height: 100.00px;
+  margin-top: 1rem !important;
 }
 .rectangle1700{
   margin: 0 auto;
@@ -386,7 +387,7 @@
   letter-spacing: 0.32px;
   color: rgba(247, 246, 231, 1);
   -webkit-text-stroke: unset;
-  font-size: 25.00px;
+  font-size: 22px;
   font-weight: 500;
   font-style: normal;
   font-family: Bangers, Arial;
@@ -703,8 +704,8 @@
   border-bottom-left-radius: 0.00px;
   border-bottom-right-radius: 0.00px;
   box-shadow: none;
-  width: 220px;
-  height: 170px;
+  //width: 220px;
+  min-height: 170px;
 
 }
 
@@ -851,7 +852,7 @@
         border-top-color: rgba(112, 112, 112, 1);
         border-top-style: none;
         border-top-width: 1.00px;
-        width: 250px;
+        //width: 250px;
         height: 150.00px;
       }
       
