@@ -31,3 +31,5 @@ fields:
   config:
     required: false
   label: draft
+pages:
+- content/temp-blog-post.md
