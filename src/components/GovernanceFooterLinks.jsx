@@ -7,17 +7,17 @@ export default function GovernanceFooterLinks() {
             <h5 className="d-flex" >Governance</h5>
                   <ul className="list-unstyled quick-links">
                     <li>
-                      <a href="https://www.fiverr.com/share/qb8D02">
+                      <a href="/">
                         SOV Token
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.fiverr.com/share/qb8D02">
+                      <a href="/">
                         Bitocracy
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.fiverr.com/share/qb8D02">
+                      <a href="/">
                         Blackpaper
                       </a>
                     </li>

@@ -7,32 +7,32 @@ export default function ProductFooterLinks() {
             <h5 className="d-flex" >Products</h5>
                   <ul className="list-unstyled quick-links">
                     <li>
-                      <a href="https://www.fiverr.com/share/qb8D02">
+                      <a href="/">
                         Token Swap
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.fiverr.com/share/qb8D02">
+                      <a href="/">
                         Margin Trading
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.fiverr.com/share/qb8D02">
+                      <a href="/">
                         Lending
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.fiverr.com/share/qb8D02">
+                      <a href="/">
                         Borrowing
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.fiverr.com/share/qb8D02">
+                      <a href="/">
                         Liquidity
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.fiverr.com/share/qb8D02">
+                      <a href="/">
                         Staking
                       </a>
                     </li>
