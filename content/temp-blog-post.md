@@ -7,7 +7,7 @@ imageAlt: A description of my image
 category: News
 tags: []
 Author: ''
-draft: 'true'
+draft: 'false'
 
 ---
 Greetings Sovryn mutants! Get ready to exercise your voting freedom as we head towards SIP 18. In this SIP active Sovryn community member Dark Knight proposes to provide deep stablecoin liquidity to Sovryn through [BabelFish](https://babelfish.money/), the stablecoin aggregator.
