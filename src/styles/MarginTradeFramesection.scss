@@ -1,0 +1,60 @@
+@use 'variables' as *;
+.margintradeframeimg{
+    //background-image: url("../static/margintradeframesection.png");
+    background-image: url("../static/margintradeframesection.png"), linear-gradient(90deg, #D0B1A4, #76958C);
+    background-repeat: no-repeat;
+    background-size: contain !important;
+}
+
+.margintrade-frame-layer-env-hero{
+    position: relative;
+    box-sizing: border-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    opacity: 1;
+    cursor: default;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0);    
+    border: 5px solid rgba(247, 246, 232, 1);
+    border-radius: 0px;
+    box-shadow: none;
+    height: 400px;
+   
+
+    .frame-label {
+      z-index: 2;
+      display:inline-block;
+      position: relative;
+      background-color: #f7f6e7;
+      color: black;
+      letter-spacing: 00.01em;
+      padding: 10px 15px 0px 15px;
+      font-family: Bangers-Regular, Bangers;
+      -ms-transform: skewX(-0.02turn);
+      -webkit-transform: skewX(-0.02turn);
+      transform: skewX(-0.02turn);
+      left: -280px;
+      margin-top: 148px;
+      
+      h3 {
+          display: inline-flex;
+          font-size: 38px;
+          line-height: 38px;
+          padding: 5px;
+          white-space: pre-wrap;
+      }
+  }
+  }
+
+
+  .margintrade-frame-label-morebitcoin-mob{
+      background-color: #98BBB1;
+  }

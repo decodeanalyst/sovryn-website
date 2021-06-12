@@ -1,0 +1,52 @@
+.button-default {
+	position: relative;
+	color: black;
+	background-color: #e8bb33;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 1px 25px;
+	margin: 10px;
+	display: inline-block;
+	width: 100%;
+}
+
+.button-slanted {
+	-ms-transform: skewX(-0.03turn);
+	-webkit-transform: skewX(-0.03turn);
+	transform: skewX(-0.03turn);
+	border-left: 6px solid #be992d;
+	border-bottom: 6px solid #be992d;
+	clip-path: polygon(0% 15%, 5% 0%, 100% 0%, 100% 0%, 100% 85%, 95% 100%, 100% 100%, 0% 100%);
+}
+
+.button-slanted-content {
+	position: relative;
+	-ms-transform: skewX(0.03turn);
+	-webkit-transform: skewX(0.03turn);
+	transform: skewX(0.03turn);
+	display: inline-block;
+	font-size: 26px;
+	white-space: nowrap;
+	letter-spacing: 00.01em;
+	font-family: Bangers-Regular, Bangers;
+}
+
+.btn {
+	border-radius: 0 !important;
+	height: 50px;
+}
+
+.yellow-btn-link {
+	color: #e8bb33 !important;
+	font-weight: bold;
+}
+
+.btn-link {
+	color: black !important;
+}
+
+.btn:hover {
+	-ms-transform: scale(1.2); /* IE 9 */
+	-webkit-transform: scale(0.5); /* Safari 3-8 */
+	transform: scale(1.2);
+}

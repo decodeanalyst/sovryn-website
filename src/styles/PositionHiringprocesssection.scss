@@ -1,0 +1,94 @@
+@use 'variables' as *;
+.position-rectangle-info-mob {
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 1px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding: 15px !important;
+    background-color: #F7F6E7;
+    border: 1px none rgba(112, 112, 112, 1);;    
+    border-radius: 0.00px;
+    box-shadow: none;
+    //@debug: 235px;
+    //min-height: 170px;
+  }
+.position-rectangle-info {
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 1px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding: 15px !important;
+    background-color: #F7F6E7;
+    border: 1px none rgba(112, 112, 112, 1);;    
+    border-radius: 0.00px;
+    box-shadow: none;
+    height: 235px;
+    //min-height: 170px;
+  }
+.position-hiring-processs {
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    line-height: 16.00px;
+    letter-spacing: 0.00px;
+    color: rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 14.00px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Montserrat, Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    text-align: left;
+  }
+  .position-text-headding{
+    font-family: Bangers;
+    font-size: 32px;
+    color: #151515;
+    white-space: inherit;
+    font-weight: normal;
+    padding: 20px;
+}
+.position-slantedrectangle {
+    width: 450px;
+    background-color: #B6C1BB;
+    -ms-transform: skewX(-0.03turn);
+      -webkit-transform: skewX(-0.03turn);
+      transform: skewX(-0.03turn);
+      border: 1px solid rgba(193, 183, 163, 1);
+  }

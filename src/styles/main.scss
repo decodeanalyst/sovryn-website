@@ -1,0 +1,81 @@
+@use 'variables' as *;
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-style: normal;
+    font-family: Montserrat;
+    font-size: 16px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Bangers-Regular, Bangers;  
+  }
+
+  p {
+    font-family: Montserrat;
+  }
+
+  a {
+    font-family: Montserrat;
+    color: black;
+  }
+  
+  img {
+    z-index: 1;
+  }
+.pt-60{
+  padding-top: 60px;
+}
+.pb-60{
+  padding-bottom: 60px;
+}
+  .breadcrumb {
+
+    background-color: transparent;
+
+    .breadcrumb-item {
+      font-family: Bangers-Regular, Bangers;  
+      color: rgb(182, 193, 187);
+      font-size: 22px;
+      
+      a {
+        font-family: Bangers-Regular, Bangers;  
+        color: rgb(182, 193, 187);
+
+      }
+    }
+  }
+@media screen and (min-width: 0px) and (max-width: $mobile-display-width) {
+    #div-mobile {    display: block;  }
+    #div-desktop {    display: none;  }
+    .pt-60{
+      padding-top: 0;
+    }
+    .pb-60{
+      padding-bottom: 0;
+    }
+    }
+  
+    @media screen and (min-width: $mobile-display-width + 1) {
+    #div-mobile {    display: none;  }
+    #div-desktop {    display: block;  }
+  
+  }

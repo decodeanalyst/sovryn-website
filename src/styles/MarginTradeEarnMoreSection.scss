@@ -1,0 +1,48 @@
+@use 'variables' as *;
+
+.margintradeearnmore-layer-slantedrectangle{
+    width: 100%;
+    background-color: #98BBB1;
+    border: 1px solid rgba(193, 183, 163, 1);
+  }
+.margintradeearnmore-layer-text-headding{
+    text-align: center;
+    font-family: Bangers;
+    font-size: 32px;
+    color: #151515;
+    white-space: inherit;
+    font-weight: normal;
+    padding: 20px;
+}
+
+.margintradeearnmore-layer-text-headding-mob{
+  text-align: left;
+  font-family: Bangers;
+  font-size: 32px;
+  color: #151515;
+  white-space: inherit;
+  font-weight: normal;
+  padding: 20px;
+}
+
+
+@media only screen and (max-width: $mobile-display-width) {
+  #tradeearn-infolabel1-mob { 
+    float: left;
+  
+  }
+  
+  #optional {
+    visibility: hidden;
+    display: none;
+  }
+  
+  #mob-display {
+    visibility: inherit;
+  }
+  
+  #herolabel {
+    padding-left: 30px;
+  }
+  
+  }
