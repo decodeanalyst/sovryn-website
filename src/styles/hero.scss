@@ -1,0 +1,37 @@
+@use 'variables' as *;
+
+// * Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: $mobile-display-width) {
+#infolabel1-mob { 
+  float: left;
+
+}
+
+#optional {
+  visibility: hidden;
+  display: none;
+}
+
+#mob-display {
+  visibility: inherit;
+}
+
+#herolabel {
+  padding-left: 30px;
+}
+
+}
+
+
+.btn-wrap {
+  display: flex; 
+  z-index: 3;
+  position:absolute;
+  bottom: 0px;
+  padding-bottom: 35px;
+  width:100%;
+}
+
+.headerimage {
+  position: relative;
+}

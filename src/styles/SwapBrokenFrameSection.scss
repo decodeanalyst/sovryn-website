@@ -1,0 +1,134 @@
+ @use 'variables' as *;
+
+.parallelogram-container-div-one{
+  background-image: url("../static/blog-post-14.png");
+  //  linear-gradient(180deg, #89AEA2, #34252C);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.parallelogram-container-div-two{
+  //  linear-gradient(180deg, #89AEA2, #34252C);
+  background-image: url("../static/home-page/hero-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  // background-image: linear-gradient(180deg, #89AEA2, #34252C);
+}
+
+
+.parallelogram-container {
+  overflow: hidden;
+  width: 99%;
+  text-align: center;
+  //padding: 20px;
+  border-left: 6px solid #F7F6E7;
+  border-right: 6px solid #F7F6E7;
+  a {
+    font-family: Lato, Arial, Helvetica, Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1;
+    color: #CCCCCC;
+    display: block;
+    padding: 12px 40px;
+    text-decoration: none;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+  }
+  & > div {
+    float: left;
+    display: inline-block;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    //background: red;
+    overflow: hidden;
+    position: relative;
+    border: 0;
+    color: #CCCCCC;
+    &.active {
+      background: #fafafa;
+      a {
+        color: white;
+      }
+    }
+  }
+  .parallelogram-left {
+    border-radius: 8px 0px 0px 8px;
+    -moz-border-radius: 8px 0px 0px 8px;
+    -webkit-border-radius: 8px 0px 0px 8px;
+    height: 400px;
+    margin-right: 20px;
+    margin-left: -77px;
+    width: 54% !important;
+    border: 6px solid #F7F6E7;
+  }
+  .parallelogram-right {
+    border-radius: 8px 8px 0px 0px;
+    -moz-border-radius: 8px 0px 0px 8px;
+    -webkit-border-radius: 0px 8px 8px 0px;
+    height: 400px;
+    float: right;
+    margin-right: -80px;
+    width: 58%;
+    border: 6px solid #F7F6E7;
+  }
+}
+.swapbroken-image{
+  height: 300px;
+  width: 100%;
+  background-image: url("../static/brokensec.png");
+  background-repeat: no-repeat; 
+}
+.img-flui{
+  width: 305px;
+  margin-left: -25px;
+}
+
+//////////////////////////////////////@debug
+
+
+
+.swapbroken-mob {
+  width: 100%;
+  /* may remove width:100%, as div is always 100% */
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: -30px !important;
+  
+}
+
+.swapbroken-position-relative-mob {
+  min-height: 250px;
+  background: purple;
+  width: 100%;
+  /* may remove width:100%, as div is always 100% */
+  /* transform-origin: bottom; */
+  /* transform: skewX(-17deg); */
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+  background-image: linear-gradient(180deg, #89AEA2, #34252C);
+}
+
+
+.swapbroken-fram-mob {
+  width: 100%;
+  /* may remove width:100%, as div is always 100% */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.swapbroken-fram-relative-mob {
+  min-height: 250px;
+  background: red;
+  width: 100%;
+  /* may remove width:100%, as div is always 100% */
+  /* transform-origin: bottom; */
+  /* transform: skewX(-17deg); */
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+  background-image: linear-gradient(180deg, #89AEA2, #34252C);
+}

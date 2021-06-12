@@ -1,0 +1,79 @@
+@use 'variables' as *;
+
+.stake-frame-gradient{
+    background-image: linear-gradient(-90deg, #99948A, #D3B4A6);
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(62, 32, 31);
+    text-align: left;
+    line-height: 18.00px;
+    letter-spacing: 0.00px;
+    color: rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 12.00px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Montserrat, Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    height: 305px;
+    left: 0px;
+    border: 5px solid #f7f6e8;
+  }
+
+  .stake-slanted-rectangle {
+    height: 85px;
+    width: 40%;
+    background-color: #F7F6E7;
+    -ms-transform: skewX(-0.03turn);
+      -webkit-transform: skewX(-0.03turn);
+      transform: skewX(-0.03turn);
+      border: 1px solid rgba(193, 183, 163, 1);
+    // align-self: center;
+    // text-align: center;
+  }
+
+  .stake-slanted-rectangle-mob {
+    width: 100%;
+    //margin-top: 20px;
+    background-color:#F7F6E7;
+    -ms-transform: skewX(-0.03turn);
+      -webkit-transform: skewX(-0.03turn);
+      transform: skewX(-0.03turn);
+      border: 1px solid rgba(193, 183, 163, 1);
+  }
+  .stake-text-black {
+    text-align: left;
+    font-family: Bangers;
+    font-size: 22px;
+    color: #151515;
+    white-space: inherit;
+    font-weight: 400;
+    padding: 15px;
+  }
+  .stake-text-black-mob {
+    text-align: left;
+    position: relative;
+    font-family: Bangers;
+    color: #151515;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 10px;
+    line-height: 30px;
+  }
+  .infobtn-stake .lbl-default{
+    width: 100% !important;
+  }

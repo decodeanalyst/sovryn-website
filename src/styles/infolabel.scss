@@ -1,0 +1,96 @@
+@use 'variables' as *;
+
+.label-cover {
+    height: 140px;
+    padding-left: 15px;
+}
+
+.lbl-default {
+    font-family: Bangers;
+    position: relative;
+    background-color: rgba(181, 143, 127, 1);
+    text-align: center;
+    text-transform: uppercase;
+    padding-inline: 15px;
+    width: 100%;
+    display: inline-block;
+    line-height: 30px;
+    height: auto;
+    padding: 5px;
+}
+
+.lbl-slanted {
+    -ms-transform: skewX(-0.02turn);
+    -webkit-transform: skewX(-0.02turn);
+    transform: skewX(-0.02turn);
+    border: 7px solid white;
+}
+
+.lbl-figtext {
+    position: relative;
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    letter-spacing: 00.01em;
+    white-space: nowrap;
+}
+
+.lbl-exptext {
+    position: relative;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    letter-spacing: 00.01em;
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 0px) and (max-width: $mobile-display-width) {
+
+    .label-cover {
+        height: 80px;
+    }
+    
+    .lbl-default {
+        font-family: Bangers;
+        position: relative;
+        background-color: rgba(181, 143, 127, 1);
+        text-align: center;
+        text-transform: uppercase;
+        padding-inline: 15px;
+        width: 150px;
+        display: inline-block;
+        line-height: 30px;
+        height: auto;
+        padding: 5px;
+    }
+    
+    .lbl-slanted {
+        -ms-transform: skewX(-0.02turn);
+        -webkit-transform: skewX(-0.02turn);
+        transform: skewX(-0.02turn);
+        border: 7px solid white;
+    }
+    
+    .lbl-figtext {
+        position: relative;
+        color: black;
+        font-size: 28px;
+        text-align: center;
+        display: block;
+        letter-spacing: 00.01em;
+        white-space: nowrap;
+    }
+    
+    .lbl-exptext {
+        position: relative;
+        color: black;
+        font-size: 16px;
+        text-align: center;
+        display: block;
+        letter-spacing: 00.01em;
+        white-space: nowrap;
+    }
+
+}

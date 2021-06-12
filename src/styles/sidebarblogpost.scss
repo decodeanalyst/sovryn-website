@@ -1,0 +1,75 @@
+.side-bar-post {
+  position: relative;
+  color: black;
+  font-family: Bangers;
+  text-transform: uppercase;
+
+    .img-fluid {
+      z-index: 1;
+      display: inline-block;
+      width: 160px;
+      height: 90px;
+      position: relative;
+      object-fit: cover;
+    }
+
+
+    img{
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      position: absolute;
+      top:0; bottom:0;
+      left:0; right:0;
+      margin:auto;
+    }
+
+  .label-set{
+    z-index: 2;
+    width: 200px;
+  }
+
+	.post-label {
+    display: block;
+    top: -3px;
+    margin-left: -20px;
+		letter-spacing: 00.01em;
+		background-color: rgba(247, 246, 232, 1);
+		text-align: left;
+		width: 100%;
+
+		h3 {
+			display: flex;
+			font-size: 16px;
+			line-height: 20px;
+      padding-top: 5px;
+		}
+	}
+
+	.post-label-slanted {
+		-ms-transform: skewX(-0.02turn);
+		-webkit-transform: skewX(-0.02turn);
+		transform: skewX(-0.02turn);
+		border: 2px solid rgba(247, 246, 232, 1);
+	}
+
+
+  .post-meta-label {
+    z-index: 3;
+    margin-left: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    letter-spacing: 00.01em;
+    background-color: rgba(193, 183, 163, 1);
+    text-align: center;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+.post-meta-label-slanted {
+    background-color: rgba(193, 183, 163, 1);
+}
+}

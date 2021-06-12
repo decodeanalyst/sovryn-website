@@ -1,0 +1,299 @@
+@use 'variables' as *;
+.swap-wallet-slanted-rectangle {
+    width: 80%;
+    background-color: #89AD9C;
+    -ms-transform: skewX(-0.03turn);
+      -webkit-transform: skewX(-0.03turn);
+      transform: skewX(-0.03turn);
+      border: 1px solid #707070;
+      margin-left: -10px;
+  }
+
+  .swap-wallet-slanted-rectangle-mob {
+    width: 100%;
+    margin-top: 20px;
+    background-color:#8DA799;
+    -ms-transform: skewX(-0.03turn);
+      -webkit-transform: skewX(-0.03turn);
+      transform: skewX(-0.03turn);
+      border: 1px solid rgba(193, 183, 163, 1);
+      margin-left: -23px;
+  }
+  .swap-wallet-text-black {
+    text-align: left;
+    font-family: Bangers;
+    font-size: 40px;
+    color: #151515;
+    white-space: inherit;
+    font-weight: 400;
+    padding: 20px;
+    margin-left: 15px;
+}
+  
+  .swap-wallet-text-black-mob {
+    text-align: left;
+    position: relative;
+    font-family: Bangers;
+    color: #151515;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 20px;
+    margin-left: 15px;
+  }
+  .changeside{
+    overflow: hidden;
+  }
+  .swap-group5812 {
+
+    display: block;
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+  
+  }
+
+  .swaplearn-rectangle-info {
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 1px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding: 15px !important;
+    background-color: #F7F6E7;
+    border: 1px none rgba(112, 112, 112, 1);;    
+    border-radius: 0.00px;
+    box-shadow: none;
+    min-height: 170px;
+  }
+  .swaplearn-rectangle-info-mob {
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 1px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding: 15px !important;
+    background-color: #F7F6E7;
+    border: 1px none rgba(112, 112, 112, 1);;    
+    border-radius: 0.00px;
+    box-shadow: none;
+    min-height: 170px;
+  }
+  .swaplearn-sovrynExpands {
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    line-height: 16.00px;
+    letter-spacing: 0.00px;
+    color: rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 14.00px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Montserrat, Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    text-align: left;
+  }
+  .swaplearn-sovrynExpands-mob {
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    line-height: 16.00px;
+    letter-spacing: 0.00px;
+    color: rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 14.00px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Montserrat, Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    text-align: left;
+  }
+
+  .swapwallet-rectangle-info-1 {
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 85%;
+    cursor: default;
+    margin: 10px;
+    padding: 0px;
+    background-image: url("../static/Metamask-color.png"), linear-gradient(-90deg, #F6F5E6, #F6F5E6);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    box-shadow: none;
+    min-height: 200px;
+    width: 100%;
+  }
+  
+  .swapwallet-slantedrectangle-small {
+    background-color: #89AD9C;
+    -ms-transform: skewX(-0.03turn);
+      -webkit-transform: skewX(-0.03turn);
+      transform: skewX(-0.03turn);
+      border: 1px solid rgba(193, 183, 163, 1);
+      height: 110px;
+  }
+  .swapwallet-slantedrectangle-small-mob {
+    background-color: #89AD9C;
+    -ms-transform: skewX(-0.03turn);
+      -webkit-transform: skewX(-0.03turn);
+      transform: skewX(-0.03turn);
+      border: 1px solid rgba(193, 183, 163, 1);
+      height: 110px;
+  }
+  .swapwallet-slantedrectangle {
+    background-color: #F7F6E7;
+    -ms-transform: skewX(-0.03turn);
+      -webkit-transform: skewX(-0.03turn);
+      transform: skewX(-0.03turn);
+      border: 1px solid rgba(193, 183, 163, 1);
+  }
+  .swapwallet-slantedrectangle-mob {
+    background-color: #F7F6E7;
+    border: 1px solid rgba(193, 183, 163, 1);
+  }
+  .swapwallet-text-headding {
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #151515;
+    white-space: inherit;
+    font-weight: normal;
+    padding: 10px;
+}
+  .swapwallet-text-headding-mob {
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #151515;
+    white-space: inherit;
+    font-weight: normal;
+    padding: 10px;
+}
+.swapwallet-text-headding-small {
+    text-align: center;
+    font-family: Bangers;
+    font-size: 26px;
+    color: #151515;
+    white-space: inherit;
+    font-weight: normal;
+    padding: 30px;
+}
+.swapwallet-text-headding-small-mob {
+    text-align: center;
+    font-family: Bangers;
+    font-size: 20px;
+    color: #151515;
+    white-space: inherit;
+    font-weight: normal;
+    padding: 30px;
+}
+  .swapwallet-rectangle-info-2 {
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 85%;
+    cursor: default;
+    margin: 10px;
+    padding: 0px;
+    background-image: url("../static/ledger_hor.png"), linear-gradient(-90deg, #F6F5E6, #F6F5E6);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    box-shadow: none;
+    min-height: 200px;
+    width: 100%;
+  }
+  .swapwallet-rectangle-info-3 {
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 85%;
+    cursor: default;
+    margin: 10px;
+    padding: 0px;
+    background-image: url("../static/liquality_color.png"), linear-gradient(-90deg, #F6F5E6, #F6F5E6);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    box-shadow: none;
+    min-height: 200px; 
+    width: 100%;
+  }
